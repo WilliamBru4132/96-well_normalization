@@ -9,7 +9,7 @@ from pylabrobot.liquid_handling import LiquidHandler
 from pylabrobot.liquid_handling.backends import LiquidHandlerChatterboxBackend
 from pylabrobot.resources import (
     STARLetDeck, TIP_CAR_480_A00, PLT_CAR_L5AC_A00,
-    DeepWell_96_Well, hamilton_96_tiprack_1000uL_filter,
+    cor_96_wellplate_360uL_Fb, hamilton_96_tiprack_300uL_filter,
     Liquid, set_tip_tracking, set_volume_tracking,
 )
 from pylabrobot.visualizer import Visualizer
@@ -124,18 +124,18 @@ async def setup_deck(simulated_volumes):
 
     # Separate tip racks keep removal and buffer tips apart.
     tips = TIP_CAR_480_A00(name="tips")
-    tips[0] = remove_tips = hamilton_96_tiprack_1000uL_filter(
+    tips[0] = remove_tips = hamilton_96_tiprack_300uL_filter(
         name="remove_tips"
     )
-    tips[1] = buffer_tips = hamilton_96_tiprack_1000uL_filter(
+    tips[1] = buffer_tips = hamilton_96_tiprack_300uL_filter(
         name="buffer_tips"
     )
     lh.deck.assign_child_resource(tips, rails=1)
 
     plates = PLT_CAR_L5AC_A00(name="plates")
-    plates[0] = samples_plate = DeepWell_96_Well(name="samples_plate")
-    plates[1] = buffer_plate = DeepWell_96_Well(name="buffer_plate")
-    plates[2] = archive_plate = DeepWell_96_Well(name="archive_plate")
+    plates[0] = samples_plate = cor_96_wellplate_360uL_Fb(name="samples_plate")
+    plates[1] = buffer_plate = cor_96_wellplate_360uL_Fb(name="buffer_plate")
+    plates[2] = archive_plate = cor_96_wellplate_360uL_Fb(name="archive_plate")
     lh.deck.assign_child_resource(plates, rails=10)
 
     # Initialize sample volumes in PyLabRobot's expected plate order.
@@ -182,6 +182,9 @@ async def transfer(lh, well, tips, source, target, volume, label):
         "%s %s transfer completed: %s[%s] -> %s[%s], %.2f uL",
         well, label, source.name, well, target.name, well, volume,
     )
+
+    # Sleep to see animation in visualizer
+    await asyncio.sleep(0.5)
 
 
 async def discard_after_failure(lh, well, label):
