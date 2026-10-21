@@ -199,7 +199,7 @@ async def process_well(lh, well, concentration, measured_volume, deck):
     """Normalize one well by removing excess sample and adding buffer.
 
     Processing sequence:
-        1. Skip samples at or below the target concentration.
+        1. Skip samples below the target concentration.
         2. Plan the keep, remove, and buffer volumes.
         3. Reject wells with insufficient starting volume before pipetting.
         4. Skip wells where the planned removal is below MIN_REMOVE_UL.
@@ -225,16 +225,16 @@ async def process_well(lh, well, concentration, measured_volume, deck):
     try:
         keep, remove, buffer = plan_well(concentration, measured_volume)
     except ValueError as exc:
-        logging.error("%s rejected: %s", well, exc)
+        logging.warning("%s rejected: %s", well, exc)
         return WellResult(
             STATUS_REJECTED_INSUFFICIENT,
             error=str(exc),
             measured=measured_volume,
         )
 
-    keep = round(keep, 2)
-    remove = round(remove, 2)
-    buffer = round(buffer, 2)
+    keep = round(keep, 1)
+    remove = round(remove, 1)
+    buffer = round(buffer, 1)
 
     # Very small excess volumes may be unreliable to pipette.
     if remove < MIN_REMOVE_UL:

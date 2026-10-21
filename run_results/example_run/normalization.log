@@ -1,603 +1,603 @@
-2026-10-22 00:09:44,807 INFO Normalization run started (in-place with removal)
-2026-10-22 00:09:44,808 INFO Loaded 96 well concentrations from C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\plate_concentrations.csv
-2026-10-22 00:09:44,808 INFO Setting up liquid handler and deck
-2026-10-22 00:09:44,987 INFO Deck setup completed
-2026-10-22 00:09:45,043 INFO server listening on 127.0.0.1:2121
-2026-10-22 00:09:45,112 INFO Visualizer started at http://127.0.0.1:1337
-2026-10-22 00:09:45,114 INFO A1 starting: C0=206.00 nM, measured=106.70 uL, keep=24.27 uL, remove=82.43 uL, buffer=75.73 uL
-2026-10-22 00:09:45,115 INFO A1 removal transfer: source=samples_plate[A1], target=archive_plate[A1], volume=82.43 uL
-2026-10-22 00:09:45,122 INFO A1 removal transfer completed: samples_plate[A1] -> archive_plate[A1], 82.43 uL
-2026-10-22 00:09:45,122 INFO A1 buffer transfer: source=buffer_plate[A1], target=samples_plate[A1], volume=75.73 uL
-2026-10-22 00:09:45,129 INFO A1 buffer transfer completed: buffer_plate[A1] -> samples_plate[A1], 75.73 uL
-2026-10-22 00:09:45,129 INFO A1 normalization completed
-2026-10-22 00:09:45,130 INFO A1 status: completed
-2026-10-22 00:09:45,130 WARNING A2 skipped: concentration 47.00 nM <= target 50.00 nM
-2026-10-22 00:09:45,130 INFO A2 status: skipped_below_target
-2026-10-22 00:09:45,130 INFO A3 starting: C0=112.00 nM, measured=56.50 uL, keep=44.64 uL, remove=11.86 uL, buffer=55.36 uL
-2026-10-22 00:09:45,131 INFO A3 removal transfer: source=samples_plate[A3], target=archive_plate[A3], volume=11.86 uL
-2026-10-22 00:09:45,136 INFO A3 removal transfer completed: samples_plate[A3] -> archive_plate[A3], 11.86 uL
-2026-10-22 00:09:45,137 INFO A3 buffer transfer: source=buffer_plate[A3], target=samples_plate[A3], volume=55.36 uL
-2026-10-22 00:09:45,146 INFO A3 buffer transfer completed: buffer_plate[A3] -> samples_plate[A3], 55.36 uL
-2026-10-22 00:09:45,147 INFO A3 normalization completed
-2026-10-22 00:09:45,147 INFO A3 status: completed
-2026-10-22 00:09:45,147 INFO A4 starting: C0=98.00 nM, measured=144.90 uL, keep=51.02 uL, remove=93.88 uL, buffer=48.98 uL
-2026-10-22 00:09:45,148 INFO A4 removal transfer: source=samples_plate[A4], target=archive_plate[A4], volume=93.88 uL
-2026-10-22 00:09:45,153 INFO A4 removal transfer completed: samples_plate[A4] -> archive_plate[A4], 93.88 uL
-2026-10-22 00:09:45,153 INFO A4 buffer transfer: source=buffer_plate[A4], target=samples_plate[A4], volume=48.98 uL
-2026-10-22 00:09:45,158 INFO A4 buffer transfer completed: buffer_plate[A4] -> samples_plate[A4], 48.98 uL
-2026-10-22 00:09:45,159 INFO A4 normalization completed
-2026-10-22 00:09:45,159 INFO A4 status: completed
-2026-10-22 00:09:45,160 INFO A5 starting: C0=231.00 nM, measured=94.30 uL, keep=21.65 uL, remove=72.65 uL, buffer=78.35 uL
-2026-10-22 00:09:45,160 INFO A5 removal transfer: source=samples_plate[A5], target=archive_plate[A5], volume=72.65 uL
-2026-10-22 00:09:45,167 INFO A5 removal transfer completed: samples_plate[A5] -> archive_plate[A5], 72.65 uL
-2026-10-22 00:09:45,167 INFO A5 buffer transfer: source=buffer_plate[A5], target=samples_plate[A5], volume=78.35 uL
-2026-10-22 00:09:45,173 INFO A5 buffer transfer completed: buffer_plate[A5] -> samples_plate[A5], 78.35 uL
-2026-10-22 00:09:45,173 INFO A5 normalization completed
-2026-10-22 00:09:45,174 INFO A5 status: completed
-2026-10-22 00:09:45,174 INFO A6 starting: C0=216.00 nM, measured=114.50 uL, keep=23.15 uL, remove=91.35 uL, buffer=76.85 uL
-2026-10-22 00:09:45,174 INFO A6 removal transfer: source=samples_plate[A6], target=archive_plate[A6], volume=91.35 uL
-2026-10-22 00:09:45,184 INFO A6 removal transfer completed: samples_plate[A6] -> archive_plate[A6], 91.35 uL
-2026-10-22 00:09:45,185 INFO A6 buffer transfer: source=buffer_plate[A6], target=samples_plate[A6], volume=76.85 uL
-2026-10-22 00:09:45,194 INFO A6 buffer transfer completed: buffer_plate[A6] -> samples_plate[A6], 76.85 uL
-2026-10-22 00:09:45,194 INFO A6 normalization completed
-2026-10-22 00:09:45,195 INFO A6 status: completed
-2026-10-22 00:09:45,195 INFO A7 starting: C0=272.00 nM, measured=106.30 uL, keep=18.38 uL, remove=87.92 uL, buffer=81.62 uL
-2026-10-22 00:09:45,195 INFO A7 removal transfer: source=samples_plate[A7], target=archive_plate[A7], volume=87.92 uL
-2026-10-22 00:09:45,224 INFO A7 removal transfer completed: samples_plate[A7] -> archive_plate[A7], 87.92 uL
-2026-10-22 00:09:45,225 INFO A7 buffer transfer: source=buffer_plate[A7], target=samples_plate[A7], volume=81.62 uL
-2026-10-22 00:09:45,232 INFO A7 buffer transfer completed: buffer_plate[A7] -> samples_plate[A7], 81.62 uL
-2026-10-22 00:09:45,232 INFO A7 normalization completed
-2026-10-22 00:09:45,232 INFO A7 status: completed
-2026-10-22 00:09:45,233 ERROR A8 rejected: insufficient volume: measured 50.5 uL, need 79.4 uL
-2026-10-22 00:09:45,233 INFO A8 status: rejected_insufficient_volume
-2026-10-22 00:09:45,233 INFO A9 starting: C0=150.00 nM, measured=131.10 uL, keep=33.33 uL, remove=97.77 uL, buffer=66.67 uL
-2026-10-22 00:09:45,233 INFO A9 removal transfer: source=samples_plate[A9], target=archive_plate[A9], volume=97.77 uL
-2026-10-22 00:09:45,239 INFO A9 removal transfer completed: samples_plate[A9] -> archive_plate[A9], 97.77 uL
-2026-10-22 00:09:45,240 INFO A9 buffer transfer: source=buffer_plate[A9], target=samples_plate[A9], volume=66.67 uL
-2026-10-22 00:09:45,246 INFO A9 buffer transfer completed: buffer_plate[A9] -> samples_plate[A9], 66.67 uL
-2026-10-22 00:09:45,247 INFO A9 normalization completed
-2026-10-22 00:09:45,247 INFO A9 status: completed
-2026-10-22 00:09:45,247 WARNING A10 skipped: concentration 48.00 nM <= target 50.00 nM
-2026-10-22 00:09:45,248 INFO A10 status: skipped_below_target
-2026-10-22 00:09:45,248 INFO A11 starting: C0=97.00 nM, measured=97.40 uL, keep=51.55 uL, remove=45.85 uL, buffer=48.45 uL
-2026-10-22 00:09:45,248 INFO A11 removal transfer: source=samples_plate[A11], target=archive_plate[A11], volume=45.85 uL
-2026-10-22 00:09:45,254 INFO A11 removal transfer completed: samples_plate[A11] -> archive_plate[A11], 45.85 uL
-2026-10-22 00:09:45,254 INFO A11 buffer transfer: source=buffer_plate[A11], target=samples_plate[A11], volume=48.45 uL
-2026-10-22 00:09:45,261 INFO A11 buffer transfer completed: buffer_plate[A11] -> samples_plate[A11], 48.45 uL
-2026-10-22 00:09:45,261 INFO A11 normalization completed
-2026-10-22 00:09:45,262 INFO A11 status: completed
-2026-10-22 00:09:45,262 INFO A12 starting: C0=171.00 nM, measured=40.90 uL, keep=29.24 uL, remove=11.66 uL, buffer=70.76 uL
-2026-10-22 00:09:45,262 INFO A12 removal transfer: source=samples_plate[A12], target=archive_plate[A12], volume=11.66 uL
-2026-10-22 00:09:45,267 INFO A12 removal transfer completed: samples_plate[A12] -> archive_plate[A12], 11.66 uL
-2026-10-22 00:09:45,267 INFO A12 buffer transfer: source=buffer_plate[A12], target=samples_plate[A12], volume=70.76 uL
-2026-10-22 00:09:45,275 INFO A12 buffer transfer completed: buffer_plate[A12] -> samples_plate[A12], 70.76 uL
-2026-10-22 00:09:45,276 INFO A12 normalization completed
-2026-10-22 00:09:45,276 INFO A12 status: completed
-2026-10-22 00:09:45,276 WARNING B1 skipped: concentration 47.00 nM <= target 50.00 nM
-2026-10-22 00:09:45,277 INFO B1 status: skipped_below_target
-2026-10-22 00:09:45,277 ERROR B2 rejected: insufficient volume: measured 33.6 uL, need 54.3 uL
-2026-10-22 00:09:45,278 INFO B2 status: rejected_insufficient_volume
-2026-10-22 00:09:45,278 INFO B3 starting: C0=209.00 nM, measured=100.70 uL, keep=23.92 uL, remove=76.78 uL, buffer=76.08 uL
-2026-10-22 00:09:45,278 INFO B3 removal transfer: source=samples_plate[B3], target=archive_plate[B3], volume=76.78 uL
-2026-10-22 00:09:45,287 INFO B3 removal transfer completed: samples_plate[B3] -> archive_plate[B3], 76.78 uL
-2026-10-22 00:09:45,288 INFO B3 buffer transfer: source=buffer_plate[B3], target=samples_plate[B3], volume=76.08 uL
-2026-10-22 00:09:45,295 INFO B3 buffer transfer completed: buffer_plate[B3] -> samples_plate[B3], 76.08 uL
-2026-10-22 00:09:45,296 INFO B3 normalization completed
-2026-10-22 00:09:45,297 INFO B3 status: completed
-2026-10-22 00:09:45,297 INFO B4 starting: C0=182.00 nM, measured=70.40 uL, keep=27.47 uL, remove=42.93 uL, buffer=72.53 uL
-2026-10-22 00:09:45,297 INFO B4 removal transfer: source=samples_plate[B4], target=archive_plate[B4], volume=42.93 uL
-2026-10-22 00:09:45,307 INFO B4 removal transfer completed: samples_plate[B4] -> archive_plate[B4], 42.93 uL
-2026-10-22 00:09:45,308 INFO B4 buffer transfer: source=buffer_plate[B4], target=samples_plate[B4], volume=72.53 uL
-2026-10-22 00:09:45,319 INFO B4 buffer transfer completed: buffer_plate[B4] -> samples_plate[B4], 72.53 uL
-2026-10-22 00:09:45,319 INFO B4 normalization completed
-2026-10-22 00:09:45,320 INFO B4 status: completed
-2026-10-22 00:09:45,320 INFO B5 starting: C0=97.00 nM, measured=146.80 uL, keep=51.55 uL, remove=95.25 uL, buffer=48.45 uL
-2026-10-22 00:09:45,320 INFO B5 removal transfer: source=samples_plate[B5], target=archive_plate[B5], volume=95.25 uL
-2026-10-22 00:09:45,329 INFO B5 removal transfer completed: samples_plate[B5] -> archive_plate[B5], 95.25 uL
-2026-10-22 00:09:45,330 INFO B5 buffer transfer: source=buffer_plate[B5], target=samples_plate[B5], volume=48.45 uL
-2026-10-22 00:09:45,343 INFO B5 buffer transfer completed: buffer_plate[B5] -> samples_plate[B5], 48.45 uL
-2026-10-22 00:09:45,344 INFO B5 normalization completed
-2026-10-22 00:09:45,344 INFO B5 status: completed
-2026-10-22 00:09:45,345 INFO B6 starting: C0=193.00 nM, measured=35.50 uL, keep=25.91 uL, remove=9.59 uL, buffer=74.09 uL
-2026-10-22 00:09:45,345 INFO B6 removal transfer: source=samples_plate[B6], target=archive_plate[B6], volume=9.59 uL
-2026-10-22 00:09:45,353 INFO B6 removal transfer completed: samples_plate[B6] -> archive_plate[B6], 9.59 uL
-2026-10-22 00:09:45,354 INFO B6 buffer transfer: source=buffer_plate[B6], target=samples_plate[B6], volume=74.09 uL
-2026-10-22 00:09:45,363 INFO B6 buffer transfer completed: buffer_plate[B6] -> samples_plate[B6], 74.09 uL
-2026-10-22 00:09:45,364 INFO B6 normalization completed
-2026-10-22 00:09:45,364 INFO B6 status: completed
-2026-10-22 00:09:45,364 INFO B7 starting: C0=250.00 nM, measured=73.80 uL, keep=20.00 uL, remove=53.80 uL, buffer=80.00 uL
-2026-10-22 00:09:45,364 INFO B7 removal transfer: source=samples_plate[B7], target=archive_plate[B7], volume=53.80 uL
-2026-10-22 00:09:45,369 INFO connection open
-2026-10-22 00:09:45,415 INFO B7 removal transfer completed: samples_plate[B7] -> archive_plate[B7], 53.80 uL
-2026-10-22 00:09:45,449 INFO B7 buffer transfer: source=buffer_plate[B7], target=samples_plate[B7], volume=80.00 uL
-2026-10-22 00:09:45,470 INFO B7 buffer transfer completed: buffer_plate[B7] -> samples_plate[B7], 80.00 uL
-2026-10-22 00:09:45,470 INFO B7 normalization completed
-2026-10-22 00:09:45,471 INFO B7 status: completed
-2026-10-22 00:09:45,472 WARNING B8 skipped: concentration 42.00 nM <= target 50.00 nM
-2026-10-22 00:09:45,472 INFO B8 status: skipped_below_target
-2026-10-22 00:09:45,472 INFO B9 starting: C0=250.00 nM, measured=123.10 uL, keep=20.00 uL, remove=103.10 uL, buffer=80.00 uL
-2026-10-22 00:09:45,473 INFO B9 removal transfer: source=samples_plate[B9], target=archive_plate[B9], volume=103.10 uL
-2026-10-22 00:09:45,487 INFO B9 removal transfer completed: samples_plate[B9] -> archive_plate[B9], 103.10 uL
-2026-10-22 00:09:45,487 INFO B9 buffer transfer: source=buffer_plate[B9], target=samples_plate[B9], volume=80.00 uL
-2026-10-22 00:09:45,495 INFO B9 buffer transfer completed: buffer_plate[B9] -> samples_plate[B9], 80.00 uL
-2026-10-22 00:09:45,496 INFO B9 normalization completed
-2026-10-22 00:09:45,496 INFO B9 status: completed
-2026-10-22 00:09:45,496 INFO B10 starting: C0=222.00 nM, measured=67.80 uL, keep=22.52 uL, remove=45.28 uL, buffer=77.48 uL
-2026-10-22 00:09:45,497 INFO B10 removal transfer: source=samples_plate[B10], target=archive_plate[B10], volume=45.28 uL
-2026-10-22 00:09:45,509 INFO B10 removal transfer completed: samples_plate[B10] -> archive_plate[B10], 45.28 uL
-2026-10-22 00:09:45,510 INFO B10 buffer transfer: source=buffer_plate[B10], target=samples_plate[B10], volume=77.48 uL
-2026-10-22 00:09:45,518 INFO B10 buffer transfer completed: buffer_plate[B10] -> samples_plate[B10], 77.48 uL
-2026-10-22 00:09:45,518 INFO B10 normalization completed
-2026-10-22 00:09:45,519 INFO B10 status: completed
-2026-10-22 00:09:45,519 INFO B11 starting: C0=128.00 nM, measured=61.50 uL, keep=39.06 uL, remove=22.44 uL, buffer=60.94 uL
-2026-10-22 00:09:45,519 INFO B11 removal transfer: source=samples_plate[B11], target=archive_plate[B11], volume=22.44 uL
-2026-10-22 00:09:45,531 INFO B11 removal transfer completed: samples_plate[B11] -> archive_plate[B11], 22.44 uL
-2026-10-22 00:09:45,532 INFO B11 buffer transfer: source=buffer_plate[B11], target=samples_plate[B11], volume=60.94 uL
-2026-10-22 00:09:45,544 INFO B11 buffer transfer completed: buffer_plate[B11] -> samples_plate[B11], 60.94 uL
-2026-10-22 00:09:45,545 INFO B11 normalization completed
-2026-10-22 00:09:45,547 INFO B11 status: completed
-2026-10-22 00:09:45,548 ERROR B12 rejected: insufficient volume: measured 35.7 uL, need 62.5 uL
-2026-10-22 00:09:45,548 INFO B12 status: rejected_insufficient_volume
-2026-10-22 00:09:45,549 INFO C1 starting: C0=289.00 nM, measured=63.00 uL, keep=17.30 uL, remove=45.70 uL, buffer=82.70 uL
-2026-10-22 00:09:45,549 INFO C1 removal transfer: source=samples_plate[C1], target=archive_plate[C1], volume=45.70 uL
-2026-10-22 00:09:45,558 INFO C1 removal transfer completed: samples_plate[C1] -> archive_plate[C1], 45.70 uL
-2026-10-22 00:09:45,558 INFO C1 buffer transfer: source=buffer_plate[C1], target=samples_plate[C1], volume=82.70 uL
-2026-10-22 00:09:45,568 INFO C1 buffer transfer completed: buffer_plate[C1] -> samples_plate[C1], 82.70 uL
-2026-10-22 00:09:45,569 INFO C1 normalization completed
-2026-10-22 00:09:45,570 INFO C1 status: completed
-2026-10-22 00:09:45,570 INFO C2 starting: C0=128.00 nM, measured=56.20 uL, keep=39.06 uL, remove=17.14 uL, buffer=60.94 uL
-2026-10-22 00:09:45,570 INFO C2 removal transfer: source=samples_plate[C2], target=archive_plate[C2], volume=17.14 uL
-2026-10-22 00:09:45,581 INFO C2 removal transfer completed: samples_plate[C2] -> archive_plate[C2], 17.14 uL
-2026-10-22 00:09:45,582 INFO C2 buffer transfer: source=buffer_plate[C2], target=samples_plate[C2], volume=60.94 uL
-2026-10-22 00:09:45,594 INFO C2 buffer transfer completed: buffer_plate[C2] -> samples_plate[C2], 60.94 uL
-2026-10-22 00:09:45,594 INFO C2 normalization completed
-2026-10-22 00:09:45,595 INFO C2 status: completed
-2026-10-22 00:09:45,595 INFO C3 starting: C0=64.00 nM, measured=127.10 uL, keep=78.12 uL, remove=48.97 uL, buffer=21.88 uL
-2026-10-22 00:09:45,596 INFO C3 removal transfer: source=samples_plate[C3], target=archive_plate[C3], volume=48.97 uL
-2026-10-22 00:09:45,606 INFO C3 removal transfer completed: samples_plate[C3] -> archive_plate[C3], 48.97 uL
-2026-10-22 00:09:45,607 INFO C3 buffer transfer: source=buffer_plate[C3], target=samples_plate[C3], volume=21.88 uL
-2026-10-22 00:09:45,619 INFO C3 buffer transfer completed: buffer_plate[C3] -> samples_plate[C3], 21.88 uL
-2026-10-22 00:09:45,620 INFO C3 normalization completed
-2026-10-22 00:09:45,622 INFO C3 status: completed
-2026-10-22 00:09:45,623 ERROR C4 rejected: insufficient volume: measured 41.1 uL, need 76.9 uL
-2026-10-22 00:09:45,623 INFO C4 status: rejected_insufficient_volume
-2026-10-22 00:09:45,623 INFO C5 starting: C0=260.00 nM, measured=75.40 uL, keep=19.23 uL, remove=56.17 uL, buffer=80.77 uL
-2026-10-22 00:09:45,624 INFO C5 removal transfer: source=samples_plate[C5], target=archive_plate[C5], volume=56.17 uL
-2026-10-22 00:09:45,638 INFO C5 removal transfer completed: samples_plate[C5] -> archive_plate[C5], 56.17 uL
-2026-10-22 00:09:45,639 INFO C5 buffer transfer: source=buffer_plate[C5], target=samples_plate[C5], volume=80.77 uL
-2026-10-22 00:09:45,650 INFO C5 buffer transfer completed: buffer_plate[C5] -> samples_plate[C5], 80.77 uL
-2026-10-22 00:09:45,650 INFO C5 normalization completed
-2026-10-22 00:09:45,651 INFO C5 status: completed
-2026-10-22 00:09:45,652 INFO C6 starting: C0=197.00 nM, measured=57.30 uL, keep=25.38 uL, remove=31.92 uL, buffer=74.62 uL
-2026-10-22 00:09:45,652 INFO C6 removal transfer: source=samples_plate[C6], target=archive_plate[C6], volume=31.92 uL
-2026-10-22 00:09:45,666 INFO C6 removal transfer completed: samples_plate[C6] -> archive_plate[C6], 31.92 uL
-2026-10-22 00:09:45,668 INFO C6 buffer transfer: source=buffer_plate[C6], target=samples_plate[C6], volume=74.62 uL
-2026-10-22 00:09:45,682 INFO C6 buffer transfer completed: buffer_plate[C6] -> samples_plate[C6], 74.62 uL
-2026-10-22 00:09:45,682 INFO C6 normalization completed
-2026-10-22 00:09:45,682 INFO C6 status: completed
-2026-10-22 00:09:45,683 INFO C7 starting: C0=250.00 nM, measured=74.40 uL, keep=20.00 uL, remove=54.40 uL, buffer=80.00 uL
-2026-10-22 00:09:45,683 INFO C7 removal transfer: source=samples_plate[C7], target=archive_plate[C7], volume=54.40 uL
-2026-10-22 00:09:45,692 INFO C7 removal transfer completed: samples_plate[C7] -> archive_plate[C7], 54.40 uL
-2026-10-22 00:09:45,693 INFO C7 buffer transfer: source=buffer_plate[C7], target=samples_plate[C7], volume=80.00 uL
-2026-10-22 00:09:45,703 INFO C7 buffer transfer completed: buffer_plate[C7] -> samples_plate[C7], 80.00 uL
-2026-10-22 00:09:45,703 INFO C7 normalization completed
-2026-10-22 00:09:45,704 INFO C7 status: completed
-2026-10-22 00:09:45,705 INFO C8 starting: C0=230.00 nM, measured=49.60 uL, keep=21.74 uL, remove=27.86 uL, buffer=78.26 uL
-2026-10-22 00:09:45,706 INFO C8 removal transfer: source=samples_plate[C8], target=archive_plate[C8], volume=27.86 uL
-2026-10-22 00:09:45,732 INFO C8 removal transfer completed: samples_plate[C8] -> archive_plate[C8], 27.86 uL
-2026-10-22 00:09:45,733 INFO C8 buffer transfer: source=buffer_plate[C8], target=samples_plate[C8], volume=78.26 uL
-2026-10-22 00:09:45,743 INFO C8 buffer transfer completed: buffer_plate[C8] -> samples_plate[C8], 78.26 uL
-2026-10-22 00:09:45,744 INFO C8 normalization completed
-2026-10-22 00:09:45,744 INFO C8 status: completed
-2026-10-22 00:09:45,745 INFO C9 starting: C0=179.00 nM, measured=57.50 uL, keep=27.93 uL, remove=29.57 uL, buffer=72.07 uL
-2026-10-22 00:09:45,745 INFO C9 removal transfer: source=samples_plate[C9], target=archive_plate[C9], volume=29.57 uL
-2026-10-22 00:09:45,755 INFO C9 removal transfer completed: samples_plate[C9] -> archive_plate[C9], 29.57 uL
-2026-10-22 00:09:45,756 INFO C9 buffer transfer: source=buffer_plate[C9], target=samples_plate[C9], volume=72.07 uL
-2026-10-22 00:09:45,768 INFO C9 buffer transfer completed: buffer_plate[C9] -> samples_plate[C9], 72.07 uL
-2026-10-22 00:09:45,769 INFO C9 normalization completed
-2026-10-22 00:09:45,769 INFO C9 status: completed
-2026-10-22 00:09:45,770 INFO C10 starting: C0=293.00 nM, measured=108.70 uL, keep=17.06 uL, remove=91.64 uL, buffer=82.94 uL
-2026-10-22 00:09:45,770 INFO C10 removal transfer: source=samples_plate[C10], target=archive_plate[C10], volume=91.64 uL
-2026-10-22 00:09:45,780 INFO C10 removal transfer completed: samples_plate[C10] -> archive_plate[C10], 91.64 uL
-2026-10-22 00:09:45,780 INFO C10 buffer transfer: source=buffer_plate[C10], target=samples_plate[C10], volume=82.94 uL
-2026-10-22 00:09:45,793 INFO C10 buffer transfer completed: buffer_plate[C10] -> samples_plate[C10], 82.94 uL
-2026-10-22 00:09:45,794 INFO C10 normalization completed
-2026-10-22 00:09:45,795 INFO C10 status: completed
-2026-10-22 00:09:45,795 INFO C11 starting: C0=138.00 nM, measured=100.20 uL, keep=36.23 uL, remove=63.97 uL, buffer=63.77 uL
-2026-10-22 00:09:45,796 INFO C11 removal transfer: source=samples_plate[C11], target=archive_plate[C11], volume=63.97 uL
-2026-10-22 00:09:45,805 INFO C11 removal transfer completed: samples_plate[C11] -> archive_plate[C11], 63.97 uL
-2026-10-22 00:09:45,805 INFO C11 buffer transfer: source=buffer_plate[C11], target=samples_plate[C11], volume=63.77 uL
-2026-10-22 00:09:45,814 INFO C11 buffer transfer completed: buffer_plate[C11] -> samples_plate[C11], 63.77 uL
-2026-10-22 00:09:45,815 INFO C11 normalization completed
-2026-10-22 00:09:45,815 INFO C11 status: completed
-2026-10-22 00:09:45,816 INFO C12 starting: C0=184.00 nM, measured=43.20 uL, keep=27.17 uL, remove=16.03 uL, buffer=72.83 uL
-2026-10-22 00:09:45,817 INFO C12 removal transfer: source=samples_plate[C12], target=archive_plate[C12], volume=16.03 uL
-2026-10-22 00:09:45,827 INFO C12 removal transfer completed: samples_plate[C12] -> archive_plate[C12], 16.03 uL
-2026-10-22 00:09:45,827 INFO C12 buffer transfer: source=buffer_plate[C12], target=samples_plate[C12], volume=72.83 uL
-2026-10-22 00:09:45,837 INFO C12 buffer transfer completed: buffer_plate[C12] -> samples_plate[C12], 72.83 uL
-2026-10-22 00:09:45,838 INFO C12 normalization completed
-2026-10-22 00:09:45,839 INFO C12 status: completed
-2026-10-22 00:09:45,839 INFO D1 starting: C0=256.00 nM, measured=56.80 uL, keep=19.53 uL, remove=37.27 uL, buffer=80.47 uL
-2026-10-22 00:09:45,840 INFO D1 removal transfer: source=samples_plate[D1], target=archive_plate[D1], volume=37.27 uL
-2026-10-22 00:09:45,850 INFO D1 removal transfer completed: samples_plate[D1] -> archive_plate[D1], 37.27 uL
-2026-10-22 00:09:45,851 INFO D1 buffer transfer: source=buffer_plate[D1], target=samples_plate[D1], volume=80.47 uL
-2026-10-22 00:09:45,859 INFO D1 buffer transfer completed: buffer_plate[D1] -> samples_plate[D1], 80.47 uL
-2026-10-22 00:09:45,860 INFO D1 normalization completed
-2026-10-22 00:09:45,861 INFO D1 status: completed
-2026-10-22 00:09:45,862 INFO D2 starting: C0=201.00 nM, measured=90.60 uL, keep=24.88 uL, remove=65.72 uL, buffer=75.12 uL
-2026-10-22 00:09:45,863 INFO D2 removal transfer: source=samples_plate[D2], target=archive_plate[D2], volume=65.72 uL
-2026-10-22 00:09:45,875 INFO D2 removal transfer completed: samples_plate[D2] -> archive_plate[D2], 65.72 uL
-2026-10-22 00:09:45,875 INFO D2 buffer transfer: source=buffer_plate[D2], target=samples_plate[D2], volume=75.12 uL
-2026-10-22 00:09:45,894 INFO D2 buffer transfer completed: buffer_plate[D2] -> samples_plate[D2], 75.12 uL
-2026-10-22 00:09:45,894 INFO D2 normalization completed
-2026-10-22 00:09:45,895 INFO D2 status: completed
-2026-10-22 00:09:45,896 INFO D3 starting: C0=264.00 nM, measured=30.80 uL, keep=18.94 uL, remove=11.86 uL, buffer=81.06 uL
-2026-10-22 00:09:45,896 INFO D3 removal transfer: source=samples_plate[D3], target=archive_plate[D3], volume=11.86 uL
-2026-10-22 00:09:45,907 INFO D3 removal transfer completed: samples_plate[D3] -> archive_plate[D3], 11.86 uL
-2026-10-22 00:09:45,907 INFO D3 buffer transfer: source=buffer_plate[D3], target=samples_plate[D3], volume=81.06 uL
-2026-10-22 00:09:46,051 INFO D3 buffer transfer completed: buffer_plate[D3] -> samples_plate[D3], 81.06 uL
-2026-10-22 00:09:46,052 INFO D3 normalization completed
-2026-10-22 00:09:46,052 INFO D3 status: completed
-2026-10-22 00:09:46,053 INFO D4 starting: C0=190.00 nM, measured=41.60 uL, keep=26.32 uL, remove=15.28 uL, buffer=73.68 uL
-2026-10-22 00:09:46,053 INFO D4 removal transfer: source=samples_plate[D4], target=archive_plate[D4], volume=15.28 uL
-2026-10-22 00:09:46,061 INFO D4 removal transfer completed: samples_plate[D4] -> archive_plate[D4], 15.28 uL
-2026-10-22 00:09:46,061 INFO D4 buffer transfer: source=buffer_plate[D4], target=samples_plate[D4], volume=73.68 uL
-2026-10-22 00:09:46,071 INFO D4 buffer transfer completed: buffer_plate[D4] -> samples_plate[D4], 73.68 uL
-2026-10-22 00:09:46,072 INFO D4 normalization completed
-2026-10-22 00:09:46,072 INFO D4 status: completed
-2026-10-22 00:09:46,073 INFO D5 starting: C0=223.00 nM, measured=96.20 uL, keep=22.42 uL, remove=73.78 uL, buffer=77.58 uL
-2026-10-22 00:09:46,073 INFO D5 removal transfer: source=samples_plate[D5], target=archive_plate[D5], volume=73.78 uL
-2026-10-22 00:09:46,084 INFO D5 removal transfer completed: samples_plate[D5] -> archive_plate[D5], 73.78 uL
-2026-10-22 00:09:46,084 INFO D5 buffer transfer: source=buffer_plate[D5], target=samples_plate[D5], volume=77.58 uL
-2026-10-22 00:09:46,094 INFO D5 buffer transfer completed: buffer_plate[D5] -> samples_plate[D5], 77.58 uL
-2026-10-22 00:09:46,094 INFO D5 normalization completed
-2026-10-22 00:09:46,095 INFO D5 status: completed
-2026-10-22 00:09:46,095 ERROR D6 rejected: insufficient volume: measured 64.7 uL, need 96.2 uL
-2026-10-22 00:09:46,095 INFO D6 status: rejected_insufficient_volume
-2026-10-22 00:09:46,096 WARNING D7 skipped: excess 4.59 uL below minimum 5.00 uL
-2026-10-22 00:09:46,096 INFO D7 status: skipped_excess_below_min
-2026-10-22 00:09:46,097 INFO D8 starting: C0=115.00 nM, measured=75.50 uL, keep=43.48 uL, remove=32.02 uL, buffer=56.52 uL
-2026-10-22 00:09:46,098 INFO D8 removal transfer: source=samples_plate[D8], target=archive_plate[D8], volume=32.02 uL
-2026-10-22 00:09:46,106 INFO D8 removal transfer completed: samples_plate[D8] -> archive_plate[D8], 32.02 uL
-2026-10-22 00:09:46,107 INFO D8 buffer transfer: source=buffer_plate[D8], target=samples_plate[D8], volume=56.52 uL
-2026-10-22 00:09:46,116 INFO D8 buffer transfer completed: buffer_plate[D8] -> samples_plate[D8], 56.52 uL
-2026-10-22 00:09:46,116 INFO D8 normalization completed
-2026-10-22 00:09:46,116 INFO D8 status: completed
-2026-10-22 00:09:46,117 ERROR D9 rejected: insufficient volume: measured 33.9 uL, need 82.0 uL
-2026-10-22 00:09:46,117 INFO D9 status: rejected_insufficient_volume
-2026-10-22 00:09:46,118 INFO D10 starting: C0=101.00 nM, measured=77.50 uL, keep=49.50 uL, remove=28.00 uL, buffer=50.50 uL
-2026-10-22 00:09:46,118 INFO D10 removal transfer: source=samples_plate[D10], target=archive_plate[D10], volume=28.00 uL
-2026-10-22 00:09:46,125 INFO D10 removal transfer completed: samples_plate[D10] -> archive_plate[D10], 28.00 uL
-2026-10-22 00:09:46,126 INFO D10 buffer transfer: source=buffer_plate[D10], target=samples_plate[D10], volume=50.50 uL
-2026-10-22 00:09:46,135 INFO D10 buffer transfer completed: buffer_plate[D10] -> samples_plate[D10], 50.50 uL
-2026-10-22 00:09:46,135 INFO D10 normalization completed
-2026-10-22 00:09:46,136 INFO D10 status: completed
-2026-10-22 00:09:46,136 INFO D11 starting: C0=66.00 nM, measured=137.70 uL, keep=75.76 uL, remove=61.94 uL, buffer=24.24 uL
-2026-10-22 00:09:46,137 INFO D11 removal transfer: source=samples_plate[D11], target=archive_plate[D11], volume=61.94 uL
-2026-10-22 00:09:46,146 INFO D11 removal transfer completed: samples_plate[D11] -> archive_plate[D11], 61.94 uL
-2026-10-22 00:09:46,147 INFO D11 buffer transfer: source=buffer_plate[D11], target=samples_plate[D11], volume=24.24 uL
-2026-10-22 00:09:46,154 INFO D11 buffer transfer completed: buffer_plate[D11] -> samples_plate[D11], 24.24 uL
-2026-10-22 00:09:46,155 INFO D11 normalization completed
-2026-10-22 00:09:46,155 INFO D11 status: completed
-2026-10-22 00:09:46,155 INFO D12 starting: C0=112.00 nM, measured=105.30 uL, keep=44.64 uL, remove=60.66 uL, buffer=55.36 uL
-2026-10-22 00:09:46,156 INFO D12 removal transfer: source=samples_plate[D12], target=archive_plate[D12], volume=60.66 uL
-2026-10-22 00:09:46,163 INFO D12 removal transfer completed: samples_plate[D12] -> archive_plate[D12], 60.66 uL
-2026-10-22 00:09:46,164 INFO D12 buffer transfer: source=buffer_plate[D12], target=samples_plate[D12], volume=55.36 uL
-2026-10-22 00:09:46,172 INFO D12 buffer transfer completed: buffer_plate[D12] -> samples_plate[D12], 55.36 uL
-2026-10-22 00:09:46,172 INFO D12 normalization completed
-2026-10-22 00:09:46,173 INFO D12 status: completed
-2026-10-22 00:09:46,174 INFO E1 starting: C0=205.00 nM, measured=118.40 uL, keep=24.39 uL, remove=94.01 uL, buffer=75.61 uL
-2026-10-22 00:09:46,174 INFO E1 removal transfer: source=samples_plate[E1], target=archive_plate[E1], volume=94.01 uL
-2026-10-22 00:09:46,183 INFO E1 removal transfer completed: samples_plate[E1] -> archive_plate[E1], 94.01 uL
-2026-10-22 00:09:46,184 INFO E1 buffer transfer: source=buffer_plate[E1], target=samples_plate[E1], volume=75.61 uL
-2026-10-22 00:09:46,191 INFO E1 buffer transfer completed: buffer_plate[E1] -> samples_plate[E1], 75.61 uL
-2026-10-22 00:09:46,192 INFO E1 normalization completed
-2026-10-22 00:09:46,193 INFO E1 status: completed
-2026-10-22 00:09:46,193 ERROR E2 rejected: insufficient volume: measured 33.2 uL, need 37.0 uL
-2026-10-22 00:09:46,194 INFO E2 status: rejected_insufficient_volume
-2026-10-22 00:09:46,194 INFO E3 starting: C0=136.00 nM, measured=126.70 uL, keep=36.76 uL, remove=89.94 uL, buffer=63.24 uL
-2026-10-22 00:09:46,194 INFO E3 removal transfer: source=samples_plate[E3], target=archive_plate[E3], volume=89.94 uL
-2026-10-22 00:09:46,202 INFO E3 removal transfer completed: samples_plate[E3] -> archive_plate[E3], 89.94 uL
-2026-10-22 00:09:46,203 INFO E3 buffer transfer: source=buffer_plate[E3], target=samples_plate[E3], volume=63.24 uL
-2026-10-22 00:09:46,210 INFO E3 buffer transfer completed: buffer_plate[E3] -> samples_plate[E3], 63.24 uL
-2026-10-22 00:09:46,210 INFO E3 normalization completed
-2026-10-22 00:09:46,211 INFO E3 status: completed
-2026-10-22 00:09:46,211 INFO E4 starting: C0=94.00 nM, measured=131.70 uL, keep=53.19 uL, remove=78.51 uL, buffer=46.81 uL
-2026-10-22 00:09:46,211 INFO E4 removal transfer: source=samples_plate[E4], target=archive_plate[E4], volume=78.51 uL
-2026-10-22 00:09:46,218 INFO E4 removal transfer completed: samples_plate[E4] -> archive_plate[E4], 78.51 uL
-2026-10-22 00:09:46,218 INFO E4 buffer transfer: source=buffer_plate[E4], target=samples_plate[E4], volume=46.81 uL
-2026-10-22 00:09:46,227 INFO E4 buffer transfer completed: buffer_plate[E4] -> samples_plate[E4], 46.81 uL
-2026-10-22 00:09:46,228 INFO E4 normalization completed
-2026-10-22 00:09:46,228 INFO E4 status: completed
-2026-10-22 00:09:46,228 INFO E5 starting: C0=109.00 nM, measured=129.50 uL, keep=45.87 uL, remove=83.63 uL, buffer=54.13 uL
-2026-10-22 00:09:46,228 INFO E5 removal transfer: source=samples_plate[E5], target=archive_plate[E5], volume=83.63 uL
-2026-10-22 00:09:46,236 INFO E5 removal transfer completed: samples_plate[E5] -> archive_plate[E5], 83.63 uL
-2026-10-22 00:09:46,236 INFO E5 buffer transfer: source=buffer_plate[E5], target=samples_plate[E5], volume=54.13 uL
-2026-10-22 00:09:46,244 INFO E5 buffer transfer completed: buffer_plate[E5] -> samples_plate[E5], 54.13 uL
-2026-10-22 00:09:46,244 INFO E5 normalization completed
-2026-10-22 00:09:46,245 INFO E5 status: completed
-2026-10-22 00:09:46,245 INFO E6 starting: C0=284.00 nM, measured=39.60 uL, keep=17.61 uL, remove=21.99 uL, buffer=82.39 uL
-2026-10-22 00:09:46,246 INFO E6 removal transfer: source=samples_plate[E6], target=archive_plate[E6], volume=21.99 uL
-2026-10-22 00:09:46,252 INFO E6 removal transfer completed: samples_plate[E6] -> archive_plate[E6], 21.99 uL
-2026-10-22 00:09:46,252 INFO E6 buffer transfer: source=buffer_plate[E6], target=samples_plate[E6], volume=82.39 uL
-2026-10-22 00:09:46,258 INFO E6 buffer transfer completed: buffer_plate[E6] -> samples_plate[E6], 82.39 uL
-2026-10-22 00:09:46,258 INFO E6 normalization completed
-2026-10-22 00:09:46,259 INFO E6 status: completed
-2026-10-22 00:09:46,260 INFO E7 starting: C0=208.00 nM, measured=62.00 uL, keep=24.04 uL, remove=37.96 uL, buffer=75.96 uL
-2026-10-22 00:09:46,260 INFO E7 removal transfer: source=samples_plate[E7], target=archive_plate[E7], volume=37.96 uL
-2026-10-22 00:09:46,266 INFO E7 removal transfer completed: samples_plate[E7] -> archive_plate[E7], 37.96 uL
-2026-10-22 00:09:46,267 INFO E7 buffer transfer: source=buffer_plate[E7], target=samples_plate[E7], volume=75.96 uL
-2026-10-22 00:09:46,272 INFO E7 buffer transfer completed: buffer_plate[E7] -> samples_plate[E7], 75.96 uL
-2026-10-22 00:09:46,273 INFO E7 normalization completed
-2026-10-22 00:09:46,273 INFO E7 status: completed
-2026-10-22 00:09:46,274 INFO E8 starting: C0=198.00 nM, measured=148.70 uL, keep=25.25 uL, remove=123.45 uL, buffer=74.75 uL
-2026-10-22 00:09:46,274 INFO E8 removal transfer: source=samples_plate[E8], target=archive_plate[E8], volume=123.45 uL
-2026-10-22 00:09:46,281 INFO E8 removal transfer completed: samples_plate[E8] -> archive_plate[E8], 123.45 uL
-2026-10-22 00:09:46,281 INFO E8 buffer transfer: source=buffer_plate[E8], target=samples_plate[E8], volume=74.75 uL
-2026-10-22 00:09:46,289 INFO E8 buffer transfer completed: buffer_plate[E8] -> samples_plate[E8], 74.75 uL
-2026-10-22 00:09:46,290 INFO E8 normalization completed
-2026-10-22 00:09:46,290 INFO E8 status: completed
-2026-10-22 00:09:46,290 INFO E9 starting: C0=84.00 nM, measured=67.90 uL, keep=59.52 uL, remove=8.38 uL, buffer=40.48 uL
-2026-10-22 00:09:46,291 INFO E9 removal transfer: source=samples_plate[E9], target=archive_plate[E9], volume=8.38 uL
-2026-10-22 00:09:46,298 INFO E9 removal transfer completed: samples_plate[E9] -> archive_plate[E9], 8.38 uL
-2026-10-22 00:09:46,299 INFO E9 buffer transfer: source=buffer_plate[E9], target=samples_plate[E9], volume=40.48 uL
-2026-10-22 00:09:46,306 INFO E9 buffer transfer completed: buffer_plate[E9] -> samples_plate[E9], 40.48 uL
-2026-10-22 00:09:46,306 INFO E9 normalization completed
-2026-10-22 00:09:46,306 INFO E9 status: completed
-2026-10-22 00:09:46,307 INFO E10 starting: C0=230.00 nM, measured=139.70 uL, keep=21.74 uL, remove=117.96 uL, buffer=78.26 uL
-2026-10-22 00:09:46,307 INFO E10 removal transfer: source=samples_plate[E10], target=archive_plate[E10], volume=117.96 uL
-2026-10-22 00:09:46,313 INFO E10 removal transfer completed: samples_plate[E10] -> archive_plate[E10], 117.96 uL
-2026-10-22 00:09:46,314 INFO E10 buffer transfer: source=buffer_plate[E10], target=samples_plate[E10], volume=78.26 uL
-2026-10-22 00:09:46,320 INFO E10 buffer transfer completed: buffer_plate[E10] -> samples_plate[E10], 78.26 uL
-2026-10-22 00:09:46,321 INFO E10 normalization completed
-2026-10-22 00:09:46,321 INFO E10 status: completed
-2026-10-22 00:09:46,321 INFO E11 starting: C0=82.00 nM, measured=77.90 uL, keep=60.98 uL, remove=16.92 uL, buffer=39.02 uL
-2026-10-22 00:09:46,321 INFO E11 removal transfer: source=samples_plate[E11], target=archive_plate[E11], volume=16.92 uL
-2026-10-22 00:09:46,328 INFO E11 removal transfer completed: samples_plate[E11] -> archive_plate[E11], 16.92 uL
-2026-10-22 00:09:46,329 INFO E11 buffer transfer: source=buffer_plate[E11], target=samples_plate[E11], volume=39.02 uL
-2026-10-22 00:09:46,336 INFO E11 buffer transfer completed: buffer_plate[E11] -> samples_plate[E11], 39.02 uL
-2026-10-22 00:09:46,336 INFO E11 normalization completed
-2026-10-22 00:09:46,337 INFO E11 status: completed
-2026-10-22 00:09:46,337 INFO E12 starting: C0=139.00 nM, measured=125.00 uL, keep=35.97 uL, remove=89.03 uL, buffer=64.03 uL
-2026-10-22 00:09:46,337 INFO E12 removal transfer: source=samples_plate[E12], target=archive_plate[E12], volume=89.03 uL
-2026-10-22 00:09:46,344 INFO E12 removal transfer completed: samples_plate[E12] -> archive_plate[E12], 89.03 uL
-2026-10-22 00:09:46,344 INFO E12 buffer transfer: source=buffer_plate[E12], target=samples_plate[E12], volume=64.03 uL
-2026-10-22 00:09:46,352 INFO E12 buffer transfer completed: buffer_plate[E12] -> samples_plate[E12], 64.03 uL
-2026-10-22 00:09:46,352 INFO E12 normalization completed
-2026-10-22 00:09:46,352 INFO E12 status: completed
-2026-10-22 00:09:46,353 INFO F1 starting: C0=297.00 nM, measured=111.20 uL, keep=16.84 uL, remove=94.36 uL, buffer=83.16 uL
-2026-10-22 00:09:46,353 INFO F1 removal transfer: source=samples_plate[F1], target=archive_plate[F1], volume=94.36 uL
-2026-10-22 00:09:46,359 INFO F1 removal transfer completed: samples_plate[F1] -> archive_plate[F1], 94.36 uL
-2026-10-22 00:09:46,359 INFO F1 buffer transfer: source=buffer_plate[F1], target=samples_plate[F1], volume=83.16 uL
-2026-10-22 00:09:46,375 INFO F1 buffer transfer completed: buffer_plate[F1] -> samples_plate[F1], 83.16 uL
-2026-10-22 00:09:46,375 INFO F1 normalization completed
-2026-10-22 00:09:46,400 INFO F1 status: completed
-2026-10-22 00:09:46,405 INFO F2 starting: C0=206.00 nM, measured=53.90 uL, keep=24.27 uL, remove=29.63 uL, buffer=75.73 uL
-2026-10-22 00:09:46,405 INFO F2 removal transfer: source=samples_plate[F2], target=archive_plate[F2], volume=29.63 uL
-2026-10-22 00:09:46,463 INFO F2 removal transfer completed: samples_plate[F2] -> archive_plate[F2], 29.63 uL
-2026-10-22 00:09:46,463 INFO F2 buffer transfer: source=buffer_plate[F2], target=samples_plate[F2], volume=75.73 uL
-2026-10-22 00:09:46,471 INFO F2 buffer transfer completed: buffer_plate[F2] -> samples_plate[F2], 75.73 uL
-2026-10-22 00:09:46,472 INFO F2 normalization completed
-2026-10-22 00:09:46,473 INFO F2 status: completed
-2026-10-22 00:09:46,473 INFO F3 starting: C0=185.00 nM, measured=113.80 uL, keep=27.03 uL, remove=86.77 uL, buffer=72.97 uL
-2026-10-22 00:09:46,473 INFO F3 removal transfer: source=samples_plate[F3], target=archive_plate[F3], volume=86.77 uL
-2026-10-22 00:09:46,482 INFO F3 removal transfer completed: samples_plate[F3] -> archive_plate[F3], 86.77 uL
-2026-10-22 00:09:46,482 INFO F3 buffer transfer: source=buffer_plate[F3], target=samples_plate[F3], volume=72.97 uL
-2026-10-22 00:09:46,490 INFO F3 buffer transfer completed: buffer_plate[F3] -> samples_plate[F3], 72.97 uL
-2026-10-22 00:09:46,490 INFO F3 normalization completed
-2026-10-22 00:09:46,491 INFO F3 status: completed
-2026-10-22 00:09:46,491 INFO F4 starting: C0=218.00 nM, measured=102.40 uL, keep=22.94 uL, remove=79.46 uL, buffer=77.06 uL
-2026-10-22 00:09:46,491 INFO F4 removal transfer: source=samples_plate[F4], target=archive_plate[F4], volume=79.46 uL
-2026-10-22 00:09:46,498 INFO F4 removal transfer completed: samples_plate[F4] -> archive_plate[F4], 79.46 uL
-2026-10-22 00:09:46,498 INFO F4 buffer transfer: source=buffer_plate[F4], target=samples_plate[F4], volume=77.06 uL
-2026-10-22 00:09:46,504 INFO F4 buffer transfer completed: buffer_plate[F4] -> samples_plate[F4], 77.06 uL
-2026-10-22 00:09:46,505 INFO F4 normalization completed
-2026-10-22 00:09:46,506 INFO F4 status: completed
-2026-10-22 00:09:46,506 INFO F5 starting: C0=259.00 nM, measured=104.20 uL, keep=19.31 uL, remove=84.89 uL, buffer=80.69 uL
-2026-10-22 00:09:46,506 INFO F5 removal transfer: source=samples_plate[F5], target=archive_plate[F5], volume=84.89 uL
-2026-10-22 00:09:46,512 INFO F5 removal transfer completed: samples_plate[F5] -> archive_plate[F5], 84.89 uL
-2026-10-22 00:09:46,513 INFO F5 buffer transfer: source=buffer_plate[F5], target=samples_plate[F5], volume=80.69 uL
-2026-10-22 00:09:46,519 INFO F5 buffer transfer completed: buffer_plate[F5] -> samples_plate[F5], 80.69 uL
-2026-10-22 00:09:46,519 INFO F5 normalization completed
-2026-10-22 00:09:46,520 INFO F5 status: completed
-2026-10-22 00:09:46,521 INFO F6 starting: C0=242.00 nM, measured=57.90 uL, keep=20.66 uL, remove=37.24 uL, buffer=79.34 uL
-2026-10-22 00:09:46,521 INFO F6 removal transfer: source=samples_plate[F6], target=archive_plate[F6], volume=37.24 uL
-2026-10-22 00:09:46,527 INFO F6 removal transfer completed: samples_plate[F6] -> archive_plate[F6], 37.24 uL
-2026-10-22 00:09:46,527 INFO F6 buffer transfer: source=buffer_plate[F6], target=samples_plate[F6], volume=79.34 uL
-2026-10-22 00:09:46,534 INFO F6 buffer transfer completed: buffer_plate[F6] -> samples_plate[F6], 79.34 uL
-2026-10-22 00:09:46,535 INFO F6 normalization completed
-2026-10-22 00:09:46,535 INFO F6 status: completed
-2026-10-22 00:09:46,535 INFO F7 starting: C0=100.00 nM, measured=142.40 uL, keep=50.00 uL, remove=92.40 uL, buffer=50.00 uL
-2026-10-22 00:09:46,536 INFO F7 removal transfer: source=samples_plate[F7], target=archive_plate[F7], volume=92.40 uL
-2026-10-22 00:09:46,546 INFO F7 removal transfer completed: samples_plate[F7] -> archive_plate[F7], 92.40 uL
-2026-10-22 00:09:46,546 INFO F7 buffer transfer: source=buffer_plate[F7], target=samples_plate[F7], volume=50.00 uL
-2026-10-22 00:09:46,553 INFO F7 buffer transfer completed: buffer_plate[F7] -> samples_plate[F7], 50.00 uL
-2026-10-22 00:09:46,553 INFO F7 normalization completed
-2026-10-22 00:09:46,554 INFO F7 status: completed
-2026-10-22 00:09:46,554 WARNING F8 skipped: concentration 48.00 nM <= target 50.00 nM
-2026-10-22 00:09:46,554 INFO F8 status: skipped_below_target
-2026-10-22 00:09:46,554 INFO F9 starting: C0=122.00 nM, measured=62.10 uL, keep=40.98 uL, remove=21.12 uL, buffer=59.02 uL
-2026-10-22 00:09:46,555 INFO F9 removal transfer: source=samples_plate[F9], target=archive_plate[F9], volume=21.12 uL
-2026-10-22 00:09:46,562 INFO F9 removal transfer completed: samples_plate[F9] -> archive_plate[F9], 21.12 uL
-2026-10-22 00:09:46,563 INFO F9 buffer transfer: source=buffer_plate[F9], target=samples_plate[F9], volume=59.02 uL
-2026-10-22 00:09:46,569 INFO F9 buffer transfer completed: buffer_plate[F9] -> samples_plate[F9], 59.02 uL
-2026-10-22 00:09:46,569 INFO F9 normalization completed
-2026-10-22 00:09:46,570 INFO F9 status: completed
-2026-10-22 00:09:46,570 INFO F10 starting: C0=110.00 nM, measured=85.10 uL, keep=45.45 uL, remove=39.65 uL, buffer=54.55 uL
-2026-10-22 00:09:46,571 INFO F10 removal transfer: source=samples_plate[F10], target=archive_plate[F10], volume=39.65 uL
-2026-10-22 00:09:46,577 INFO F10 removal transfer completed: samples_plate[F10] -> archive_plate[F10], 39.65 uL
-2026-10-22 00:09:46,577 INFO F10 buffer transfer: source=buffer_plate[F10], target=samples_plate[F10], volume=54.55 uL
-2026-10-22 00:09:46,584 INFO F10 buffer transfer completed: buffer_plate[F10] -> samples_plate[F10], 54.55 uL
-2026-10-22 00:09:46,584 INFO F10 normalization completed
-2026-10-22 00:09:46,585 INFO F10 status: completed
-2026-10-22 00:09:46,585 WARNING F11 skipped: excess 3.67 uL below minimum 5.00 uL
-2026-10-22 00:09:46,586 INFO F11 status: skipped_excess_below_min
-2026-10-22 00:09:46,586 INFO F12 starting: C0=285.00 nM, measured=80.70 uL, keep=17.54 uL, remove=63.16 uL, buffer=82.46 uL
-2026-10-22 00:09:46,586 INFO F12 removal transfer: source=samples_plate[F12], target=archive_plate[F12], volume=63.16 uL
-2026-10-22 00:09:46,593 INFO F12 removal transfer completed: samples_plate[F12] -> archive_plate[F12], 63.16 uL
-2026-10-22 00:09:46,594 INFO F12 buffer transfer: source=buffer_plate[F12], target=samples_plate[F12], volume=82.46 uL
-2026-10-22 00:09:46,601 INFO F12 buffer transfer completed: buffer_plate[F12] -> samples_plate[F12], 82.46 uL
-2026-10-22 00:09:46,601 INFO F12 normalization completed
-2026-10-22 00:09:46,601 INFO F12 status: completed
-2026-10-22 00:09:46,601 INFO G1 starting: C0=268.00 nM, measured=137.10 uL, keep=18.66 uL, remove=118.44 uL, buffer=81.34 uL
-2026-10-22 00:09:46,602 INFO G1 removal transfer: source=samples_plate[G1], target=archive_plate[G1], volume=118.44 uL
-2026-10-22 00:09:46,608 INFO G1 removal transfer completed: samples_plate[G1] -> archive_plate[G1], 118.44 uL
-2026-10-22 00:09:46,608 INFO G1 buffer transfer: source=buffer_plate[G1], target=samples_plate[G1], volume=81.34 uL
-2026-10-22 00:09:46,616 INFO G1 buffer transfer completed: buffer_plate[G1] -> samples_plate[G1], 81.34 uL
-2026-10-22 00:09:46,616 INFO G1 normalization completed
-2026-10-22 00:09:46,617 INFO G1 status: completed
-2026-10-22 00:09:46,617 INFO G2 starting: C0=122.00 nM, measured=108.00 uL, keep=40.98 uL, remove=67.02 uL, buffer=59.02 uL
-2026-10-22 00:09:46,617 INFO G2 removal transfer: source=samples_plate[G2], target=archive_plate[G2], volume=67.02 uL
-2026-10-22 00:09:46,623 INFO G2 removal transfer completed: samples_plate[G2] -> archive_plate[G2], 67.02 uL
-2026-10-22 00:09:46,623 INFO G2 buffer transfer: source=buffer_plate[G2], target=samples_plate[G2], volume=59.02 uL
-2026-10-22 00:09:46,630 INFO G2 buffer transfer completed: buffer_plate[G2] -> samples_plate[G2], 59.02 uL
-2026-10-22 00:09:46,630 INFO G2 normalization completed
-2026-10-22 00:09:46,631 INFO G2 status: completed
-2026-10-22 00:09:46,631 INFO G3 starting: C0=210.00 nM, measured=70.80 uL, keep=23.81 uL, remove=46.99 uL, buffer=76.19 uL
-2026-10-22 00:09:46,631 INFO G3 removal transfer: source=samples_plate[G3], target=archive_plate[G3], volume=46.99 uL
-2026-10-22 00:09:46,637 INFO G3 removal transfer completed: samples_plate[G3] -> archive_plate[G3], 46.99 uL
-2026-10-22 00:09:46,637 INFO G3 buffer transfer: source=buffer_plate[G3], target=samples_plate[G3], volume=76.19 uL
-2026-10-22 00:09:46,646 INFO G3 buffer transfer completed: buffer_plate[G3] -> samples_plate[G3], 76.19 uL
-2026-10-22 00:09:46,646 INFO G3 normalization completed
-2026-10-22 00:09:46,647 INFO G3 status: completed
-2026-10-22 00:09:46,647 INFO G4 starting: C0=143.00 nM, measured=126.90 uL, keep=34.97 uL, remove=91.93 uL, buffer=65.03 uL
-2026-10-22 00:09:46,648 INFO G4 removal transfer: source=samples_plate[G4], target=archive_plate[G4], volume=91.93 uL
-2026-10-22 00:09:46,654 INFO G4 removal transfer completed: samples_plate[G4] -> archive_plate[G4], 91.93 uL
-2026-10-22 00:09:46,655 INFO G4 buffer transfer: source=buffer_plate[G4], target=samples_plate[G4], volume=65.03 uL
-2026-10-22 00:09:46,662 INFO G4 buffer transfer completed: buffer_plate[G4] -> samples_plate[G4], 65.03 uL
-2026-10-22 00:09:46,663 INFO G4 normalization completed
-2026-10-22 00:09:46,663 INFO G4 status: completed
-2026-10-22 00:09:46,663 INFO G5 starting: C0=278.00 nM, measured=133.40 uL, keep=17.99 uL, remove=115.41 uL, buffer=82.01 uL
-2026-10-22 00:09:46,664 INFO G5 removal transfer: source=samples_plate[G5], target=archive_plate[G5], volume=115.41 uL
-2026-10-22 00:09:46,670 INFO G5 removal transfer completed: samples_plate[G5] -> archive_plate[G5], 115.41 uL
-2026-10-22 00:09:46,670 INFO G5 buffer transfer: source=buffer_plate[G5], target=samples_plate[G5], volume=82.01 uL
-2026-10-22 00:09:46,677 INFO G5 buffer transfer completed: buffer_plate[G5] -> samples_plate[G5], 82.01 uL
-2026-10-22 00:09:46,678 INFO G5 normalization completed
-2026-10-22 00:09:46,679 INFO G5 status: completed
-2026-10-22 00:09:46,679 INFO G6 starting: C0=159.00 nM, measured=42.10 uL, keep=31.45 uL, remove=10.65 uL, buffer=68.55 uL
-2026-10-22 00:09:46,679 INFO G6 removal transfer: source=samples_plate[G6], target=archive_plate[G6], volume=10.65 uL
-2026-10-22 00:09:46,686 INFO G6 removal transfer completed: samples_plate[G6] -> archive_plate[G6], 10.65 uL
-2026-10-22 00:09:46,686 INFO G6 buffer transfer: source=buffer_plate[G6], target=samples_plate[G6], volume=68.55 uL
-2026-10-22 00:09:46,692 INFO G6 buffer transfer completed: buffer_plate[G6] -> samples_plate[G6], 68.55 uL
-2026-10-22 00:09:46,693 INFO G6 normalization completed
-2026-10-22 00:09:46,693 INFO G6 status: completed
-2026-10-22 00:09:46,694 INFO G7 starting: C0=109.00 nM, measured=107.80 uL, keep=45.87 uL, remove=61.93 uL, buffer=54.13 uL
-2026-10-22 00:09:46,694 INFO G7 removal transfer: source=samples_plate[G7], target=archive_plate[G7], volume=61.93 uL
-2026-10-22 00:09:46,701 INFO G7 removal transfer completed: samples_plate[G7] -> archive_plate[G7], 61.93 uL
-2026-10-22 00:09:46,702 INFO G7 buffer transfer: source=buffer_plate[G7], target=samples_plate[G7], volume=54.13 uL
-2026-10-22 00:09:46,708 INFO G7 buffer transfer completed: buffer_plate[G7] -> samples_plate[G7], 54.13 uL
-2026-10-22 00:09:46,708 INFO G7 normalization completed
-2026-10-22 00:09:46,709 INFO G7 status: completed
-2026-10-22 00:09:46,709 INFO G8 starting: C0=104.00 nM, measured=96.80 uL, keep=48.08 uL, remove=48.72 uL, buffer=51.92 uL
-2026-10-22 00:09:46,710 INFO G8 removal transfer: source=samples_plate[G8], target=archive_plate[G8], volume=48.72 uL
-2026-10-22 00:09:46,716 INFO G8 removal transfer completed: samples_plate[G8] -> archive_plate[G8], 48.72 uL
-2026-10-22 00:09:46,717 INFO G8 buffer transfer: source=buffer_plate[G8], target=samples_plate[G8], volume=51.92 uL
-2026-10-22 00:09:46,723 INFO G8 buffer transfer completed: buffer_plate[G8] -> samples_plate[G8], 51.92 uL
-2026-10-22 00:09:46,724 INFO G8 normalization completed
-2026-10-22 00:09:46,724 INFO G8 status: completed
-2026-10-22 00:09:46,724 INFO G9 starting: C0=186.00 nM, measured=55.30 uL, keep=26.88 uL, remove=28.42 uL, buffer=73.12 uL
-2026-10-22 00:09:46,725 INFO G9 removal transfer: source=samples_plate[G9], target=archive_plate[G9], volume=28.42 uL
-2026-10-22 00:09:46,733 INFO G9 removal transfer completed: samples_plate[G9] -> archive_plate[G9], 28.42 uL
-2026-10-22 00:09:46,734 INFO G9 buffer transfer: source=buffer_plate[G9], target=samples_plate[G9], volume=73.12 uL
-2026-10-22 00:09:46,742 INFO G9 buffer transfer completed: buffer_plate[G9] -> samples_plate[G9], 73.12 uL
-2026-10-22 00:09:46,742 INFO G9 normalization completed
-2026-10-22 00:09:46,743 INFO G9 status: completed
-2026-10-22 00:09:46,743 INFO G10 starting: C0=108.00 nM, measured=61.80 uL, keep=46.30 uL, remove=15.50 uL, buffer=53.70 uL
-2026-10-22 00:09:46,743 INFO G10 removal transfer: source=samples_plate[G10], target=archive_plate[G10], volume=15.50 uL
-2026-10-22 00:09:46,750 INFO G10 removal transfer completed: samples_plate[G10] -> archive_plate[G10], 15.50 uL
-2026-10-22 00:09:46,751 INFO G10 buffer transfer: source=buffer_plate[G10], target=samples_plate[G10], volume=53.70 uL
-2026-10-22 00:09:46,757 INFO G10 buffer transfer completed: buffer_plate[G10] -> samples_plate[G10], 53.70 uL
-2026-10-22 00:09:46,758 INFO G10 normalization completed
-2026-10-22 00:09:46,760 INFO G10 status: completed
-2026-10-22 00:09:46,760 INFO G11 starting: C0=192.00 nM, measured=149.70 uL, keep=26.04 uL, remove=123.66 uL, buffer=73.96 uL
-2026-10-22 00:09:46,760 INFO G11 removal transfer: source=samples_plate[G11], target=archive_plate[G11], volume=123.66 uL
-2026-10-22 00:09:46,769 INFO G11 removal transfer completed: samples_plate[G11] -> archive_plate[G11], 123.66 uL
-2026-10-22 00:09:46,770 INFO G11 buffer transfer: source=buffer_plate[G11], target=samples_plate[G11], volume=73.96 uL
-2026-10-22 00:09:46,781 INFO G11 buffer transfer completed: buffer_plate[G11] -> samples_plate[G11], 73.96 uL
-2026-10-22 00:09:46,781 INFO G11 normalization completed
-2026-10-22 00:09:46,782 INFO G11 status: completed
-2026-10-22 00:09:46,782 INFO G12 starting: C0=273.00 nM, measured=37.60 uL, keep=18.32 uL, remove=19.28 uL, buffer=81.68 uL
-2026-10-22 00:09:46,783 INFO G12 removal transfer: source=samples_plate[G12], target=archive_plate[G12], volume=19.28 uL
-2026-10-22 00:09:46,790 INFO G12 removal transfer completed: samples_plate[G12] -> archive_plate[G12], 19.28 uL
-2026-10-22 00:09:46,791 INFO G12 buffer transfer: source=buffer_plate[G12], target=samples_plate[G12], volume=81.68 uL
-2026-10-22 00:09:46,805 INFO G12 buffer transfer completed: buffer_plate[G12] -> samples_plate[G12], 81.68 uL
-2026-10-22 00:09:46,806 INFO G12 normalization completed
-2026-10-22 00:09:46,806 INFO G12 status: completed
-2026-10-22 00:09:46,807 INFO H1 starting: C0=144.00 nM, measured=40.40 uL, keep=34.72 uL, remove=5.68 uL, buffer=65.28 uL
-2026-10-22 00:09:46,807 INFO H1 removal transfer: source=samples_plate[H1], target=archive_plate[H1], volume=5.68 uL
-2026-10-22 00:09:46,820 INFO H1 removal transfer completed: samples_plate[H1] -> archive_plate[H1], 5.68 uL
-2026-10-22 00:09:46,820 INFO H1 buffer transfer: source=buffer_plate[H1], target=samples_plate[H1], volume=65.28 uL
-2026-10-22 00:09:46,828 INFO H1 buffer transfer completed: buffer_plate[H1] -> samples_plate[H1], 65.28 uL
-2026-10-22 00:09:46,829 INFO H1 normalization completed
-2026-10-22 00:09:46,829 INFO H1 status: completed
-2026-10-22 00:09:46,830 INFO H2 starting: C0=97.00 nM, measured=95.40 uL, keep=51.55 uL, remove=43.85 uL, buffer=48.45 uL
-2026-10-22 00:09:46,830 INFO H2 removal transfer: source=samples_plate[H2], target=archive_plate[H2], volume=43.85 uL
-2026-10-22 00:09:46,837 INFO H2 removal transfer completed: samples_plate[H2] -> archive_plate[H2], 43.85 uL
-2026-10-22 00:09:46,837 INFO H2 buffer transfer: source=buffer_plate[H2], target=samples_plate[H2], volume=48.45 uL
-2026-10-22 00:09:46,844 INFO H2 buffer transfer completed: buffer_plate[H2] -> samples_plate[H2], 48.45 uL
-2026-10-22 00:09:46,845 INFO H2 normalization completed
-2026-10-22 00:09:46,845 INFO H2 status: completed
-2026-10-22 00:09:46,845 INFO H3 starting: C0=299.00 nM, measured=48.70 uL, keep=16.72 uL, remove=31.98 uL, buffer=83.28 uL
-2026-10-22 00:09:46,846 INFO H3 removal transfer: source=samples_plate[H3], target=archive_plate[H3], volume=31.98 uL
-2026-10-22 00:09:46,855 INFO H3 removal transfer completed: samples_plate[H3] -> archive_plate[H3], 31.98 uL
-2026-10-22 00:09:46,858 INFO H3 buffer transfer: source=buffer_plate[H3], target=samples_plate[H3], volume=83.28 uL
-2026-10-22 00:09:46,866 INFO H3 buffer transfer completed: buffer_plate[H3] -> samples_plate[H3], 83.28 uL
-2026-10-22 00:09:46,866 INFO H3 normalization completed
-2026-10-22 00:09:46,872 INFO H3 status: completed
-2026-10-22 00:09:46,878 INFO H4 starting: C0=172.00 nM, measured=117.60 uL, keep=29.07 uL, remove=88.53 uL, buffer=70.93 uL
-2026-10-22 00:09:46,878 INFO H4 removal transfer: source=samples_plate[H4], target=archive_plate[H4], volume=88.53 uL
-2026-10-22 00:09:46,890 INFO H4 removal transfer completed: samples_plate[H4] -> archive_plate[H4], 88.53 uL
-2026-10-22 00:09:46,891 INFO H4 buffer transfer: source=buffer_plate[H4], target=samples_plate[H4], volume=70.93 uL
-2026-10-22 00:09:46,900 INFO H4 buffer transfer completed: buffer_plate[H4] -> samples_plate[H4], 70.93 uL
-2026-10-22 00:09:46,900 INFO H4 normalization completed
-2026-10-22 00:09:46,901 INFO H4 status: completed
-2026-10-22 00:09:46,902 INFO H5 starting: C0=64.00 nM, measured=99.30 uL, keep=78.12 uL, remove=21.17 uL, buffer=21.88 uL
-2026-10-22 00:09:46,902 INFO H5 removal transfer: source=samples_plate[H5], target=archive_plate[H5], volume=21.17 uL
-2026-10-22 00:09:46,907 INFO H5 removal transfer completed: samples_plate[H5] -> archive_plate[H5], 21.17 uL
-2026-10-22 00:09:46,907 INFO H5 buffer transfer: source=buffer_plate[H5], target=samples_plate[H5], volume=21.88 uL
-2026-10-22 00:09:46,916 INFO H5 buffer transfer completed: buffer_plate[H5] -> samples_plate[H5], 21.88 uL
-2026-10-22 00:09:46,916 INFO H5 normalization completed
-2026-10-22 00:09:46,917 INFO H5 status: completed
-2026-10-22 00:09:46,917 ERROR H6 rejected: insufficient volume: measured 63.4 uL, need 96.2 uL
-2026-10-22 00:09:46,917 INFO H6 status: rejected_insufficient_volume
-2026-10-22 00:09:46,918 INFO H7 starting: C0=69.00 nM, measured=103.10 uL, keep=72.46 uL, remove=30.64 uL, buffer=27.54 uL
-2026-10-22 00:09:46,918 INFO H7 removal transfer: source=samples_plate[H7], target=archive_plate[H7], volume=30.64 uL
-2026-10-22 00:09:46,924 INFO H7 removal transfer completed: samples_plate[H7] -> archive_plate[H7], 30.64 uL
-2026-10-22 00:09:46,925 INFO H7 buffer transfer: source=buffer_plate[H7], target=samples_plate[H7], volume=27.54 uL
-2026-10-22 00:09:46,931 INFO H7 buffer transfer completed: buffer_plate[H7] -> samples_plate[H7], 27.54 uL
-2026-10-22 00:09:46,931 INFO H7 normalization completed
-2026-10-22 00:09:46,932 INFO H7 status: completed
-2026-10-22 00:09:46,932 INFO H8 starting: C0=203.00 nM, measured=112.20 uL, keep=24.63 uL, remove=87.57 uL, buffer=75.37 uL
-2026-10-22 00:09:46,932 INFO H8 removal transfer: source=samples_plate[H8], target=archive_plate[H8], volume=87.57 uL
-2026-10-22 00:09:46,938 INFO H8 removal transfer completed: samples_plate[H8] -> archive_plate[H8], 87.57 uL
-2026-10-22 00:09:46,938 INFO H8 buffer transfer: source=buffer_plate[H8], target=samples_plate[H8], volume=75.37 uL
-2026-10-22 00:09:46,944 INFO H8 buffer transfer completed: buffer_plate[H8] -> samples_plate[H8], 75.37 uL
-2026-10-22 00:09:46,945 INFO H8 normalization completed
-2026-10-22 00:09:46,945 INFO H8 status: completed
-2026-10-22 00:09:46,946 INFO H9 starting: C0=246.00 nM, measured=143.10 uL, keep=20.33 uL, remove=122.77 uL, buffer=79.67 uL
-2026-10-22 00:09:46,946 INFO H9 removal transfer: source=samples_plate[H9], target=archive_plate[H9], volume=122.77 uL
-2026-10-22 00:09:46,952 INFO H9 removal transfer completed: samples_plate[H9] -> archive_plate[H9], 122.77 uL
-2026-10-22 00:09:46,952 INFO H9 buffer transfer: source=buffer_plate[H9], target=samples_plate[H9], volume=79.67 uL
-2026-10-22 00:09:46,958 INFO H9 buffer transfer completed: buffer_plate[H9] -> samples_plate[H9], 79.67 uL
-2026-10-22 00:09:46,958 INFO H9 normalization completed
-2026-10-22 00:09:46,959 INFO H9 status: completed
-2026-10-22 00:09:46,959 INFO H10 starting: C0=150.00 nM, measured=59.60 uL, keep=33.33 uL, remove=26.27 uL, buffer=66.67 uL
-2026-10-22 00:09:46,959 INFO H10 removal transfer: source=samples_plate[H10], target=archive_plate[H10], volume=26.27 uL
-2026-10-22 00:09:46,964 INFO H10 removal transfer completed: samples_plate[H10] -> archive_plate[H10], 26.27 uL
-2026-10-22 00:09:46,965 INFO H10 buffer transfer: source=buffer_plate[H10], target=samples_plate[H10], volume=66.67 uL
-2026-10-22 00:09:46,969 INFO H10 buffer transfer completed: buffer_plate[H10] -> samples_plate[H10], 66.67 uL
-2026-10-22 00:09:46,970 INFO H10 normalization completed
-2026-10-22 00:09:46,970 INFO H10 status: completed
-2026-10-22 00:09:46,970 WARNING H11 skipped: excess 3.38 uL below minimum 5.00 uL
-2026-10-22 00:09:46,970 INFO H11 status: skipped_excess_below_min
-2026-10-22 00:09:46,971 INFO H12 starting: C0=139.00 nM, measured=75.80 uL, keep=35.97 uL, remove=39.83 uL, buffer=64.03 uL
-2026-10-22 00:09:46,971 INFO H12 removal transfer: source=samples_plate[H12], target=archive_plate[H12], volume=39.83 uL
-2026-10-22 00:09:46,974 INFO H12 removal transfer completed: samples_plate[H12] -> archive_plate[H12], 39.83 uL
-2026-10-22 00:09:46,975 INFO H12 buffer transfer: source=buffer_plate[H12], target=samples_plate[H12], volume=64.03 uL
-2026-10-22 00:09:46,979 INFO H12 buffer transfer completed: buffer_plate[H12] -> samples_plate[H12], 64.03 uL
-2026-10-22 00:09:46,979 INFO H12 normalization completed
-2026-10-22 00:09:46,980 INFO H12 status: completed
-2026-10-22 00:09:46,980 INFO Run summary: completed=80, below_target=5, excess_too_small=3, rejected_insufficient=8, failed=0
-2026-10-22 00:09:46,980 INFO Results saved to C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\run_results\example_run\normalization_results.csv
-2026-10-22 00:09:46,980 INFO Normalization run finished
-2026-10-22 00:09:46,980 INFO Liquid handler stopped
+2026-10-22 00:27:26,684 INFO Normalization run started (in-place with removal)
+2026-10-22 00:27:26,686 INFO Loaded 96 well concentrations from C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\plate_concentrations.csv
+2026-10-22 00:27:26,686 INFO Setting up liquid handler and deck
+2026-10-22 00:27:26,859 INFO Deck setup completed
+2026-10-22 00:27:26,917 INFO server listening on 127.0.0.1:2121
+2026-10-22 00:27:26,989 INFO Visualizer started at http://127.0.0.1:1337
+2026-10-22 00:27:26,991 INFO A1 starting: C0=206.00 nM, measured=106.70 uL, keep=24.30 uL, remove=82.40 uL, buffer=75.70 uL
+2026-10-22 00:27:26,994 INFO A1 removal transfer: source=samples_plate[A1], target=archive_plate[A1], volume=82.40 uL
+2026-10-22 00:27:27,000 INFO A1 removal transfer completed: samples_plate[A1] -> archive_plate[A1], 82.40 uL
+2026-10-22 00:27:27,000 INFO A1 buffer transfer: source=buffer_plate[A1], target=samples_plate[A1], volume=75.70 uL
+2026-10-22 00:27:27,007 INFO A1 buffer transfer completed: buffer_plate[A1] -> samples_plate[A1], 75.70 uL
+2026-10-22 00:27:27,007 INFO A1 normalization completed
+2026-10-22 00:27:27,008 INFO A1 status: completed
+2026-10-22 00:27:27,008 WARNING A2 skipped: concentration 47.00 nM <= target 50.00 nM
+2026-10-22 00:27:27,008 INFO A2 status: skipped_below_target
+2026-10-22 00:27:27,009 INFO A3 starting: C0=112.00 nM, measured=56.50 uL, keep=44.60 uL, remove=11.90 uL, buffer=55.40 uL
+2026-10-22 00:27:27,009 INFO A3 removal transfer: source=samples_plate[A3], target=archive_plate[A3], volume=11.90 uL
+2026-10-22 00:27:27,022 INFO A3 removal transfer completed: samples_plate[A3] -> archive_plate[A3], 11.90 uL
+2026-10-22 00:27:27,032 INFO A3 buffer transfer: source=buffer_plate[A3], target=samples_plate[A3], volume=55.40 uL
+2026-10-22 00:27:27,043 INFO A3 buffer transfer completed: buffer_plate[A3] -> samples_plate[A3], 55.40 uL
+2026-10-22 00:27:27,045 INFO A3 normalization completed
+2026-10-22 00:27:27,045 INFO A3 status: completed
+2026-10-22 00:27:27,046 INFO A4 starting: C0=98.00 nM, measured=144.90 uL, keep=51.00 uL, remove=93.90 uL, buffer=49.00 uL
+2026-10-22 00:27:27,048 INFO A4 removal transfer: source=samples_plate[A4], target=archive_plate[A4], volume=93.90 uL
+2026-10-22 00:27:27,063 INFO A4 removal transfer completed: samples_plate[A4] -> archive_plate[A4], 93.90 uL
+2026-10-22 00:27:27,065 INFO A4 buffer transfer: source=buffer_plate[A4], target=samples_plate[A4], volume=49.00 uL
+2026-10-22 00:27:27,101 INFO A4 buffer transfer completed: buffer_plate[A4] -> samples_plate[A4], 49.00 uL
+2026-10-22 00:27:27,102 INFO A4 normalization completed
+2026-10-22 00:27:27,102 INFO A4 status: completed
+2026-10-22 00:27:27,102 INFO A5 starting: C0=231.00 nM, measured=94.30 uL, keep=21.60 uL, remove=72.70 uL, buffer=78.40 uL
+2026-10-22 00:27:27,103 INFO A5 removal transfer: source=samples_plate[A5], target=archive_plate[A5], volume=72.70 uL
+2026-10-22 00:27:27,111 INFO A5 removal transfer completed: samples_plate[A5] -> archive_plate[A5], 72.70 uL
+2026-10-22 00:27:27,112 INFO A5 buffer transfer: source=buffer_plate[A5], target=samples_plate[A5], volume=78.40 uL
+2026-10-22 00:27:27,119 INFO A5 buffer transfer completed: buffer_plate[A5] -> samples_plate[A5], 78.40 uL
+2026-10-22 00:27:27,120 INFO A5 normalization completed
+2026-10-22 00:27:27,120 INFO A5 status: completed
+2026-10-22 00:27:27,120 INFO A6 starting: C0=216.00 nM, measured=114.50 uL, keep=23.10 uL, remove=91.40 uL, buffer=76.90 uL
+2026-10-22 00:27:27,120 INFO A6 removal transfer: source=samples_plate[A6], target=archive_plate[A6], volume=91.40 uL
+2026-10-22 00:27:27,128 INFO A6 removal transfer completed: samples_plate[A6] -> archive_plate[A6], 91.40 uL
+2026-10-22 00:27:27,129 INFO A6 buffer transfer: source=buffer_plate[A6], target=samples_plate[A6], volume=76.90 uL
+2026-10-22 00:27:27,134 INFO A6 buffer transfer completed: buffer_plate[A6] -> samples_plate[A6], 76.90 uL
+2026-10-22 00:27:27,135 INFO A6 normalization completed
+2026-10-22 00:27:27,135 INFO A6 status: completed
+2026-10-22 00:27:27,136 INFO A7 starting: C0=272.00 nM, measured=106.30 uL, keep=18.40 uL, remove=87.90 uL, buffer=81.60 uL
+2026-10-22 00:27:27,136 INFO A7 removal transfer: source=samples_plate[A7], target=archive_plate[A7], volume=87.90 uL
+2026-10-22 00:27:27,141 INFO A7 removal transfer completed: samples_plate[A7] -> archive_plate[A7], 87.90 uL
+2026-10-22 00:27:27,141 INFO A7 buffer transfer: source=buffer_plate[A7], target=samples_plate[A7], volume=81.60 uL
+2026-10-22 00:27:27,148 INFO A7 buffer transfer completed: buffer_plate[A7] -> samples_plate[A7], 81.60 uL
+2026-10-22 00:27:27,149 INFO A7 normalization completed
+2026-10-22 00:27:27,149 INFO A7 status: completed
+2026-10-22 00:27:27,150 WARNING A8 rejected: insufficient volume: measured 50.5 uL, need 79.4 uL
+2026-10-22 00:27:27,150 INFO A8 status: rejected_insufficient_volume
+2026-10-22 00:27:27,150 INFO A9 starting: C0=150.00 nM, measured=131.10 uL, keep=33.30 uL, remove=97.80 uL, buffer=66.70 uL
+2026-10-22 00:27:27,150 INFO A9 removal transfer: source=samples_plate[A9], target=archive_plate[A9], volume=97.80 uL
+2026-10-22 00:27:27,157 INFO A9 removal transfer completed: samples_plate[A9] -> archive_plate[A9], 97.80 uL
+2026-10-22 00:27:27,158 INFO A9 buffer transfer: source=buffer_plate[A9], target=samples_plate[A9], volume=66.70 uL
+2026-10-22 00:27:27,167 INFO A9 buffer transfer completed: buffer_plate[A9] -> samples_plate[A9], 66.70 uL
+2026-10-22 00:27:27,167 INFO A9 normalization completed
+2026-10-22 00:27:27,168 INFO A9 status: completed
+2026-10-22 00:27:27,168 WARNING A10 skipped: concentration 48.00 nM <= target 50.00 nM
+2026-10-22 00:27:27,170 INFO A10 status: skipped_below_target
+2026-10-22 00:27:27,171 INFO A11 starting: C0=97.00 nM, measured=97.40 uL, keep=51.50 uL, remove=45.90 uL, buffer=48.50 uL
+2026-10-22 00:27:27,171 INFO A11 removal transfer: source=samples_plate[A11], target=archive_plate[A11], volume=45.90 uL
+2026-10-22 00:27:27,182 INFO A11 removal transfer completed: samples_plate[A11] -> archive_plate[A11], 45.90 uL
+2026-10-22 00:27:27,182 INFO A11 buffer transfer: source=buffer_plate[A11], target=samples_plate[A11], volume=48.50 uL
+2026-10-22 00:27:27,192 INFO A11 buffer transfer completed: buffer_plate[A11] -> samples_plate[A11], 48.50 uL
+2026-10-22 00:27:27,193 INFO A11 normalization completed
+2026-10-22 00:27:27,193 INFO A11 status: completed
+2026-10-22 00:27:27,193 INFO A12 starting: C0=171.00 nM, measured=40.90 uL, keep=29.20 uL, remove=11.70 uL, buffer=70.80 uL
+2026-10-22 00:27:27,193 INFO A12 removal transfer: source=samples_plate[A12], target=archive_plate[A12], volume=11.70 uL
+2026-10-22 00:27:27,200 INFO A12 removal transfer completed: samples_plate[A12] -> archive_plate[A12], 11.70 uL
+2026-10-22 00:27:27,201 INFO A12 buffer transfer: source=buffer_plate[A12], target=samples_plate[A12], volume=70.80 uL
+2026-10-22 00:27:27,208 INFO A12 buffer transfer completed: buffer_plate[A12] -> samples_plate[A12], 70.80 uL
+2026-10-22 00:27:27,209 INFO A12 normalization completed
+2026-10-22 00:27:27,210 INFO A12 status: completed
+2026-10-22 00:27:27,211 WARNING B1 skipped: concentration 47.00 nM <= target 50.00 nM
+2026-10-22 00:27:27,211 INFO B1 status: skipped_below_target
+2026-10-22 00:27:27,211 WARNING B2 rejected: insufficient volume: measured 33.6 uL, need 54.3 uL
+2026-10-22 00:27:27,212 INFO B2 status: rejected_insufficient_volume
+2026-10-22 00:27:27,212 INFO B3 starting: C0=209.00 nM, measured=100.70 uL, keep=23.90 uL, remove=76.80 uL, buffer=76.10 uL
+2026-10-22 00:27:27,212 INFO B3 removal transfer: source=samples_plate[B3], target=archive_plate[B3], volume=76.80 uL
+2026-10-22 00:27:27,221 INFO B3 removal transfer completed: samples_plate[B3] -> archive_plate[B3], 76.80 uL
+2026-10-22 00:27:27,222 INFO B3 buffer transfer: source=buffer_plate[B3], target=samples_plate[B3], volume=76.10 uL
+2026-10-22 00:27:27,230 INFO B3 buffer transfer completed: buffer_plate[B3] -> samples_plate[B3], 76.10 uL
+2026-10-22 00:27:27,230 INFO B3 normalization completed
+2026-10-22 00:27:27,232 INFO connection open
+2026-10-22 00:27:27,233 INFO B3 status: completed
+2026-10-22 00:27:27,233 INFO B4 starting: C0=182.00 nM, measured=70.40 uL, keep=27.50 uL, remove=42.90 uL, buffer=72.50 uL
+2026-10-22 00:27:27,234 INFO B4 removal transfer: source=samples_plate[B4], target=archive_plate[B4], volume=42.90 uL
+2026-10-22 00:27:27,334 INFO B4 removal transfer completed: samples_plate[B4] -> archive_plate[B4], 42.90 uL
+2026-10-22 00:27:27,335 INFO B4 buffer transfer: source=buffer_plate[B4], target=samples_plate[B4], volume=72.50 uL
+2026-10-22 00:27:27,344 INFO B4 buffer transfer completed: buffer_plate[B4] -> samples_plate[B4], 72.50 uL
+2026-10-22 00:27:27,345 INFO B4 normalization completed
+2026-10-22 00:27:27,345 INFO B4 status: completed
+2026-10-22 00:27:27,345 INFO B5 starting: C0=97.00 nM, measured=146.80 uL, keep=51.50 uL, remove=95.30 uL, buffer=48.50 uL
+2026-10-22 00:27:27,345 INFO B5 removal transfer: source=samples_plate[B5], target=archive_plate[B5], volume=95.30 uL
+2026-10-22 00:27:27,354 INFO B5 removal transfer completed: samples_plate[B5] -> archive_plate[B5], 95.30 uL
+2026-10-22 00:27:27,355 INFO B5 buffer transfer: source=buffer_plate[B5], target=samples_plate[B5], volume=48.50 uL
+2026-10-22 00:27:27,363 INFO B5 buffer transfer completed: buffer_plate[B5] -> samples_plate[B5], 48.50 uL
+2026-10-22 00:27:27,363 INFO B5 normalization completed
+2026-10-22 00:27:27,363 INFO B5 status: completed
+2026-10-22 00:27:27,364 INFO B6 starting: C0=193.00 nM, measured=35.50 uL, keep=25.90 uL, remove=9.60 uL, buffer=74.10 uL
+2026-10-22 00:27:27,364 INFO B6 removal transfer: source=samples_plate[B6], target=archive_plate[B6], volume=9.60 uL
+2026-10-22 00:27:27,373 INFO B6 removal transfer completed: samples_plate[B6] -> archive_plate[B6], 9.60 uL
+2026-10-22 00:27:27,374 INFO B6 buffer transfer: source=buffer_plate[B6], target=samples_plate[B6], volume=74.10 uL
+2026-10-22 00:27:27,387 INFO B6 buffer transfer completed: buffer_plate[B6] -> samples_plate[B6], 74.10 uL
+2026-10-22 00:27:27,388 INFO B6 normalization completed
+2026-10-22 00:27:27,388 INFO B6 status: completed
+2026-10-22 00:27:27,389 INFO B7 starting: C0=250.00 nM, measured=73.80 uL, keep=20.00 uL, remove=53.80 uL, buffer=80.00 uL
+2026-10-22 00:27:27,389 INFO B7 removal transfer: source=samples_plate[B7], target=archive_plate[B7], volume=53.80 uL
+2026-10-22 00:27:27,405 INFO B7 removal transfer completed: samples_plate[B7] -> archive_plate[B7], 53.80 uL
+2026-10-22 00:27:27,405 INFO B7 buffer transfer: source=buffer_plate[B7], target=samples_plate[B7], volume=80.00 uL
+2026-10-22 00:27:27,414 INFO B7 buffer transfer completed: buffer_plate[B7] -> samples_plate[B7], 80.00 uL
+2026-10-22 00:27:27,415 INFO B7 normalization completed
+2026-10-22 00:27:27,416 INFO B7 status: completed
+2026-10-22 00:27:27,416 WARNING B8 skipped: concentration 42.00 nM <= target 50.00 nM
+2026-10-22 00:27:27,416 INFO B8 status: skipped_below_target
+2026-10-22 00:27:27,416 INFO B9 starting: C0=250.00 nM, measured=123.10 uL, keep=20.00 uL, remove=103.10 uL, buffer=80.00 uL
+2026-10-22 00:27:27,417 INFO B9 removal transfer: source=samples_plate[B9], target=archive_plate[B9], volume=103.10 uL
+2026-10-22 00:27:27,432 INFO B9 removal transfer completed: samples_plate[B9] -> archive_plate[B9], 103.10 uL
+2026-10-22 00:27:27,433 INFO B9 buffer transfer: source=buffer_plate[B9], target=samples_plate[B9], volume=80.00 uL
+2026-10-22 00:27:27,456 INFO B9 buffer transfer completed: buffer_plate[B9] -> samples_plate[B9], 80.00 uL
+2026-10-22 00:27:27,456 INFO B9 normalization completed
+2026-10-22 00:27:27,457 INFO B9 status: completed
+2026-10-22 00:27:27,458 INFO B10 starting: C0=222.00 nM, measured=67.80 uL, keep=22.50 uL, remove=45.30 uL, buffer=77.50 uL
+2026-10-22 00:27:27,458 INFO B10 removal transfer: source=samples_plate[B10], target=archive_plate[B10], volume=45.30 uL
+2026-10-22 00:27:27,468 INFO B10 removal transfer completed: samples_plate[B10] -> archive_plate[B10], 45.30 uL
+2026-10-22 00:27:27,469 INFO B10 buffer transfer: source=buffer_plate[B10], target=samples_plate[B10], volume=77.50 uL
+2026-10-22 00:27:27,484 INFO B10 buffer transfer completed: buffer_plate[B10] -> samples_plate[B10], 77.50 uL
+2026-10-22 00:27:27,484 INFO B10 normalization completed
+2026-10-22 00:27:27,486 INFO B10 status: completed
+2026-10-22 00:27:27,486 INFO B11 starting: C0=128.00 nM, measured=61.50 uL, keep=39.10 uL, remove=22.40 uL, buffer=60.90 uL
+2026-10-22 00:27:27,486 INFO B11 removal transfer: source=samples_plate[B11], target=archive_plate[B11], volume=22.40 uL
+2026-10-22 00:27:27,496 INFO B11 removal transfer completed: samples_plate[B11] -> archive_plate[B11], 22.40 uL
+2026-10-22 00:27:27,497 INFO B11 buffer transfer: source=buffer_plate[B11], target=samples_plate[B11], volume=60.90 uL
+2026-10-22 00:27:27,510 INFO B11 buffer transfer completed: buffer_plate[B11] -> samples_plate[B11], 60.90 uL
+2026-10-22 00:27:27,511 INFO B11 normalization completed
+2026-10-22 00:27:27,511 INFO B11 status: completed
+2026-10-22 00:27:27,511 WARNING B12 rejected: insufficient volume: measured 35.7 uL, need 62.5 uL
+2026-10-22 00:27:27,511 INFO B12 status: rejected_insufficient_volume
+2026-10-22 00:27:27,512 INFO C1 starting: C0=289.00 nM, measured=63.00 uL, keep=17.30 uL, remove=45.70 uL, buffer=82.70 uL
+2026-10-22 00:27:27,512 INFO C1 removal transfer: source=samples_plate[C1], target=archive_plate[C1], volume=45.70 uL
+2026-10-22 00:27:27,521 INFO C1 removal transfer completed: samples_plate[C1] -> archive_plate[C1], 45.70 uL
+2026-10-22 00:27:27,522 INFO C1 buffer transfer: source=buffer_plate[C1], target=samples_plate[C1], volume=82.70 uL
+2026-10-22 00:27:27,532 INFO C1 buffer transfer completed: buffer_plate[C1] -> samples_plate[C1], 82.70 uL
+2026-10-22 00:27:27,533 INFO C1 normalization completed
+2026-10-22 00:27:27,534 INFO C1 status: completed
+2026-10-22 00:27:27,534 INFO C2 starting: C0=128.00 nM, measured=56.20 uL, keep=39.10 uL, remove=17.10 uL, buffer=60.90 uL
+2026-10-22 00:27:27,535 INFO C2 removal transfer: source=samples_plate[C2], target=archive_plate[C2], volume=17.10 uL
+2026-10-22 00:27:27,544 INFO C2 removal transfer completed: samples_plate[C2] -> archive_plate[C2], 17.10 uL
+2026-10-22 00:27:27,545 INFO C2 buffer transfer: source=buffer_plate[C2], target=samples_plate[C2], volume=60.90 uL
+2026-10-22 00:27:27,552 INFO C2 buffer transfer completed: buffer_plate[C2] -> samples_plate[C2], 60.90 uL
+2026-10-22 00:27:27,553 INFO C2 normalization completed
+2026-10-22 00:27:27,553 INFO C2 status: completed
+2026-10-22 00:27:27,554 INFO C3 starting: C0=64.00 nM, measured=127.10 uL, keep=78.10 uL, remove=49.00 uL, buffer=21.90 uL
+2026-10-22 00:27:27,554 INFO C3 removal transfer: source=samples_plate[C3], target=archive_plate[C3], volume=49.00 uL
+2026-10-22 00:27:27,564 INFO C3 removal transfer completed: samples_plate[C3] -> archive_plate[C3], 49.00 uL
+2026-10-22 00:27:27,565 INFO C3 buffer transfer: source=buffer_plate[C3], target=samples_plate[C3], volume=21.90 uL
+2026-10-22 00:27:27,575 INFO C3 buffer transfer completed: buffer_plate[C3] -> samples_plate[C3], 21.90 uL
+2026-10-22 00:27:27,576 INFO C3 normalization completed
+2026-10-22 00:27:27,576 INFO C3 status: completed
+2026-10-22 00:27:27,577 WARNING C4 rejected: insufficient volume: measured 41.1 uL, need 76.9 uL
+2026-10-22 00:27:27,577 INFO C4 status: rejected_insufficient_volume
+2026-10-22 00:27:27,577 INFO C5 starting: C0=260.00 nM, measured=75.40 uL, keep=19.20 uL, remove=56.20 uL, buffer=80.80 uL
+2026-10-22 00:27:27,578 INFO C5 removal transfer: source=samples_plate[C5], target=archive_plate[C5], volume=56.20 uL
+2026-10-22 00:27:27,587 INFO C5 removal transfer completed: samples_plate[C5] -> archive_plate[C5], 56.20 uL
+2026-10-22 00:27:27,588 INFO C5 buffer transfer: source=buffer_plate[C5], target=samples_plate[C5], volume=80.80 uL
+2026-10-22 00:27:27,597 INFO C5 buffer transfer completed: buffer_plate[C5] -> samples_plate[C5], 80.80 uL
+2026-10-22 00:27:27,598 INFO C5 normalization completed
+2026-10-22 00:27:27,599 INFO C5 status: completed
+2026-10-22 00:27:27,600 INFO C6 starting: C0=197.00 nM, measured=57.30 uL, keep=25.40 uL, remove=31.90 uL, buffer=74.60 uL
+2026-10-22 00:27:27,600 INFO C6 removal transfer: source=samples_plate[C6], target=archive_plate[C6], volume=31.90 uL
+2026-10-22 00:27:27,610 INFO C6 removal transfer completed: samples_plate[C6] -> archive_plate[C6], 31.90 uL
+2026-10-22 00:27:27,610 INFO C6 buffer transfer: source=buffer_plate[C6], target=samples_plate[C6], volume=74.60 uL
+2026-10-22 00:27:27,620 INFO C6 buffer transfer completed: buffer_plate[C6] -> samples_plate[C6], 74.60 uL
+2026-10-22 00:27:27,620 INFO C6 normalization completed
+2026-10-22 00:27:27,622 INFO C6 status: completed
+2026-10-22 00:27:27,622 INFO C7 starting: C0=250.00 nM, measured=74.40 uL, keep=20.00 uL, remove=54.40 uL, buffer=80.00 uL
+2026-10-22 00:27:27,623 INFO C7 removal transfer: source=samples_plate[C7], target=archive_plate[C7], volume=54.40 uL
+2026-10-22 00:27:27,631 INFO C7 removal transfer completed: samples_plate[C7] -> archive_plate[C7], 54.40 uL
+2026-10-22 00:27:27,631 INFO C7 buffer transfer: source=buffer_plate[C7], target=samples_plate[C7], volume=80.00 uL
+2026-10-22 00:27:27,640 INFO C7 buffer transfer completed: buffer_plate[C7] -> samples_plate[C7], 80.00 uL
+2026-10-22 00:27:27,641 INFO C7 normalization completed
+2026-10-22 00:27:27,641 INFO C7 status: completed
+2026-10-22 00:27:27,642 INFO C8 starting: C0=230.00 nM, measured=49.60 uL, keep=21.70 uL, remove=27.90 uL, buffer=78.30 uL
+2026-10-22 00:27:27,642 INFO C8 removal transfer: source=samples_plate[C8], target=archive_plate[C8], volume=27.90 uL
+2026-10-22 00:27:27,652 INFO C8 removal transfer completed: samples_plate[C8] -> archive_plate[C8], 27.90 uL
+2026-10-22 00:27:27,652 INFO C8 buffer transfer: source=buffer_plate[C8], target=samples_plate[C8], volume=78.30 uL
+2026-10-22 00:27:27,661 INFO C8 buffer transfer completed: buffer_plate[C8] -> samples_plate[C8], 78.30 uL
+2026-10-22 00:27:27,662 INFO C8 normalization completed
+2026-10-22 00:27:27,663 INFO C8 status: completed
+2026-10-22 00:27:27,663 INFO C9 starting: C0=179.00 nM, measured=57.50 uL, keep=27.90 uL, remove=29.60 uL, buffer=72.10 uL
+2026-10-22 00:27:27,663 INFO C9 removal transfer: source=samples_plate[C9], target=archive_plate[C9], volume=29.60 uL
+2026-10-22 00:27:27,674 INFO C9 removal transfer completed: samples_plate[C9] -> archive_plate[C9], 29.60 uL
+2026-10-22 00:27:27,675 INFO C9 buffer transfer: source=buffer_plate[C9], target=samples_plate[C9], volume=72.10 uL
+2026-10-22 00:27:27,683 INFO C9 buffer transfer completed: buffer_plate[C9] -> samples_plate[C9], 72.10 uL
+2026-10-22 00:27:27,684 INFO C9 normalization completed
+2026-10-22 00:27:27,684 INFO C9 status: completed
+2026-10-22 00:27:27,685 INFO C10 starting: C0=293.00 nM, measured=108.70 uL, keep=17.10 uL, remove=91.60 uL, buffer=82.90 uL
+2026-10-22 00:27:27,685 INFO C10 removal transfer: source=samples_plate[C10], target=archive_plate[C10], volume=91.60 uL
+2026-10-22 00:27:27,693 INFO C10 removal transfer completed: samples_plate[C10] -> archive_plate[C10], 91.60 uL
+2026-10-22 00:27:27,694 INFO C10 buffer transfer: source=buffer_plate[C10], target=samples_plate[C10], volume=82.90 uL
+2026-10-22 00:27:27,701 INFO C10 buffer transfer completed: buffer_plate[C10] -> samples_plate[C10], 82.90 uL
+2026-10-22 00:27:27,702 INFO C10 normalization completed
+2026-10-22 00:27:27,702 INFO C10 status: completed
+2026-10-22 00:27:27,703 INFO C11 starting: C0=138.00 nM, measured=100.20 uL, keep=36.20 uL, remove=64.00 uL, buffer=63.80 uL
+2026-10-22 00:27:27,703 INFO C11 removal transfer: source=samples_plate[C11], target=archive_plate[C11], volume=64.00 uL
+2026-10-22 00:27:27,712 INFO C11 removal transfer completed: samples_plate[C11] -> archive_plate[C11], 64.00 uL
+2026-10-22 00:27:27,713 INFO C11 buffer transfer: source=buffer_plate[C11], target=samples_plate[C11], volume=63.80 uL
+2026-10-22 00:27:27,721 INFO C11 buffer transfer completed: buffer_plate[C11] -> samples_plate[C11], 63.80 uL
+2026-10-22 00:27:27,721 INFO C11 normalization completed
+2026-10-22 00:27:27,722 INFO C11 status: completed
+2026-10-22 00:27:27,722 INFO C12 starting: C0=184.00 nM, measured=43.20 uL, keep=27.20 uL, remove=16.00 uL, buffer=72.80 uL
+2026-10-22 00:27:27,723 INFO C12 removal transfer: source=samples_plate[C12], target=archive_plate[C12], volume=16.00 uL
+2026-10-22 00:27:27,731 INFO C12 removal transfer completed: samples_plate[C12] -> archive_plate[C12], 16.00 uL
+2026-10-22 00:27:27,731 INFO C12 buffer transfer: source=buffer_plate[C12], target=samples_plate[C12], volume=72.80 uL
+2026-10-22 00:27:27,738 INFO C12 buffer transfer completed: buffer_plate[C12] -> samples_plate[C12], 72.80 uL
+2026-10-22 00:27:27,738 INFO C12 normalization completed
+2026-10-22 00:27:27,738 INFO C12 status: completed
+2026-10-22 00:27:27,739 INFO D1 starting: C0=256.00 nM, measured=56.80 uL, keep=19.50 uL, remove=37.30 uL, buffer=80.50 uL
+2026-10-22 00:27:27,740 INFO D1 removal transfer: source=samples_plate[D1], target=archive_plate[D1], volume=37.30 uL
+2026-10-22 00:27:27,748 INFO D1 removal transfer completed: samples_plate[D1] -> archive_plate[D1], 37.30 uL
+2026-10-22 00:27:27,749 INFO D1 buffer transfer: source=buffer_plate[D1], target=samples_plate[D1], volume=80.50 uL
+2026-10-22 00:27:27,755 INFO D1 buffer transfer completed: buffer_plate[D1] -> samples_plate[D1], 80.50 uL
+2026-10-22 00:27:27,757 INFO D1 normalization completed
+2026-10-22 00:27:27,757 INFO D1 status: completed
+2026-10-22 00:27:27,758 INFO D2 starting: C0=201.00 nM, measured=90.60 uL, keep=24.90 uL, remove=65.70 uL, buffer=75.10 uL
+2026-10-22 00:27:27,758 INFO D2 removal transfer: source=samples_plate[D2], target=archive_plate[D2], volume=65.70 uL
+2026-10-22 00:27:27,767 INFO D2 removal transfer completed: samples_plate[D2] -> archive_plate[D2], 65.70 uL
+2026-10-22 00:27:27,767 INFO D2 buffer transfer: source=buffer_plate[D2], target=samples_plate[D2], volume=75.10 uL
+2026-10-22 00:27:27,779 INFO D2 buffer transfer completed: buffer_plate[D2] -> samples_plate[D2], 75.10 uL
+2026-10-22 00:27:27,780 INFO D2 normalization completed
+2026-10-22 00:27:27,781 INFO D2 status: completed
+2026-10-22 00:27:27,781 INFO D3 starting: C0=264.00 nM, measured=30.80 uL, keep=18.90 uL, remove=11.90 uL, buffer=81.10 uL
+2026-10-22 00:27:27,781 INFO D3 removal transfer: source=samples_plate[D3], target=archive_plate[D3], volume=11.90 uL
+2026-10-22 00:27:27,790 INFO D3 removal transfer completed: samples_plate[D3] -> archive_plate[D3], 11.90 uL
+2026-10-22 00:27:27,790 INFO D3 buffer transfer: source=buffer_plate[D3], target=samples_plate[D3], volume=81.10 uL
+2026-10-22 00:27:27,798 INFO D3 buffer transfer completed: buffer_plate[D3] -> samples_plate[D3], 81.10 uL
+2026-10-22 00:27:27,799 INFO D3 normalization completed
+2026-10-22 00:27:27,799 INFO D3 status: completed
+2026-10-22 00:27:27,805 INFO D4 starting: C0=190.00 nM, measured=41.60 uL, keep=26.30 uL, remove=15.30 uL, buffer=73.70 uL
+2026-10-22 00:27:27,805 INFO D4 removal transfer: source=samples_plate[D4], target=archive_plate[D4], volume=15.30 uL
+2026-10-22 00:27:27,816 INFO D4 removal transfer completed: samples_plate[D4] -> archive_plate[D4], 15.30 uL
+2026-10-22 00:27:27,842 INFO D4 buffer transfer: source=buffer_plate[D4], target=samples_plate[D4], volume=73.70 uL
+2026-10-22 00:27:27,866 INFO D4 buffer transfer completed: buffer_plate[D4] -> samples_plate[D4], 73.70 uL
+2026-10-22 00:27:27,867 INFO D4 normalization completed
+2026-10-22 00:27:27,867 INFO D4 status: completed
+2026-10-22 00:27:27,868 INFO D5 starting: C0=223.00 nM, measured=96.20 uL, keep=22.40 uL, remove=73.80 uL, buffer=77.60 uL
+2026-10-22 00:27:27,868 INFO D5 removal transfer: source=samples_plate[D5], target=archive_plate[D5], volume=73.80 uL
+2026-10-22 00:27:27,969 INFO D5 removal transfer completed: samples_plate[D5] -> archive_plate[D5], 73.80 uL
+2026-10-22 00:27:27,969 INFO D5 buffer transfer: source=buffer_plate[D5], target=samples_plate[D5], volume=77.60 uL
+2026-10-22 00:27:27,980 INFO D5 buffer transfer completed: buffer_plate[D5] -> samples_plate[D5], 77.60 uL
+2026-10-22 00:27:27,981 INFO D5 normalization completed
+2026-10-22 00:27:27,981 INFO D5 status: completed
+2026-10-22 00:27:27,982 WARNING D6 rejected: insufficient volume: measured 64.7 uL, need 96.2 uL
+2026-10-22 00:27:27,982 INFO D6 status: rejected_insufficient_volume
+2026-10-22 00:27:27,983 WARNING D7 skipped: excess 4.60 uL below minimum 5.00 uL
+2026-10-22 00:27:27,983 INFO D7 status: skipped_excess_below_min
+2026-10-22 00:27:27,984 INFO D8 starting: C0=115.00 nM, measured=75.50 uL, keep=43.50 uL, remove=32.00 uL, buffer=56.50 uL
+2026-10-22 00:27:27,984 INFO D8 removal transfer: source=samples_plate[D8], target=archive_plate[D8], volume=32.00 uL
+2026-10-22 00:27:27,992 INFO D8 removal transfer completed: samples_plate[D8] -> archive_plate[D8], 32.00 uL
+2026-10-22 00:27:28,027 INFO D8 buffer transfer: source=buffer_plate[D8], target=samples_plate[D8], volume=56.50 uL
+2026-10-22 00:27:28,038 INFO D8 buffer transfer completed: buffer_plate[D8] -> samples_plate[D8], 56.50 uL
+2026-10-22 00:27:28,039 INFO D8 normalization completed
+2026-10-22 00:27:28,039 INFO D8 status: completed
+2026-10-22 00:27:28,039 WARNING D9 rejected: insufficient volume: measured 33.9 uL, need 82.0 uL
+2026-10-22 00:27:28,039 INFO D9 status: rejected_insufficient_volume
+2026-10-22 00:27:28,040 INFO D10 starting: C0=101.00 nM, measured=77.50 uL, keep=49.50 uL, remove=28.00 uL, buffer=50.50 uL
+2026-10-22 00:27:28,040 INFO D10 removal transfer: source=samples_plate[D10], target=archive_plate[D10], volume=28.00 uL
+2026-10-22 00:27:28,049 INFO D10 removal transfer completed: samples_plate[D10] -> archive_plate[D10], 28.00 uL
+2026-10-22 00:27:28,049 INFO D10 buffer transfer: source=buffer_plate[D10], target=samples_plate[D10], volume=50.50 uL
+2026-10-22 00:27:28,058 INFO D10 buffer transfer completed: buffer_plate[D10] -> samples_plate[D10], 50.50 uL
+2026-10-22 00:27:28,059 INFO D10 normalization completed
+2026-10-22 00:27:28,059 INFO D10 status: completed
+2026-10-22 00:27:28,059 INFO D11 starting: C0=66.00 nM, measured=137.70 uL, keep=75.80 uL, remove=61.90 uL, buffer=24.20 uL
+2026-10-22 00:27:28,060 INFO D11 removal transfer: source=samples_plate[D11], target=archive_plate[D11], volume=61.90 uL
+2026-10-22 00:27:28,068 INFO D11 removal transfer completed: samples_plate[D11] -> archive_plate[D11], 61.90 uL
+2026-10-22 00:27:28,068 INFO D11 buffer transfer: source=buffer_plate[D11], target=samples_plate[D11], volume=24.20 uL
+2026-10-22 00:27:28,076 INFO D11 buffer transfer completed: buffer_plate[D11] -> samples_plate[D11], 24.20 uL
+2026-10-22 00:27:28,077 INFO D11 normalization completed
+2026-10-22 00:27:28,078 INFO D11 status: completed
+2026-10-22 00:27:28,078 INFO D12 starting: C0=112.00 nM, measured=105.30 uL, keep=44.60 uL, remove=60.70 uL, buffer=55.40 uL
+2026-10-22 00:27:28,078 INFO D12 removal transfer: source=samples_plate[D12], target=archive_plate[D12], volume=60.70 uL
+2026-10-22 00:27:28,085 INFO D12 removal transfer completed: samples_plate[D12] -> archive_plate[D12], 60.70 uL
+2026-10-22 00:27:28,086 INFO D12 buffer transfer: source=buffer_plate[D12], target=samples_plate[D12], volume=55.40 uL
+2026-10-22 00:27:28,093 INFO D12 buffer transfer completed: buffer_plate[D12] -> samples_plate[D12], 55.40 uL
+2026-10-22 00:27:28,093 INFO D12 normalization completed
+2026-10-22 00:27:28,094 INFO D12 status: completed
+2026-10-22 00:27:28,094 INFO E1 starting: C0=205.00 nM, measured=118.40 uL, keep=24.40 uL, remove=94.00 uL, buffer=75.60 uL
+2026-10-22 00:27:28,094 INFO E1 removal transfer: source=samples_plate[E1], target=archive_plate[E1], volume=94.00 uL
+2026-10-22 00:27:28,101 INFO E1 removal transfer completed: samples_plate[E1] -> archive_plate[E1], 94.00 uL
+2026-10-22 00:27:28,101 INFO E1 buffer transfer: source=buffer_plate[E1], target=samples_plate[E1], volume=75.60 uL
+2026-10-22 00:27:28,109 INFO E1 buffer transfer completed: buffer_plate[E1] -> samples_plate[E1], 75.60 uL
+2026-10-22 00:27:28,110 INFO E1 normalization completed
+2026-10-22 00:27:28,110 INFO E1 status: completed
+2026-10-22 00:27:28,111 WARNING E2 rejected: insufficient volume: measured 33.2 uL, need 37.0 uL
+2026-10-22 00:27:28,111 INFO E2 status: rejected_insufficient_volume
+2026-10-22 00:27:28,111 INFO E3 starting: C0=136.00 nM, measured=126.70 uL, keep=36.80 uL, remove=89.90 uL, buffer=63.20 uL
+2026-10-22 00:27:28,112 INFO E3 removal transfer: source=samples_plate[E3], target=archive_plate[E3], volume=89.90 uL
+2026-10-22 00:27:28,119 INFO E3 removal transfer completed: samples_plate[E3] -> archive_plate[E3], 89.90 uL
+2026-10-22 00:27:28,120 INFO E3 buffer transfer: source=buffer_plate[E3], target=samples_plate[E3], volume=63.20 uL
+2026-10-22 00:27:28,129 INFO E3 buffer transfer completed: buffer_plate[E3] -> samples_plate[E3], 63.20 uL
+2026-10-22 00:27:28,129 INFO E3 normalization completed
+2026-10-22 00:27:28,130 INFO E3 status: completed
+2026-10-22 00:27:28,130 INFO E4 starting: C0=94.00 nM, measured=131.70 uL, keep=53.20 uL, remove=78.50 uL, buffer=46.80 uL
+2026-10-22 00:27:28,130 INFO E4 removal transfer: source=samples_plate[E4], target=archive_plate[E4], volume=78.50 uL
+2026-10-22 00:27:28,138 INFO E4 removal transfer completed: samples_plate[E4] -> archive_plate[E4], 78.50 uL
+2026-10-22 00:27:28,138 INFO E4 buffer transfer: source=buffer_plate[E4], target=samples_plate[E4], volume=46.80 uL
+2026-10-22 00:27:28,146 INFO E4 buffer transfer completed: buffer_plate[E4] -> samples_plate[E4], 46.80 uL
+2026-10-22 00:27:28,147 INFO E4 normalization completed
+2026-10-22 00:27:28,148 INFO E4 status: completed
+2026-10-22 00:27:28,148 INFO E5 starting: C0=109.00 nM, measured=129.50 uL, keep=45.90 uL, remove=83.60 uL, buffer=54.10 uL
+2026-10-22 00:27:28,148 INFO E5 removal transfer: source=samples_plate[E5], target=archive_plate[E5], volume=83.60 uL
+2026-10-22 00:27:28,154 INFO E5 removal transfer completed: samples_plate[E5] -> archive_plate[E5], 83.60 uL
+2026-10-22 00:27:28,155 INFO E5 buffer transfer: source=buffer_plate[E5], target=samples_plate[E5], volume=54.10 uL
+2026-10-22 00:27:28,162 INFO E5 buffer transfer completed: buffer_plate[E5] -> samples_plate[E5], 54.10 uL
+2026-10-22 00:27:28,162 INFO E5 normalization completed
+2026-10-22 00:27:28,163 INFO E5 status: completed
+2026-10-22 00:27:28,163 INFO E6 starting: C0=284.00 nM, measured=39.60 uL, keep=17.60 uL, remove=22.00 uL, buffer=82.40 uL
+2026-10-22 00:27:28,163 INFO E6 removal transfer: source=samples_plate[E6], target=archive_plate[E6], volume=22.00 uL
+2026-10-22 00:27:28,170 INFO E6 removal transfer completed: samples_plate[E6] -> archive_plate[E6], 22.00 uL
+2026-10-22 00:27:28,171 INFO E6 buffer transfer: source=buffer_plate[E6], target=samples_plate[E6], volume=82.40 uL
+2026-10-22 00:27:28,178 INFO E6 buffer transfer completed: buffer_plate[E6] -> samples_plate[E6], 82.40 uL
+2026-10-22 00:27:28,178 INFO E6 normalization completed
+2026-10-22 00:27:28,179 INFO E6 status: completed
+2026-10-22 00:27:28,179 INFO E7 starting: C0=208.00 nM, measured=62.00 uL, keep=24.00 uL, remove=38.00 uL, buffer=76.00 uL
+2026-10-22 00:27:28,179 INFO E7 removal transfer: source=samples_plate[E7], target=archive_plate[E7], volume=38.00 uL
+2026-10-22 00:27:28,185 INFO E7 removal transfer completed: samples_plate[E7] -> archive_plate[E7], 38.00 uL
+2026-10-22 00:27:28,186 INFO E7 buffer transfer: source=buffer_plate[E7], target=samples_plate[E7], volume=76.00 uL
+2026-10-22 00:27:28,192 INFO E7 buffer transfer completed: buffer_plate[E7] -> samples_plate[E7], 76.00 uL
+2026-10-22 00:27:28,193 INFO E7 normalization completed
+2026-10-22 00:27:28,194 INFO E7 status: completed
+2026-10-22 00:27:28,194 INFO E8 starting: C0=198.00 nM, measured=148.70 uL, keep=25.30 uL, remove=123.40 uL, buffer=74.70 uL
+2026-10-22 00:27:28,194 INFO E8 removal transfer: source=samples_plate[E8], target=archive_plate[E8], volume=123.40 uL
+2026-10-22 00:27:28,200 INFO E8 removal transfer completed: samples_plate[E8] -> archive_plate[E8], 123.40 uL
+2026-10-22 00:27:28,201 INFO E8 buffer transfer: source=buffer_plate[E8], target=samples_plate[E8], volume=74.70 uL
+2026-10-22 00:27:28,208 INFO E8 buffer transfer completed: buffer_plate[E8] -> samples_plate[E8], 74.70 uL
+2026-10-22 00:27:28,208 INFO E8 normalization completed
+2026-10-22 00:27:28,209 INFO E8 status: completed
+2026-10-22 00:27:28,209 INFO E9 starting: C0=84.00 nM, measured=67.90 uL, keep=59.50 uL, remove=8.40 uL, buffer=40.50 uL
+2026-10-22 00:27:28,209 INFO E9 removal transfer: source=samples_plate[E9], target=archive_plate[E9], volume=8.40 uL
+2026-10-22 00:27:28,217 INFO E9 removal transfer completed: samples_plate[E9] -> archive_plate[E9], 8.40 uL
+2026-10-22 00:27:28,217 INFO E9 buffer transfer: source=buffer_plate[E9], target=samples_plate[E9], volume=40.50 uL
+2026-10-22 00:27:28,227 INFO E9 buffer transfer completed: buffer_plate[E9] -> samples_plate[E9], 40.50 uL
+2026-10-22 00:27:28,228 INFO E9 normalization completed
+2026-10-22 00:27:28,228 INFO E9 status: completed
+2026-10-22 00:27:28,229 INFO E10 starting: C0=230.00 nM, measured=139.70 uL, keep=21.70 uL, remove=118.00 uL, buffer=78.30 uL
+2026-10-22 00:27:28,229 INFO E10 removal transfer: source=samples_plate[E10], target=archive_plate[E10], volume=118.00 uL
+2026-10-22 00:27:28,236 INFO E10 removal transfer completed: samples_plate[E10] -> archive_plate[E10], 118.00 uL
+2026-10-22 00:27:28,236 INFO E10 buffer transfer: source=buffer_plate[E10], target=samples_plate[E10], volume=78.30 uL
+2026-10-22 00:27:28,244 INFO E10 buffer transfer completed: buffer_plate[E10] -> samples_plate[E10], 78.30 uL
+2026-10-22 00:27:28,245 INFO E10 normalization completed
+2026-10-22 00:27:28,245 INFO E10 status: completed
+2026-10-22 00:27:28,246 INFO E11 starting: C0=82.00 nM, measured=77.90 uL, keep=61.00 uL, remove=16.90 uL, buffer=39.00 uL
+2026-10-22 00:27:28,247 INFO E11 removal transfer: source=samples_plate[E11], target=archive_plate[E11], volume=16.90 uL
+2026-10-22 00:27:28,253 INFO E11 removal transfer completed: samples_plate[E11] -> archive_plate[E11], 16.90 uL
+2026-10-22 00:27:28,253 INFO E11 buffer transfer: source=buffer_plate[E11], target=samples_plate[E11], volume=39.00 uL
+2026-10-22 00:27:28,260 INFO E11 buffer transfer completed: buffer_plate[E11] -> samples_plate[E11], 39.00 uL
+2026-10-22 00:27:28,260 INFO E11 normalization completed
+2026-10-22 00:27:28,261 INFO E11 status: completed
+2026-10-22 00:27:28,261 INFO E12 starting: C0=139.00 nM, measured=125.00 uL, keep=36.00 uL, remove=89.00 uL, buffer=64.00 uL
+2026-10-22 00:27:28,261 INFO E12 removal transfer: source=samples_plate[E12], target=archive_plate[E12], volume=89.00 uL
+2026-10-22 00:27:28,267 INFO E12 removal transfer completed: samples_plate[E12] -> archive_plate[E12], 89.00 uL
+2026-10-22 00:27:28,267 INFO E12 buffer transfer: source=buffer_plate[E12], target=samples_plate[E12], volume=64.00 uL
+2026-10-22 00:27:28,275 INFO E12 buffer transfer completed: buffer_plate[E12] -> samples_plate[E12], 64.00 uL
+2026-10-22 00:27:28,276 INFO E12 normalization completed
+2026-10-22 00:27:28,276 INFO E12 status: completed
+2026-10-22 00:27:28,277 INFO F1 starting: C0=297.00 nM, measured=111.20 uL, keep=16.80 uL, remove=94.40 uL, buffer=83.20 uL
+2026-10-22 00:27:28,277 INFO F1 removal transfer: source=samples_plate[F1], target=archive_plate[F1], volume=94.40 uL
+2026-10-22 00:27:28,285 INFO F1 removal transfer completed: samples_plate[F1] -> archive_plate[F1], 94.40 uL
+2026-10-22 00:27:28,285 INFO F1 buffer transfer: source=buffer_plate[F1], target=samples_plate[F1], volume=83.20 uL
+2026-10-22 00:27:28,292 INFO F1 buffer transfer completed: buffer_plate[F1] -> samples_plate[F1], 83.20 uL
+2026-10-22 00:27:28,292 INFO F1 normalization completed
+2026-10-22 00:27:28,293 INFO F1 status: completed
+2026-10-22 00:27:28,293 INFO F2 starting: C0=206.00 nM, measured=53.90 uL, keep=24.30 uL, remove=29.60 uL, buffer=75.70 uL
+2026-10-22 00:27:28,294 INFO F2 removal transfer: source=samples_plate[F2], target=archive_plate[F2], volume=29.60 uL
+2026-10-22 00:27:28,300 INFO F2 removal transfer completed: samples_plate[F2] -> archive_plate[F2], 29.60 uL
+2026-10-22 00:27:28,301 INFO F2 buffer transfer: source=buffer_plate[F2], target=samples_plate[F2], volume=75.70 uL
+2026-10-22 00:27:28,308 INFO F2 buffer transfer completed: buffer_plate[F2] -> samples_plate[F2], 75.70 uL
+2026-10-22 00:27:28,309 INFO F2 normalization completed
+2026-10-22 00:27:28,309 INFO F2 status: completed
+2026-10-22 00:27:28,309 INFO F3 starting: C0=185.00 nM, measured=113.80 uL, keep=27.00 uL, remove=86.80 uL, buffer=73.00 uL
+2026-10-22 00:27:28,309 INFO F3 removal transfer: source=samples_plate[F3], target=archive_plate[F3], volume=86.80 uL
+2026-10-22 00:27:28,316 INFO F3 removal transfer completed: samples_plate[F3] -> archive_plate[F3], 86.80 uL
+2026-10-22 00:27:28,316 INFO F3 buffer transfer: source=buffer_plate[F3], target=samples_plate[F3], volume=73.00 uL
+2026-10-22 00:27:28,323 INFO F3 buffer transfer completed: buffer_plate[F3] -> samples_plate[F3], 73.00 uL
+2026-10-22 00:27:28,324 INFO F3 normalization completed
+2026-10-22 00:27:28,324 INFO F3 status: completed
+2026-10-22 00:27:28,325 INFO F4 starting: C0=218.00 nM, measured=102.40 uL, keep=22.90 uL, remove=79.50 uL, buffer=77.10 uL
+2026-10-22 00:27:28,325 INFO F4 removal transfer: source=samples_plate[F4], target=archive_plate[F4], volume=79.50 uL
+2026-10-22 00:27:28,331 INFO F4 removal transfer completed: samples_plate[F4] -> archive_plate[F4], 79.50 uL
+2026-10-22 00:27:28,332 INFO F4 buffer transfer: source=buffer_plate[F4], target=samples_plate[F4], volume=77.10 uL
+2026-10-22 00:27:28,340 INFO F4 buffer transfer completed: buffer_plate[F4] -> samples_plate[F4], 77.10 uL
+2026-10-22 00:27:28,340 INFO F4 normalization completed
+2026-10-22 00:27:28,341 INFO F4 status: completed
+2026-10-22 00:27:28,341 INFO F5 starting: C0=259.00 nM, measured=104.20 uL, keep=19.30 uL, remove=84.90 uL, buffer=80.70 uL
+2026-10-22 00:27:28,342 INFO F5 removal transfer: source=samples_plate[F5], target=archive_plate[F5], volume=84.90 uL
+2026-10-22 00:27:28,349 INFO F5 removal transfer completed: samples_plate[F5] -> archive_plate[F5], 84.90 uL
+2026-10-22 00:27:28,349 INFO F5 buffer transfer: source=buffer_plate[F5], target=samples_plate[F5], volume=80.70 uL
+2026-10-22 00:27:28,357 INFO F5 buffer transfer completed: buffer_plate[F5] -> samples_plate[F5], 80.70 uL
+2026-10-22 00:27:28,358 INFO F5 normalization completed
+2026-10-22 00:27:28,358 INFO F5 status: completed
+2026-10-22 00:27:28,359 INFO F6 starting: C0=242.00 nM, measured=57.90 uL, keep=20.70 uL, remove=37.20 uL, buffer=79.30 uL
+2026-10-22 00:27:28,359 INFO F6 removal transfer: source=samples_plate[F6], target=archive_plate[F6], volume=37.20 uL
+2026-10-22 00:27:28,366 INFO F6 removal transfer completed: samples_plate[F6] -> archive_plate[F6], 37.20 uL
+2026-10-22 00:27:28,366 INFO F6 buffer transfer: source=buffer_plate[F6], target=samples_plate[F6], volume=79.30 uL
+2026-10-22 00:27:28,374 INFO F6 buffer transfer completed: buffer_plate[F6] -> samples_plate[F6], 79.30 uL
+2026-10-22 00:27:28,374 INFO F6 normalization completed
+2026-10-22 00:27:28,375 INFO F6 status: completed
+2026-10-22 00:27:28,375 INFO F7 starting: C0=100.00 nM, measured=142.40 uL, keep=50.00 uL, remove=92.40 uL, buffer=50.00 uL
+2026-10-22 00:27:28,375 INFO F7 removal transfer: source=samples_plate[F7], target=archive_plate[F7], volume=92.40 uL
+2026-10-22 00:27:28,383 INFO F7 removal transfer completed: samples_plate[F7] -> archive_plate[F7], 92.40 uL
+2026-10-22 00:27:28,384 INFO F7 buffer transfer: source=buffer_plate[F7], target=samples_plate[F7], volume=50.00 uL
+2026-10-22 00:27:28,391 INFO F7 buffer transfer completed: buffer_plate[F7] -> samples_plate[F7], 50.00 uL
+2026-10-22 00:27:28,392 INFO F7 normalization completed
+2026-10-22 00:27:28,393 INFO F7 status: completed
+2026-10-22 00:27:28,393 WARNING F8 skipped: concentration 48.00 nM <= target 50.00 nM
+2026-10-22 00:27:28,393 INFO F8 status: skipped_below_target
+2026-10-22 00:27:28,393 INFO F9 starting: C0=122.00 nM, measured=62.10 uL, keep=41.00 uL, remove=21.10 uL, buffer=59.00 uL
+2026-10-22 00:27:28,393 INFO F9 removal transfer: source=samples_plate[F9], target=archive_plate[F9], volume=21.10 uL
+2026-10-22 00:27:28,399 INFO F9 removal transfer completed: samples_plate[F9] -> archive_plate[F9], 21.10 uL
+2026-10-22 00:27:28,400 INFO F9 buffer transfer: source=buffer_plate[F9], target=samples_plate[F9], volume=59.00 uL
+2026-10-22 00:27:28,415 INFO F9 buffer transfer completed: buffer_plate[F9] -> samples_plate[F9], 59.00 uL
+2026-10-22 00:27:28,416 INFO F9 normalization completed
+2026-10-22 00:27:28,416 INFO F9 status: completed
+2026-10-22 00:27:28,417 INFO F10 starting: C0=110.00 nM, measured=85.10 uL, keep=45.50 uL, remove=39.60 uL, buffer=54.50 uL
+2026-10-22 00:27:28,417 INFO F10 removal transfer: source=samples_plate[F10], target=archive_plate[F10], volume=39.60 uL
+2026-10-22 00:27:28,426 INFO F10 removal transfer completed: samples_plate[F10] -> archive_plate[F10], 39.60 uL
+2026-10-22 00:27:28,426 INFO F10 buffer transfer: source=buffer_plate[F10], target=samples_plate[F10], volume=54.50 uL
+2026-10-22 00:27:28,434 INFO F10 buffer transfer completed: buffer_plate[F10] -> samples_plate[F10], 54.50 uL
+2026-10-22 00:27:28,434 INFO F10 normalization completed
+2026-10-22 00:27:28,435 INFO F10 status: completed
+2026-10-22 00:27:28,435 WARNING F11 skipped: excess 3.70 uL below minimum 5.00 uL
+2026-10-22 00:27:28,435 INFO F11 status: skipped_excess_below_min
+2026-10-22 00:27:28,435 INFO F12 starting: C0=285.00 nM, measured=80.70 uL, keep=17.50 uL, remove=63.20 uL, buffer=82.50 uL
+2026-10-22 00:27:28,436 INFO F12 removal transfer: source=samples_plate[F12], target=archive_plate[F12], volume=63.20 uL
+2026-10-22 00:27:28,443 INFO F12 removal transfer completed: samples_plate[F12] -> archive_plate[F12], 63.20 uL
+2026-10-22 00:27:28,444 INFO F12 buffer transfer: source=buffer_plate[F12], target=samples_plate[F12], volume=82.50 uL
+2026-10-22 00:27:28,451 INFO F12 buffer transfer completed: buffer_plate[F12] -> samples_plate[F12], 82.50 uL
+2026-10-22 00:27:28,452 INFO F12 normalization completed
+2026-10-22 00:27:28,452 INFO F12 status: completed
+2026-10-22 00:27:28,453 INFO G1 starting: C0=268.00 nM, measured=137.10 uL, keep=18.70 uL, remove=118.40 uL, buffer=81.30 uL
+2026-10-22 00:27:28,453 INFO G1 removal transfer: source=samples_plate[G1], target=archive_plate[G1], volume=118.40 uL
+2026-10-22 00:27:28,460 INFO G1 removal transfer completed: samples_plate[G1] -> archive_plate[G1], 118.40 uL
+2026-10-22 00:27:28,461 INFO G1 buffer transfer: source=buffer_plate[G1], target=samples_plate[G1], volume=81.30 uL
+2026-10-22 00:27:28,470 INFO G1 buffer transfer completed: buffer_plate[G1] -> samples_plate[G1], 81.30 uL
+2026-10-22 00:27:28,470 INFO G1 normalization completed
+2026-10-22 00:27:28,471 INFO G1 status: completed
+2026-10-22 00:27:28,471 INFO G2 starting: C0=122.00 nM, measured=108.00 uL, keep=41.00 uL, remove=67.00 uL, buffer=59.00 uL
+2026-10-22 00:27:28,471 INFO G2 removal transfer: source=samples_plate[G2], target=archive_plate[G2], volume=67.00 uL
+2026-10-22 00:27:28,479 INFO G2 removal transfer completed: samples_plate[G2] -> archive_plate[G2], 67.00 uL
+2026-10-22 00:27:28,479 INFO G2 buffer transfer: source=buffer_plate[G2], target=samples_plate[G2], volume=59.00 uL
+2026-10-22 00:27:28,486 INFO G2 buffer transfer completed: buffer_plate[G2] -> samples_plate[G2], 59.00 uL
+2026-10-22 00:27:28,487 INFO G2 normalization completed
+2026-10-22 00:27:28,487 INFO G2 status: completed
+2026-10-22 00:27:28,488 INFO G3 starting: C0=210.00 nM, measured=70.80 uL, keep=23.80 uL, remove=47.00 uL, buffer=76.20 uL
+2026-10-22 00:27:28,488 INFO G3 removal transfer: source=samples_plate[G3], target=archive_plate[G3], volume=47.00 uL
+2026-10-22 00:27:28,495 INFO G3 removal transfer completed: samples_plate[G3] -> archive_plate[G3], 47.00 uL
+2026-10-22 00:27:28,496 INFO G3 buffer transfer: source=buffer_plate[G3], target=samples_plate[G3], volume=76.20 uL
+2026-10-22 00:27:28,503 INFO G3 buffer transfer completed: buffer_plate[G3] -> samples_plate[G3], 76.20 uL
+2026-10-22 00:27:28,504 INFO G3 normalization completed
+2026-10-22 00:27:28,504 INFO G3 status: completed
+2026-10-22 00:27:28,504 INFO G4 starting: C0=143.00 nM, measured=126.90 uL, keep=35.00 uL, remove=91.90 uL, buffer=65.00 uL
+2026-10-22 00:27:28,505 INFO G4 removal transfer: source=samples_plate[G4], target=archive_plate[G4], volume=91.90 uL
+2026-10-22 00:27:28,511 INFO G4 removal transfer completed: samples_plate[G4] -> archive_plate[G4], 91.90 uL
+2026-10-22 00:27:28,512 INFO G4 buffer transfer: source=buffer_plate[G4], target=samples_plate[G4], volume=65.00 uL
+2026-10-22 00:27:28,518 INFO G4 buffer transfer completed: buffer_plate[G4] -> samples_plate[G4], 65.00 uL
+2026-10-22 00:27:28,519 INFO G4 normalization completed
+2026-10-22 00:27:28,519 INFO G4 status: completed
+2026-10-22 00:27:28,519 INFO G5 starting: C0=278.00 nM, measured=133.40 uL, keep=18.00 uL, remove=115.40 uL, buffer=82.00 uL
+2026-10-22 00:27:28,520 INFO G5 removal transfer: source=samples_plate[G5], target=archive_plate[G5], volume=115.40 uL
+2026-10-22 00:27:28,527 INFO G5 removal transfer completed: samples_plate[G5] -> archive_plate[G5], 115.40 uL
+2026-10-22 00:27:28,527 INFO G5 buffer transfer: source=buffer_plate[G5], target=samples_plate[G5], volume=82.00 uL
+2026-10-22 00:27:28,535 INFO G5 buffer transfer completed: buffer_plate[G5] -> samples_plate[G5], 82.00 uL
+2026-10-22 00:27:28,536 INFO G5 normalization completed
+2026-10-22 00:27:28,537 INFO G5 status: completed
+2026-10-22 00:27:28,537 INFO G6 starting: C0=159.00 nM, measured=42.10 uL, keep=31.40 uL, remove=10.70 uL, buffer=68.60 uL
+2026-10-22 00:27:28,537 INFO G6 removal transfer: source=samples_plate[G6], target=archive_plate[G6], volume=10.70 uL
+2026-10-22 00:27:28,544 INFO G6 removal transfer completed: samples_plate[G6] -> archive_plate[G6], 10.70 uL
+2026-10-22 00:27:28,544 INFO G6 buffer transfer: source=buffer_plate[G6], target=samples_plate[G6], volume=68.60 uL
+2026-10-22 00:27:28,551 INFO G6 buffer transfer completed: buffer_plate[G6] -> samples_plate[G6], 68.60 uL
+2026-10-22 00:27:28,552 INFO G6 normalization completed
+2026-10-22 00:27:28,552 INFO G6 status: completed
+2026-10-22 00:27:28,552 INFO G7 starting: C0=109.00 nM, measured=107.80 uL, keep=45.90 uL, remove=61.90 uL, buffer=54.10 uL
+2026-10-22 00:27:28,552 INFO G7 removal transfer: source=samples_plate[G7], target=archive_plate[G7], volume=61.90 uL
+2026-10-22 00:27:28,560 INFO G7 removal transfer completed: samples_plate[G7] -> archive_plate[G7], 61.90 uL
+2026-10-22 00:27:28,561 INFO G7 buffer transfer: source=buffer_plate[G7], target=samples_plate[G7], volume=54.10 uL
+2026-10-22 00:27:28,567 INFO G7 buffer transfer completed: buffer_plate[G7] -> samples_plate[G7], 54.10 uL
+2026-10-22 00:27:28,567 INFO G7 normalization completed
+2026-10-22 00:27:28,567 INFO G7 status: completed
+2026-10-22 00:27:28,568 INFO G8 starting: C0=104.00 nM, measured=96.80 uL, keep=48.10 uL, remove=48.70 uL, buffer=51.90 uL
+2026-10-22 00:27:28,568 INFO G8 removal transfer: source=samples_plate[G8], target=archive_plate[G8], volume=48.70 uL
+2026-10-22 00:27:28,573 INFO G8 removal transfer completed: samples_plate[G8] -> archive_plate[G8], 48.70 uL
+2026-10-22 00:27:28,574 INFO G8 buffer transfer: source=buffer_plate[G8], target=samples_plate[G8], volume=51.90 uL
+2026-10-22 00:27:28,580 INFO G8 buffer transfer completed: buffer_plate[G8] -> samples_plate[G8], 51.90 uL
+2026-10-22 00:27:28,581 INFO G8 normalization completed
+2026-10-22 00:27:28,582 INFO G8 status: completed
+2026-10-22 00:27:28,582 INFO G9 starting: C0=186.00 nM, measured=55.30 uL, keep=26.90 uL, remove=28.40 uL, buffer=73.10 uL
+2026-10-22 00:27:28,583 INFO G9 removal transfer: source=samples_plate[G9], target=archive_plate[G9], volume=28.40 uL
+2026-10-22 00:27:28,588 INFO G9 removal transfer completed: samples_plate[G9] -> archive_plate[G9], 28.40 uL
+2026-10-22 00:27:28,588 INFO G9 buffer transfer: source=buffer_plate[G9], target=samples_plate[G9], volume=73.10 uL
+2026-10-22 00:27:28,594 INFO G9 buffer transfer completed: buffer_plate[G9] -> samples_plate[G9], 73.10 uL
+2026-10-22 00:27:28,595 INFO G9 normalization completed
+2026-10-22 00:27:28,595 INFO G9 status: completed
+2026-10-22 00:27:28,596 INFO G10 starting: C0=108.00 nM, measured=61.80 uL, keep=46.30 uL, remove=15.50 uL, buffer=53.70 uL
+2026-10-22 00:27:28,597 INFO G10 removal transfer: source=samples_plate[G10], target=archive_plate[G10], volume=15.50 uL
+2026-10-22 00:27:28,603 INFO G10 removal transfer completed: samples_plate[G10] -> archive_plate[G10], 15.50 uL
+2026-10-22 00:27:28,603 INFO G10 buffer transfer: source=buffer_plate[G10], target=samples_plate[G10], volume=53.70 uL
+2026-10-22 00:27:28,609 INFO G10 buffer transfer completed: buffer_plate[G10] -> samples_plate[G10], 53.70 uL
+2026-10-22 00:27:28,610 INFO G10 normalization completed
+2026-10-22 00:27:28,610 INFO G10 status: completed
+2026-10-22 00:27:28,610 INFO G11 starting: C0=192.00 nM, measured=149.70 uL, keep=26.00 uL, remove=123.70 uL, buffer=74.00 uL
+2026-10-22 00:27:28,611 INFO G11 removal transfer: source=samples_plate[G11], target=archive_plate[G11], volume=123.70 uL
+2026-10-22 00:27:28,616 INFO G11 removal transfer completed: samples_plate[G11] -> archive_plate[G11], 123.70 uL
+2026-10-22 00:27:28,616 INFO G11 buffer transfer: source=buffer_plate[G11], target=samples_plate[G11], volume=74.00 uL
+2026-10-22 00:27:28,622 INFO G11 buffer transfer completed: buffer_plate[G11] -> samples_plate[G11], 74.00 uL
+2026-10-22 00:27:28,622 INFO G11 normalization completed
+2026-10-22 00:27:28,622 INFO G11 status: completed
+2026-10-22 00:27:28,623 INFO G12 starting: C0=273.00 nM, measured=37.60 uL, keep=18.30 uL, remove=19.30 uL, buffer=81.70 uL
+2026-10-22 00:27:28,623 INFO G12 removal transfer: source=samples_plate[G12], target=archive_plate[G12], volume=19.30 uL
+2026-10-22 00:27:28,630 INFO G12 removal transfer completed: samples_plate[G12] -> archive_plate[G12], 19.30 uL
+2026-10-22 00:27:28,630 INFO G12 buffer transfer: source=buffer_plate[G12], target=samples_plate[G12], volume=81.70 uL
+2026-10-22 00:27:28,636 INFO G12 buffer transfer completed: buffer_plate[G12] -> samples_plate[G12], 81.70 uL
+2026-10-22 00:27:28,636 INFO G12 normalization completed
+2026-10-22 00:27:28,637 INFO G12 status: completed
+2026-10-22 00:27:28,637 INFO H1 starting: C0=144.00 nM, measured=40.40 uL, keep=34.70 uL, remove=5.70 uL, buffer=65.30 uL
+2026-10-22 00:27:28,637 INFO H1 removal transfer: source=samples_plate[H1], target=archive_plate[H1], volume=5.70 uL
+2026-10-22 00:27:28,644 INFO H1 removal transfer completed: samples_plate[H1] -> archive_plate[H1], 5.70 uL
+2026-10-22 00:27:28,644 INFO H1 buffer transfer: source=buffer_plate[H1], target=samples_plate[H1], volume=65.30 uL
+2026-10-22 00:27:28,651 INFO H1 buffer transfer completed: buffer_plate[H1] -> samples_plate[H1], 65.30 uL
+2026-10-22 00:27:28,651 INFO H1 normalization completed
+2026-10-22 00:27:28,651 INFO H1 status: completed
+2026-10-22 00:27:28,652 INFO H2 starting: C0=97.00 nM, measured=95.40 uL, keep=51.50 uL, remove=43.90 uL, buffer=48.50 uL
+2026-10-22 00:27:28,652 INFO H2 removal transfer: source=samples_plate[H2], target=archive_plate[H2], volume=43.90 uL
+2026-10-22 00:27:28,658 INFO H2 removal transfer completed: samples_plate[H2] -> archive_plate[H2], 43.90 uL
+2026-10-22 00:27:28,658 INFO H2 buffer transfer: source=buffer_plate[H2], target=samples_plate[H2], volume=48.50 uL
+2026-10-22 00:27:28,665 INFO H2 buffer transfer completed: buffer_plate[H2] -> samples_plate[H2], 48.50 uL
+2026-10-22 00:27:28,665 INFO H2 normalization completed
+2026-10-22 00:27:28,666 INFO H2 status: completed
+2026-10-22 00:27:28,666 INFO H3 starting: C0=299.00 nM, measured=48.70 uL, keep=16.70 uL, remove=32.00 uL, buffer=83.30 uL
+2026-10-22 00:27:28,666 INFO H3 removal transfer: source=samples_plate[H3], target=archive_plate[H3], volume=32.00 uL
+2026-10-22 00:27:28,671 INFO H3 removal transfer completed: samples_plate[H3] -> archive_plate[H3], 32.00 uL
+2026-10-22 00:27:28,672 INFO H3 buffer transfer: source=buffer_plate[H3], target=samples_plate[H3], volume=83.30 uL
+2026-10-22 00:27:28,677 INFO H3 buffer transfer completed: buffer_plate[H3] -> samples_plate[H3], 83.30 uL
+2026-10-22 00:27:28,677 INFO H3 normalization completed
+2026-10-22 00:27:28,678 INFO H3 status: completed
+2026-10-22 00:27:28,678 INFO H4 starting: C0=172.00 nM, measured=117.60 uL, keep=29.10 uL, remove=88.50 uL, buffer=70.90 uL
+2026-10-22 00:27:28,678 INFO H4 removal transfer: source=samples_plate[H4], target=archive_plate[H4], volume=88.50 uL
+2026-10-22 00:27:28,685 INFO H4 removal transfer completed: samples_plate[H4] -> archive_plate[H4], 88.50 uL
+2026-10-22 00:27:28,685 INFO H4 buffer transfer: source=buffer_plate[H4], target=samples_plate[H4], volume=70.90 uL
+2026-10-22 00:27:28,692 INFO H4 buffer transfer completed: buffer_plate[H4] -> samples_plate[H4], 70.90 uL
+2026-10-22 00:27:28,692 INFO H4 normalization completed
+2026-10-22 00:27:28,693 INFO H4 status: completed
+2026-10-22 00:27:28,694 INFO H5 starting: C0=64.00 nM, measured=99.30 uL, keep=78.10 uL, remove=21.20 uL, buffer=21.90 uL
+2026-10-22 00:27:28,694 INFO H5 removal transfer: source=samples_plate[H5], target=archive_plate[H5], volume=21.20 uL
+2026-10-22 00:27:28,699 INFO H5 removal transfer completed: samples_plate[H5] -> archive_plate[H5], 21.20 uL
+2026-10-22 00:27:28,700 INFO H5 buffer transfer: source=buffer_plate[H5], target=samples_plate[H5], volume=21.90 uL
+2026-10-22 00:27:28,706 INFO H5 buffer transfer completed: buffer_plate[H5] -> samples_plate[H5], 21.90 uL
+2026-10-22 00:27:28,707 INFO H5 normalization completed
+2026-10-22 00:27:28,707 INFO H5 status: completed
+2026-10-22 00:27:28,708 WARNING H6 rejected: insufficient volume: measured 63.4 uL, need 96.2 uL
+2026-10-22 00:27:28,708 INFO H6 status: rejected_insufficient_volume
+2026-10-22 00:27:28,708 INFO H7 starting: C0=69.00 nM, measured=103.10 uL, keep=72.50 uL, remove=30.60 uL, buffer=27.50 uL
+2026-10-22 00:27:28,708 INFO H7 removal transfer: source=samples_plate[H7], target=archive_plate[H7], volume=30.60 uL
+2026-10-22 00:27:28,713 INFO H7 removal transfer completed: samples_plate[H7] -> archive_plate[H7], 30.60 uL
+2026-10-22 00:27:28,714 INFO H7 buffer transfer: source=buffer_plate[H7], target=samples_plate[H7], volume=27.50 uL
+2026-10-22 00:27:28,719 INFO H7 buffer transfer completed: buffer_plate[H7] -> samples_plate[H7], 27.50 uL
+2026-10-22 00:27:28,719 INFO H7 normalization completed
+2026-10-22 00:27:28,720 INFO H7 status: completed
+2026-10-22 00:27:28,720 INFO H8 starting: C0=203.00 nM, measured=112.20 uL, keep=24.60 uL, remove=87.60 uL, buffer=75.40 uL
+2026-10-22 00:27:28,720 INFO H8 removal transfer: source=samples_plate[H8], target=archive_plate[H8], volume=87.60 uL
+2026-10-22 00:27:28,727 INFO H8 removal transfer completed: samples_plate[H8] -> archive_plate[H8], 87.60 uL
+2026-10-22 00:27:28,728 INFO H8 buffer transfer: source=buffer_plate[H8], target=samples_plate[H8], volume=75.40 uL
+2026-10-22 00:27:28,734 INFO H8 buffer transfer completed: buffer_plate[H8] -> samples_plate[H8], 75.40 uL
+2026-10-22 00:27:28,734 INFO H8 normalization completed
+2026-10-22 00:27:28,734 INFO H8 status: completed
+2026-10-22 00:27:28,735 INFO H9 starting: C0=246.00 nM, measured=143.10 uL, keep=20.30 uL, remove=122.80 uL, buffer=79.70 uL
+2026-10-22 00:27:28,735 INFO H9 removal transfer: source=samples_plate[H9], target=archive_plate[H9], volume=122.80 uL
+2026-10-22 00:27:28,741 INFO H9 removal transfer completed: samples_plate[H9] -> archive_plate[H9], 122.80 uL
+2026-10-22 00:27:28,741 INFO H9 buffer transfer: source=buffer_plate[H9], target=samples_plate[H9], volume=79.70 uL
+2026-10-22 00:27:28,747 INFO H9 buffer transfer completed: buffer_plate[H9] -> samples_plate[H9], 79.70 uL
+2026-10-22 00:27:28,748 INFO H9 normalization completed
+2026-10-22 00:27:28,748 INFO H9 status: completed
+2026-10-22 00:27:28,748 INFO H10 starting: C0=150.00 nM, measured=59.60 uL, keep=33.30 uL, remove=26.30 uL, buffer=66.70 uL
+2026-10-22 00:27:28,748 INFO H10 removal transfer: source=samples_plate[H10], target=archive_plate[H10], volume=26.30 uL
+2026-10-22 00:27:28,753 INFO H10 removal transfer completed: samples_plate[H10] -> archive_plate[H10], 26.30 uL
+2026-10-22 00:27:28,753 INFO H10 buffer transfer: source=buffer_plate[H10], target=samples_plate[H10], volume=66.70 uL
+2026-10-22 00:27:28,759 INFO H10 buffer transfer completed: buffer_plate[H10] -> samples_plate[H10], 66.70 uL
+2026-10-22 00:27:28,760 INFO H10 normalization completed
+2026-10-22 00:27:28,760 INFO H10 status: completed
+2026-10-22 00:27:28,761 WARNING H11 skipped: excess 3.40 uL below minimum 5.00 uL
+2026-10-22 00:27:28,761 INFO H11 status: skipped_excess_below_min
+2026-10-22 00:27:28,761 INFO H12 starting: C0=139.00 nM, measured=75.80 uL, keep=36.00 uL, remove=39.80 uL, buffer=64.00 uL
+2026-10-22 00:27:28,761 INFO H12 removal transfer: source=samples_plate[H12], target=archive_plate[H12], volume=39.80 uL
+2026-10-22 00:27:28,768 INFO H12 removal transfer completed: samples_plate[H12] -> archive_plate[H12], 39.80 uL
+2026-10-22 00:27:28,768 INFO H12 buffer transfer: source=buffer_plate[H12], target=samples_plate[H12], volume=64.00 uL
+2026-10-22 00:27:28,775 INFO H12 buffer transfer completed: buffer_plate[H12] -> samples_plate[H12], 64.00 uL
+2026-10-22 00:27:28,775 INFO H12 normalization completed
+2026-10-22 00:27:28,776 INFO H12 status: completed
+2026-10-22 00:27:28,776 INFO Run summary: completed=80, below_target=5, excess_too_small=3, rejected_insufficient=8, failed=0
+2026-10-22 00:27:28,776 INFO Results saved to C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\run_results\example_run\normalization_results.csv
+2026-10-22 00:27:28,776 INFO Normalization run finished
+2026-10-22 00:27:28,777 INFO Liquid handler stopped
