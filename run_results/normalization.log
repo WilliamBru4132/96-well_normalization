@@ -1,0 +1,658 @@
+2026-10-21 17:11:16,851 INFO Normalization run started
+2026-10-21 17:11:16,851 INFO Loaded 96 well concentrations from C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\plate_concentrations.csv
+2026-10-21 17:11:16,851 INFO Setting up liquid handler and deck
+2026-10-21 17:11:17,033 INFO Deck setup completed
+2026-10-21 17:11:17,088 INFO server listening on 127.0.0.1:2121
+2026-10-21 17:11:17,168 INFO Visualizer started at http://127.0.0.1:1337
+2026-10-21 17:11:17,170 INFO A1 starting: concentration=206.00 nM, sample=24.27 uL, buffer=75.73 uL
+2026-10-21 17:11:17,172 INFO A1 sample transfer: source=samples_plate[A1], target=destination_plate[A1], volume=24.27 uL
+2026-10-21 17:11:17,178 INFO A1 sample transfer completed: samples_plate[A1] -> destination_plate[A1]
+2026-10-21 17:11:17,179 INFO A1 buffer_plate transfer: source=buffer_plate[A1], target=destination_plate[A1], volume=75.73 uL
+2026-10-21 17:11:17,186 INFO A1 buffer transfer completed: buffer_plate[A1] -> destination_plate[A1]
+2026-10-21 17:11:17,186 INFO A1 normalization completed
+2026-10-21 17:11:17,186 INFO A1 status: completed
+2026-10-21 17:11:17,186 WARNING A2 skipped: concentration 47.00 nM <= target 50.00 nM
+2026-10-21 17:11:17,186 INFO A2 status: skipped_below_target
+2026-10-21 17:11:17,187 INFO A3 starting: concentration=112.00 nM, sample=44.64 uL, buffer=55.36 uL
+2026-10-21 17:11:17,187 INFO A3 sample transfer: source=samples_plate[A3], target=destination_plate[A3], volume=44.64 uL
+2026-10-21 17:11:17,194 INFO A3 sample transfer completed: samples_plate[A3] -> destination_plate[A3]
+2026-10-21 17:11:17,194 INFO A3 buffer_plate transfer: source=buffer_plate[A3], target=destination_plate[A3], volume=55.36 uL
+2026-10-21 17:11:17,209 INFO A3 buffer transfer completed: buffer_plate[A3] -> destination_plate[A3]
+2026-10-21 17:11:17,209 INFO A3 normalization completed
+2026-10-21 17:11:17,209 INFO A3 status: completed
+2026-10-21 17:11:17,210 INFO A4 starting: concentration=98.00 nM, sample=51.02 uL, buffer=48.98 uL
+2026-10-21 17:11:17,210 INFO A4 sample transfer: source=samples_plate[A4], target=destination_plate[A4], volume=51.02 uL
+2026-10-21 17:11:17,223 INFO A4 sample transfer completed: samples_plate[A4] -> destination_plate[A4]
+2026-10-21 17:11:17,223 INFO A4 buffer_plate transfer: source=buffer_plate[A4], target=destination_plate[A4], volume=48.98 uL
+2026-10-21 17:11:17,238 INFO A4 buffer transfer completed: buffer_plate[A4] -> destination_plate[A4]
+2026-10-21 17:11:17,239 INFO A4 normalization completed
+2026-10-21 17:11:17,239 INFO A4 status: completed
+2026-10-21 17:11:17,239 INFO A5 starting: concentration=231.00 nM, sample=21.65 uL, buffer=78.35 uL
+2026-10-21 17:11:17,240 INFO A5 sample transfer: source=samples_plate[A5], target=destination_plate[A5], volume=21.65 uL
+2026-10-21 17:11:17,273 INFO A5 sample transfer completed: samples_plate[A5] -> destination_plate[A5]
+2026-10-21 17:11:17,274 INFO A5 buffer_plate transfer: source=buffer_plate[A5], target=destination_plate[A5], volume=78.35 uL
+2026-10-21 17:11:17,280 INFO A5 buffer transfer completed: buffer_plate[A5] -> destination_plate[A5]
+2026-10-21 17:11:17,281 INFO A5 normalization completed
+2026-10-21 17:11:17,284 INFO A5 status: completed
+2026-10-21 17:11:17,285 INFO A6 starting: concentration=216.00 nM, sample=23.15 uL, buffer=76.85 uL
+2026-10-21 17:11:17,285 INFO A6 sample transfer: source=samples_plate[A6], target=destination_plate[A6], volume=23.15 uL
+2026-10-21 17:11:17,291 INFO A6 sample transfer completed: samples_plate[A6] -> destination_plate[A6]
+2026-10-21 17:11:17,292 INFO A6 buffer_plate transfer: source=buffer_plate[A6], target=destination_plate[A6], volume=76.85 uL
+2026-10-21 17:11:17,297 INFO A6 buffer transfer completed: buffer_plate[A6] -> destination_plate[A6]
+2026-10-21 17:11:17,297 INFO A6 normalization completed
+2026-10-21 17:11:17,297 INFO A6 status: completed
+2026-10-21 17:11:17,297 INFO A7 starting: concentration=272.00 nM, sample=18.38 uL, buffer=81.62 uL
+2026-10-21 17:11:17,297 INFO A7 sample transfer: source=samples_plate[A7], target=destination_plate[A7], volume=18.38 uL
+2026-10-21 17:11:17,304 INFO A7 sample transfer completed: samples_plate[A7] -> destination_plate[A7]
+2026-10-21 17:11:17,304 INFO A7 buffer_plate transfer: source=buffer_plate[A7], target=destination_plate[A7], volume=81.62 uL
+2026-10-21 17:11:17,309 INFO A7 buffer transfer completed: buffer_plate[A7] -> destination_plate[A7]
+2026-10-21 17:11:17,309 INFO A7 normalization completed
+2026-10-21 17:11:17,310 INFO A7 status: completed
+2026-10-21 17:11:17,310 INFO A8 starting: concentration=63.00 nM, sample=79.37 uL, buffer=20.63 uL
+2026-10-21 17:11:17,310 INFO A8 sample transfer: source=samples_plate[A8], target=destination_plate[A8], volume=79.37 uL
+2026-10-21 17:11:17,319 INFO A8 sample transfer completed: samples_plate[A8] -> destination_plate[A8]
+2026-10-21 17:11:17,319 INFO A8 buffer_plate transfer: source=buffer_plate[A8], target=destination_plate[A8], volume=20.63 uL
+2026-10-21 17:11:17,325 INFO A8 buffer transfer completed: buffer_plate[A8] -> destination_plate[A8]
+2026-10-21 17:11:17,326 INFO A8 normalization completed
+2026-10-21 17:11:17,326 INFO A8 status: completed
+2026-10-21 17:11:17,327 INFO A9 starting: concentration=150.00 nM, sample=33.33 uL, buffer=66.67 uL
+2026-10-21 17:11:17,327 INFO A9 sample transfer: source=samples_plate[A9], target=destination_plate[A9], volume=33.33 uL
+2026-10-21 17:11:17,335 INFO A9 sample transfer completed: samples_plate[A9] -> destination_plate[A9]
+2026-10-21 17:11:17,336 INFO A9 buffer_plate transfer: source=buffer_plate[A9], target=destination_plate[A9], volume=66.67 uL
+2026-10-21 17:11:17,342 INFO A9 buffer transfer completed: buffer_plate[A9] -> destination_plate[A9]
+2026-10-21 17:11:17,343 INFO A9 normalization completed
+2026-10-21 17:11:17,343 INFO A9 status: completed
+2026-10-21 17:11:17,344 WARNING A10 skipped: concentration 48.00 nM <= target 50.00 nM
+2026-10-21 17:11:17,344 INFO A10 status: skipped_below_target
+2026-10-21 17:11:17,344 INFO A11 starting: concentration=97.00 nM, sample=51.55 uL, buffer=48.45 uL
+2026-10-21 17:11:17,344 INFO A11 sample transfer: source=samples_plate[A11], target=destination_plate[A11], volume=51.55 uL
+2026-10-21 17:11:17,350 INFO A11 sample transfer completed: samples_plate[A11] -> destination_plate[A11]
+2026-10-21 17:11:17,351 INFO A11 buffer_plate transfer: source=buffer_plate[A11], target=destination_plate[A11], volume=48.45 uL
+2026-10-21 17:11:17,355 INFO A11 buffer transfer completed: buffer_plate[A11] -> destination_plate[A11]
+2026-10-21 17:11:17,356 INFO A11 normalization completed
+2026-10-21 17:11:17,356 INFO A11 status: completed
+2026-10-21 17:11:17,356 INFO A12 starting: concentration=171.00 nM, sample=29.24 uL, buffer=70.76 uL
+2026-10-21 17:11:17,356 INFO A12 sample transfer: source=samples_plate[A12], target=destination_plate[A12], volume=29.24 uL
+2026-10-21 17:11:17,360 INFO A12 sample transfer completed: samples_plate[A12] -> destination_plate[A12]
+2026-10-21 17:11:17,361 INFO A12 buffer_plate transfer: source=buffer_plate[A12], target=destination_plate[A12], volume=70.76 uL
+2026-10-21 17:11:17,368 INFO A12 buffer transfer completed: buffer_plate[A12] -> destination_plate[A12]
+2026-10-21 17:11:17,369 INFO A12 normalization completed
+2026-10-21 17:11:17,369 INFO A12 status: completed
+2026-10-21 17:11:17,369 WARNING B1 skipped: concentration 47.00 nM <= target 50.00 nM
+2026-10-21 17:11:17,370 INFO B1 status: skipped_below_target
+2026-10-21 17:11:17,370 INFO B2 starting: concentration=92.00 nM, sample=54.35 uL, buffer=45.65 uL
+2026-10-21 17:11:17,370 INFO B2 sample transfer: source=samples_plate[B2], target=destination_plate[B2], volume=54.35 uL
+2026-10-21 17:11:17,377 INFO B2 sample transfer completed: samples_plate[B2] -> destination_plate[B2]
+2026-10-21 17:11:17,377 INFO B2 buffer_plate transfer: source=buffer_plate[B2], target=destination_plate[B2], volume=45.65 uL
+2026-10-21 17:11:17,384 INFO B2 buffer transfer completed: buffer_plate[B2] -> destination_plate[B2]
+2026-10-21 17:11:17,385 INFO B2 normalization completed
+2026-10-21 17:11:17,385 INFO B2 status: completed
+2026-10-21 17:11:17,385 INFO B3 starting: concentration=209.00 nM, sample=23.92 uL, buffer=76.08 uL
+2026-10-21 17:11:17,385 INFO B3 sample transfer: source=samples_plate[B3], target=destination_plate[B3], volume=23.92 uL
+2026-10-21 17:11:17,390 INFO B3 sample transfer completed: samples_plate[B3] -> destination_plate[B3]
+2026-10-21 17:11:17,391 INFO B3 buffer_plate transfer: source=buffer_plate[B3], target=destination_plate[B3], volume=76.08 uL
+2026-10-21 17:11:17,395 INFO B3 buffer transfer completed: buffer_plate[B3] -> destination_plate[B3]
+2026-10-21 17:11:17,395 INFO B3 normalization completed
+2026-10-21 17:11:17,395 INFO B3 status: completed
+2026-10-21 17:11:17,395 INFO B4 starting: concentration=182.00 nM, sample=27.47 uL, buffer=72.53 uL
+2026-10-21 17:11:17,395 INFO B4 sample transfer: source=samples_plate[B4], target=destination_plate[B4], volume=27.47 uL
+2026-10-21 17:11:17,400 INFO B4 sample transfer completed: samples_plate[B4] -> destination_plate[B4]
+2026-10-21 17:11:17,400 INFO B4 buffer_plate transfer: source=buffer_plate[B4], target=destination_plate[B4], volume=72.53 uL
+2026-10-21 17:11:17,405 INFO B4 buffer transfer completed: buffer_plate[B4] -> destination_plate[B4]
+2026-10-21 17:11:17,405 INFO B4 normalization completed
+2026-10-21 17:11:17,406 INFO B4 status: completed
+2026-10-21 17:11:17,406 INFO B5 starting: concentration=97.00 nM, sample=51.55 uL, buffer=48.45 uL
+2026-10-21 17:11:17,406 INFO B5 sample transfer: source=samples_plate[B5], target=destination_plate[B5], volume=51.55 uL
+2026-10-21 17:11:17,410 INFO B5 sample transfer completed: samples_plate[B5] -> destination_plate[B5]
+2026-10-21 17:11:17,410 INFO B5 buffer_plate transfer: source=buffer_plate[B5], target=destination_plate[B5], volume=48.45 uL
+2026-10-21 17:11:17,413 INFO B5 buffer transfer completed: buffer_plate[B5] -> destination_plate[B5]
+2026-10-21 17:11:17,414 INFO B5 normalization completed
+2026-10-21 17:11:17,414 INFO B5 status: completed
+2026-10-21 17:11:17,414 INFO B6 starting: concentration=193.00 nM, sample=25.91 uL, buffer=74.09 uL
+2026-10-21 17:11:17,414 INFO B6 sample transfer: source=samples_plate[B6], target=destination_plate[B6], volume=25.91 uL
+2026-10-21 17:11:17,418 INFO B6 sample transfer completed: samples_plate[B6] -> destination_plate[B6]
+2026-10-21 17:11:17,419 INFO B6 buffer_plate transfer: source=buffer_plate[B6], target=destination_plate[B6], volume=74.09 uL
+2026-10-21 17:11:17,423 INFO B6 buffer transfer completed: buffer_plate[B6] -> destination_plate[B6]
+2026-10-21 17:11:17,423 INFO B6 normalization completed
+2026-10-21 17:11:17,423 INFO B6 status: completed
+2026-10-21 17:11:17,423 INFO B7 starting: concentration=250.00 nM, sample=20.00 uL, buffer=80.00 uL
+2026-10-21 17:11:17,424 INFO B7 sample transfer: source=samples_plate[B7], target=destination_plate[B7], volume=20.00 uL
+2026-10-21 17:11:17,427 INFO B7 sample transfer completed: samples_plate[B7] -> destination_plate[B7]
+2026-10-21 17:11:17,428 INFO B7 buffer_plate transfer: source=buffer_plate[B7], target=destination_plate[B7], volume=80.00 uL
+2026-10-21 17:11:17,431 INFO B7 buffer transfer completed: buffer_plate[B7] -> destination_plate[B7]
+2026-10-21 17:11:17,431 INFO B7 normalization completed
+2026-10-21 17:11:17,431 INFO B7 status: completed
+2026-10-21 17:11:17,432 WARNING B8 skipped: concentration 42.00 nM <= target 50.00 nM
+2026-10-21 17:11:17,432 INFO B8 status: skipped_below_target
+2026-10-21 17:11:17,432 INFO B9 starting: concentration=250.00 nM, sample=20.00 uL, buffer=80.00 uL
+2026-10-21 17:11:17,432 INFO B9 sample transfer: source=samples_plate[B9], target=destination_plate[B9], volume=20.00 uL
+2026-10-21 17:11:17,438 INFO B9 sample transfer completed: samples_plate[B9] -> destination_plate[B9]
+2026-10-21 17:11:17,438 INFO B9 buffer_plate transfer: source=buffer_plate[B9], target=destination_plate[B9], volume=80.00 uL
+2026-10-21 17:11:17,442 INFO B9 buffer transfer completed: buffer_plate[B9] -> destination_plate[B9]
+2026-10-21 17:11:17,442 INFO B9 normalization completed
+2026-10-21 17:11:17,442 INFO B9 status: completed
+2026-10-21 17:11:17,442 INFO B10 starting: concentration=222.00 nM, sample=22.52 uL, buffer=77.48 uL
+2026-10-21 17:11:17,442 INFO B10 sample transfer: source=samples_plate[B10], target=destination_plate[B10], volume=22.52 uL
+2026-10-21 17:11:17,445 INFO B10 sample transfer completed: samples_plate[B10] -> destination_plate[B10]
+2026-10-21 17:11:17,446 INFO B10 buffer_plate transfer: source=buffer_plate[B10], target=destination_plate[B10], volume=77.48 uL
+2026-10-21 17:11:17,452 INFO B10 buffer transfer completed: buffer_plate[B10] -> destination_plate[B10]
+2026-10-21 17:11:17,452 INFO B10 normalization completed
+2026-10-21 17:11:17,452 INFO B10 status: completed
+2026-10-21 17:11:17,453 INFO B11 starting: concentration=128.00 nM, sample=39.06 uL, buffer=60.94 uL
+2026-10-21 17:11:17,453 INFO B11 sample transfer: source=samples_plate[B11], target=destination_plate[B11], volume=39.06 uL
+2026-10-21 17:11:17,460 INFO B11 sample transfer completed: samples_plate[B11] -> destination_plate[B11]
+2026-10-21 17:11:17,461 INFO B11 buffer_plate transfer: source=buffer_plate[B11], target=destination_plate[B11], volume=60.94 uL
+2026-10-21 17:11:17,468 INFO B11 buffer transfer completed: buffer_plate[B11] -> destination_plate[B11]
+2026-10-21 17:11:17,469 INFO B11 normalization completed
+2026-10-21 17:11:17,469 INFO B11 status: completed
+2026-10-21 17:11:17,469 INFO B12 starting: concentration=80.00 nM, sample=62.50 uL, buffer=37.50 uL
+2026-10-21 17:11:17,470 INFO B12 sample transfer: source=samples_plate[B12], target=destination_plate[B12], volume=62.50 uL
+2026-10-21 17:11:17,476 INFO B12 sample transfer completed: samples_plate[B12] -> destination_plate[B12]
+2026-10-21 17:11:17,477 INFO B12 buffer_plate transfer: source=buffer_plate[B12], target=destination_plate[B12], volume=37.50 uL
+2026-10-21 17:11:17,481 INFO B12 buffer transfer completed: buffer_plate[B12] -> destination_plate[B12]
+2026-10-21 17:11:17,482 INFO connection open
+2026-10-21 17:11:17,483 INFO B12 normalization completed
+2026-10-21 17:11:17,483 INFO B12 status: completed
+2026-10-21 17:11:17,483 INFO C1 starting: concentration=289.00 nM, sample=17.30 uL, buffer=82.70 uL
+2026-10-21 17:11:17,484 INFO C1 sample transfer: source=samples_plate[C1], target=destination_plate[C1], volume=17.30 uL
+2026-10-21 17:11:17,537 INFO C1 sample transfer completed: samples_plate[C1] -> destination_plate[C1]
+2026-10-21 17:11:17,537 INFO C1 buffer_plate transfer: source=buffer_plate[C1], target=destination_plate[C1], volume=82.70 uL
+2026-10-21 17:11:17,547 INFO C1 buffer transfer completed: buffer_plate[C1] -> destination_plate[C1]
+2026-10-21 17:11:17,548 INFO C1 normalization completed
+2026-10-21 17:11:17,548 INFO C1 status: completed
+2026-10-21 17:11:17,548 INFO C2 starting: concentration=128.00 nM, sample=39.06 uL, buffer=60.94 uL
+2026-10-21 17:11:17,548 INFO C2 sample transfer: source=samples_plate[C2], target=destination_plate[C2], volume=39.06 uL
+2026-10-21 17:11:17,554 INFO C2 sample transfer completed: samples_plate[C2] -> destination_plate[C2]
+2026-10-21 17:11:17,554 INFO C2 buffer_plate transfer: source=buffer_plate[C2], target=destination_plate[C2], volume=60.94 uL
+2026-10-21 17:11:17,559 INFO C2 buffer transfer completed: buffer_plate[C2] -> destination_plate[C2]
+2026-10-21 17:11:17,560 INFO C2 normalization completed
+2026-10-21 17:11:17,560 INFO C2 status: completed
+2026-10-21 17:11:17,560 INFO C3 starting: concentration=64.00 nM, sample=78.12 uL, buffer=21.88 uL
+2026-10-21 17:11:17,560 INFO C3 sample transfer: source=samples_plate[C3], target=destination_plate[C3], volume=78.12 uL
+2026-10-21 17:11:17,567 INFO C3 sample transfer completed: samples_plate[C3] -> destination_plate[C3]
+2026-10-21 17:11:17,569 INFO C3 buffer_plate transfer: source=buffer_plate[C3], target=destination_plate[C3], volume=21.88 uL
+2026-10-21 17:11:17,577 INFO C3 buffer transfer completed: buffer_plate[C3] -> destination_plate[C3]
+2026-10-21 17:11:17,578 INFO C3 normalization completed
+2026-10-21 17:11:17,578 INFO C3 status: completed
+2026-10-21 17:11:17,578 INFO C4 starting: concentration=65.00 nM, sample=76.92 uL, buffer=23.08 uL
+2026-10-21 17:11:17,578 INFO C4 sample transfer: source=samples_plate[C4], target=destination_plate[C4], volume=76.92 uL
+2026-10-21 17:11:17,587 INFO C4 sample transfer completed: samples_plate[C4] -> destination_plate[C4]
+2026-10-21 17:11:17,587 INFO C4 buffer_plate transfer: source=buffer_plate[C4], target=destination_plate[C4], volume=23.08 uL
+2026-10-21 17:11:17,592 INFO C4 buffer transfer completed: buffer_plate[C4] -> destination_plate[C4]
+2026-10-21 17:11:17,593 INFO C4 normalization completed
+2026-10-21 17:11:17,593 INFO C4 status: completed
+2026-10-21 17:11:17,593 INFO C5 starting: concentration=260.00 nM, sample=19.23 uL, buffer=80.77 uL
+2026-10-21 17:11:17,593 INFO C5 sample transfer: source=samples_plate[C5], target=destination_plate[C5], volume=19.23 uL
+2026-10-21 17:11:17,600 INFO C5 sample transfer completed: samples_plate[C5] -> destination_plate[C5]
+2026-10-21 17:11:17,601 INFO C5 buffer_plate transfer: source=buffer_plate[C5], target=destination_plate[C5], volume=80.77 uL
+2026-10-21 17:11:17,606 INFO C5 buffer transfer completed: buffer_plate[C5] -> destination_plate[C5]
+2026-10-21 17:11:17,606 INFO C5 normalization completed
+2026-10-21 17:11:17,606 INFO C5 status: completed
+2026-10-21 17:11:17,606 INFO C6 starting: concentration=197.00 nM, sample=25.38 uL, buffer=74.62 uL
+2026-10-21 17:11:17,606 INFO C6 sample transfer: source=samples_plate[C6], target=destination_plate[C6], volume=25.38 uL
+2026-10-21 17:11:17,614 INFO C6 sample transfer completed: samples_plate[C6] -> destination_plate[C6]
+2026-10-21 17:11:17,615 INFO C6 buffer_plate transfer: source=buffer_plate[C6], target=destination_plate[C6], volume=74.62 uL
+2026-10-21 17:11:17,623 INFO C6 buffer transfer completed: buffer_plate[C6] -> destination_plate[C6]
+2026-10-21 17:11:17,623 INFO C6 normalization completed
+2026-10-21 17:11:17,624 INFO C6 status: completed
+2026-10-21 17:11:17,624 INFO C7 starting: concentration=250.00 nM, sample=20.00 uL, buffer=80.00 uL
+2026-10-21 17:11:17,624 INFO C7 sample transfer: source=samples_plate[C7], target=destination_plate[C7], volume=20.00 uL
+2026-10-21 17:11:17,629 INFO C7 sample transfer completed: samples_plate[C7] -> destination_plate[C7]
+2026-10-21 17:11:17,629 INFO C7 buffer_plate transfer: source=buffer_plate[C7], target=destination_plate[C7], volume=80.00 uL
+2026-10-21 17:11:17,635 INFO C7 buffer transfer completed: buffer_plate[C7] -> destination_plate[C7]
+2026-10-21 17:11:17,635 INFO C7 normalization completed
+2026-10-21 17:11:17,635 INFO C7 status: completed
+2026-10-21 17:11:17,636 INFO C8 starting: concentration=230.00 nM, sample=21.74 uL, buffer=78.26 uL
+2026-10-21 17:11:17,636 INFO C8 sample transfer: source=samples_plate[C8], target=destination_plate[C8], volume=21.74 uL
+2026-10-21 17:11:17,640 INFO C8 sample transfer completed: samples_plate[C8] -> destination_plate[C8]
+2026-10-21 17:11:17,641 INFO C8 buffer_plate transfer: source=buffer_plate[C8], target=destination_plate[C8], volume=78.26 uL
+2026-10-21 17:11:17,646 INFO C8 buffer transfer completed: buffer_plate[C8] -> destination_plate[C8]
+2026-10-21 17:11:17,646 INFO C8 normalization completed
+2026-10-21 17:11:17,646 INFO C8 status: completed
+2026-10-21 17:11:17,646 INFO C9 starting: concentration=179.00 nM, sample=27.93 uL, buffer=72.07 uL
+2026-10-21 17:11:17,646 INFO C9 sample transfer: source=samples_plate[C9], target=destination_plate[C9], volume=27.93 uL
+2026-10-21 17:11:17,652 INFO C9 sample transfer completed: samples_plate[C9] -> destination_plate[C9]
+2026-10-21 17:11:17,653 INFO C9 buffer_plate transfer: source=buffer_plate[C9], target=destination_plate[C9], volume=72.07 uL
+2026-10-21 17:11:17,661 INFO C9 buffer transfer completed: buffer_plate[C9] -> destination_plate[C9]
+2026-10-21 17:11:17,661 INFO C9 normalization completed
+2026-10-21 17:11:17,661 INFO C9 status: completed
+2026-10-21 17:11:17,662 INFO C10 starting: concentration=293.00 nM, sample=17.06 uL, buffer=82.94 uL
+2026-10-21 17:11:17,662 INFO C10 sample transfer: source=samples_plate[C10], target=destination_plate[C10], volume=17.06 uL
+2026-10-21 17:11:17,670 INFO C10 sample transfer completed: samples_plate[C10] -> destination_plate[C10]
+2026-10-21 17:11:17,671 INFO C10 buffer_plate transfer: source=buffer_plate[C10], target=destination_plate[C10], volume=82.94 uL
+2026-10-21 17:11:17,677 INFO C10 buffer transfer completed: buffer_plate[C10] -> destination_plate[C10]
+2026-10-21 17:11:17,678 INFO C10 normalization completed
+2026-10-21 17:11:17,678 INFO C10 status: completed
+2026-10-21 17:11:17,678 INFO C11 starting: concentration=138.00 nM, sample=36.23 uL, buffer=63.77 uL
+2026-10-21 17:11:17,679 INFO C11 sample transfer: source=samples_plate[C11], target=destination_plate[C11], volume=36.23 uL
+2026-10-21 17:11:17,686 INFO C11 sample transfer completed: samples_plate[C11] -> destination_plate[C11]
+2026-10-21 17:11:17,687 INFO C11 buffer_plate transfer: source=buffer_plate[C11], target=destination_plate[C11], volume=63.77 uL
+2026-10-21 17:11:17,694 INFO C11 buffer transfer completed: buffer_plate[C11] -> destination_plate[C11]
+2026-10-21 17:11:17,694 INFO C11 normalization completed
+2026-10-21 17:11:17,694 INFO C11 status: completed
+2026-10-21 17:11:17,694 INFO C12 starting: concentration=184.00 nM, sample=27.17 uL, buffer=72.83 uL
+2026-10-21 17:11:17,695 INFO C12 sample transfer: source=samples_plate[C12], target=destination_plate[C12], volume=27.17 uL
+2026-10-21 17:11:17,700 INFO C12 sample transfer completed: samples_plate[C12] -> destination_plate[C12]
+2026-10-21 17:11:17,701 INFO C12 buffer_plate transfer: source=buffer_plate[C12], target=destination_plate[C12], volume=72.83 uL
+2026-10-21 17:11:17,705 INFO C12 buffer transfer completed: buffer_plate[C12] -> destination_plate[C12]
+2026-10-21 17:11:17,706 INFO C12 normalization completed
+2026-10-21 17:11:17,706 INFO C12 status: completed
+2026-10-21 17:11:17,706 INFO D1 starting: concentration=256.00 nM, sample=19.53 uL, buffer=80.47 uL
+2026-10-21 17:11:17,706 INFO D1 sample transfer: source=samples_plate[D1], target=destination_plate[D1], volume=19.53 uL
+2026-10-21 17:11:17,711 INFO D1 sample transfer completed: samples_plate[D1] -> destination_plate[D1]
+2026-10-21 17:11:17,711 INFO D1 buffer_plate transfer: source=buffer_plate[D1], target=destination_plate[D1], volume=80.47 uL
+2026-10-21 17:11:17,716 INFO D1 buffer transfer completed: buffer_plate[D1] -> destination_plate[D1]
+2026-10-21 17:11:17,716 INFO D1 normalization completed
+2026-10-21 17:11:17,716 INFO D1 status: completed
+2026-10-21 17:11:17,716 INFO D2 starting: concentration=201.00 nM, sample=24.88 uL, buffer=75.12 uL
+2026-10-21 17:11:17,717 INFO D2 sample transfer: source=samples_plate[D2], target=destination_plate[D2], volume=24.88 uL
+2026-10-21 17:11:17,722 INFO D2 sample transfer completed: samples_plate[D2] -> destination_plate[D2]
+2026-10-21 17:11:17,722 INFO D2 buffer_plate transfer: source=buffer_plate[D2], target=destination_plate[D2], volume=75.12 uL
+2026-10-21 17:11:17,727 INFO D2 buffer transfer completed: buffer_plate[D2] -> destination_plate[D2]
+2026-10-21 17:11:17,727 INFO D2 normalization completed
+2026-10-21 17:11:17,727 INFO D2 status: completed
+2026-10-21 17:11:17,728 INFO D3 starting: concentration=264.00 nM, sample=18.94 uL, buffer=81.06 uL
+2026-10-21 17:11:17,728 INFO D3 sample transfer: source=samples_plate[D3], target=destination_plate[D3], volume=18.94 uL
+2026-10-21 17:11:17,732 INFO D3 sample transfer completed: samples_plate[D3] -> destination_plate[D3]
+2026-10-21 17:11:17,733 INFO D3 buffer_plate transfer: source=buffer_plate[D3], target=destination_plate[D3], volume=81.06 uL
+2026-10-21 17:11:17,739 INFO D3 buffer transfer completed: buffer_plate[D3] -> destination_plate[D3]
+2026-10-21 17:11:17,739 INFO D3 normalization completed
+2026-10-21 17:11:17,740 INFO D3 status: completed
+2026-10-21 17:11:17,740 INFO D4 starting: concentration=190.00 nM, sample=26.32 uL, buffer=73.68 uL
+2026-10-21 17:11:17,740 INFO D4 sample transfer: source=samples_plate[D4], target=destination_plate[D4], volume=26.32 uL
+2026-10-21 17:11:17,744 INFO D4 sample transfer completed: samples_plate[D4] -> destination_plate[D4]
+2026-10-21 17:11:17,745 INFO D4 buffer_plate transfer: source=buffer_plate[D4], target=destination_plate[D4], volume=73.68 uL
+2026-10-21 17:11:17,750 INFO D4 buffer transfer completed: buffer_plate[D4] -> destination_plate[D4]
+2026-10-21 17:11:17,750 INFO D4 normalization completed
+2026-10-21 17:11:17,751 INFO D4 status: completed
+2026-10-21 17:11:17,751 INFO D5 starting: concentration=223.00 nM, sample=22.42 uL, buffer=77.58 uL
+2026-10-21 17:11:17,751 INFO D5 sample transfer: source=samples_plate[D5], target=destination_plate[D5], volume=22.42 uL
+2026-10-21 17:11:17,755 INFO D5 sample transfer completed: samples_plate[D5] -> destination_plate[D5]
+2026-10-21 17:11:17,755 INFO D5 buffer_plate transfer: source=buffer_plate[D5], target=destination_plate[D5], volume=77.58 uL
+2026-10-21 17:11:17,759 INFO D5 buffer transfer completed: buffer_plate[D5] -> destination_plate[D5]
+2026-10-21 17:11:17,759 INFO D5 normalization completed
+2026-10-21 17:11:17,759 INFO D5 status: completed
+2026-10-21 17:11:17,760 INFO D6 starting: concentration=52.00 nM, sample=96.15 uL, buffer=3.85 uL
+2026-10-21 17:11:17,760 INFO D6 sample transfer: source=samples_plate[D6], target=destination_plate[D6], volume=96.15 uL
+2026-10-21 17:11:17,764 INFO D6 sample transfer completed: samples_plate[D6] -> destination_plate[D6]
+2026-10-21 17:11:17,764 INFO D6 buffer_plate transfer: source=buffer_plate[D6], target=destination_plate[D6], volume=3.85 uL
+2026-10-21 17:11:17,771 INFO D6 buffer transfer completed: buffer_plate[D6] -> destination_plate[D6]
+2026-10-21 17:11:17,771 INFO D6 normalization completed
+2026-10-21 17:11:17,771 INFO D6 status: completed
+2026-10-21 17:11:17,771 INFO D7 starting: concentration=99.00 nM, sample=50.51 uL, buffer=49.49 uL
+2026-10-21 17:11:17,771 INFO D7 sample transfer: source=samples_plate[D7], target=destination_plate[D7], volume=50.51 uL
+2026-10-21 17:11:17,776 INFO D7 sample transfer completed: samples_plate[D7] -> destination_plate[D7]
+2026-10-21 17:11:17,776 INFO D7 buffer_plate transfer: source=buffer_plate[D7], target=destination_plate[D7], volume=49.49 uL
+2026-10-21 17:11:17,783 INFO D7 buffer transfer completed: buffer_plate[D7] -> destination_plate[D7]
+2026-10-21 17:11:17,783 INFO D7 normalization completed
+2026-10-21 17:11:17,784 INFO D7 status: completed
+2026-10-21 17:11:17,784 INFO D8 starting: concentration=115.00 nM, sample=43.48 uL, buffer=56.52 uL
+2026-10-21 17:11:17,784 INFO D8 sample transfer: source=samples_plate[D8], target=destination_plate[D8], volume=43.48 uL
+2026-10-21 17:11:17,789 INFO D8 sample transfer completed: samples_plate[D8] -> destination_plate[D8]
+2026-10-21 17:11:17,789 INFO D8 buffer_plate transfer: source=buffer_plate[D8], target=destination_plate[D8], volume=56.52 uL
+2026-10-21 17:11:17,793 INFO D8 buffer transfer completed: buffer_plate[D8] -> destination_plate[D8]
+2026-10-21 17:11:17,793 INFO D8 normalization completed
+2026-10-21 17:11:17,794 INFO D8 status: completed
+2026-10-21 17:11:17,794 INFO D9 starting: concentration=61.00 nM, sample=81.97 uL, buffer=18.03 uL
+2026-10-21 17:11:17,795 INFO D9 sample transfer: source=samples_plate[D9], target=destination_plate[D9], volume=81.97 uL
+2026-10-21 17:11:17,800 INFO D9 sample transfer completed: samples_plate[D9] -> destination_plate[D9]
+2026-10-21 17:11:17,800 INFO D9 buffer_plate transfer: source=buffer_plate[D9], target=destination_plate[D9], volume=18.03 uL
+2026-10-21 17:11:17,805 INFO D9 buffer transfer completed: buffer_plate[D9] -> destination_plate[D9]
+2026-10-21 17:11:17,805 INFO D9 normalization completed
+2026-10-21 17:11:17,805 INFO D9 status: completed
+2026-10-21 17:11:17,805 INFO D10 starting: concentration=101.00 nM, sample=49.50 uL, buffer=50.50 uL
+2026-10-21 17:11:17,805 INFO D10 sample transfer: source=samples_plate[D10], target=destination_plate[D10], volume=49.50 uL
+2026-10-21 17:11:17,809 INFO D10 sample transfer completed: samples_plate[D10] -> destination_plate[D10]
+2026-10-21 17:11:17,809 INFO D10 buffer_plate transfer: source=buffer_plate[D10], target=destination_plate[D10], volume=50.50 uL
+2026-10-21 17:11:17,814 INFO D10 buffer transfer completed: buffer_plate[D10] -> destination_plate[D10]
+2026-10-21 17:11:17,815 INFO D10 normalization completed
+2026-10-21 17:11:17,815 INFO D10 status: completed
+2026-10-21 17:11:17,815 INFO D11 starting: concentration=66.00 nM, sample=75.76 uL, buffer=24.24 uL
+2026-10-21 17:11:17,816 INFO D11 sample transfer: source=samples_plate[D11], target=destination_plate[D11], volume=75.76 uL
+2026-10-21 17:11:17,820 INFO D11 sample transfer completed: samples_plate[D11] -> destination_plate[D11]
+2026-10-21 17:11:17,820 INFO D11 buffer_plate transfer: source=buffer_plate[D11], target=destination_plate[D11], volume=24.24 uL
+2026-10-21 17:11:17,824 INFO D11 buffer transfer completed: buffer_plate[D11] -> destination_plate[D11]
+2026-10-21 17:11:17,825 INFO D11 normalization completed
+2026-10-21 17:11:17,825 INFO D11 status: completed
+2026-10-21 17:11:17,825 INFO D12 starting: concentration=112.00 nM, sample=44.64 uL, buffer=55.36 uL
+2026-10-21 17:11:17,825 INFO D12 sample transfer: source=samples_plate[D12], target=destination_plate[D12], volume=44.64 uL
+2026-10-21 17:11:17,829 INFO D12 sample transfer completed: samples_plate[D12] -> destination_plate[D12]
+2026-10-21 17:11:17,830 INFO D12 buffer_plate transfer: source=buffer_plate[D12], target=destination_plate[D12], volume=55.36 uL
+2026-10-21 17:11:17,835 INFO D12 buffer transfer completed: buffer_plate[D12] -> destination_plate[D12]
+2026-10-21 17:11:17,835 INFO D12 normalization completed
+2026-10-21 17:11:17,835 INFO D12 status: completed
+2026-10-21 17:11:17,835 INFO E1 starting: concentration=205.00 nM, sample=24.39 uL, buffer=75.61 uL
+2026-10-21 17:11:17,835 INFO E1 sample transfer: source=samples_plate[E1], target=destination_plate[E1], volume=24.39 uL
+2026-10-21 17:11:17,840 INFO E1 sample transfer completed: samples_plate[E1] -> destination_plate[E1]
+2026-10-21 17:11:17,840 INFO E1 buffer_plate transfer: source=buffer_plate[E1], target=destination_plate[E1], volume=75.61 uL
+2026-10-21 17:11:17,844 INFO E1 buffer transfer completed: buffer_plate[E1] -> destination_plate[E1]
+2026-10-21 17:11:17,845 INFO E1 normalization completed
+2026-10-21 17:11:17,845 INFO E1 status: completed
+2026-10-21 17:11:17,845 INFO E2 starting: concentration=135.00 nM, sample=37.04 uL, buffer=62.96 uL
+2026-10-21 17:11:17,845 INFO E2 sample transfer: source=samples_plate[E2], target=destination_plate[E2], volume=37.04 uL
+2026-10-21 17:11:17,851 INFO E2 sample transfer completed: samples_plate[E2] -> destination_plate[E2]
+2026-10-21 17:11:17,851 INFO E2 buffer_plate transfer: source=buffer_plate[E2], target=destination_plate[E2], volume=62.96 uL
+2026-10-21 17:11:17,856 INFO E2 buffer transfer completed: buffer_plate[E2] -> destination_plate[E2]
+2026-10-21 17:11:17,857 INFO E2 normalization completed
+2026-10-21 17:11:17,857 INFO E2 status: completed
+2026-10-21 17:11:17,857 INFO E3 starting: concentration=136.00 nM, sample=36.76 uL, buffer=63.24 uL
+2026-10-21 17:11:17,858 INFO E3 sample transfer: source=samples_plate[E3], target=destination_plate[E3], volume=36.76 uL
+2026-10-21 17:11:17,861 INFO E3 sample transfer completed: samples_plate[E3] -> destination_plate[E3]
+2026-10-21 17:11:17,861 INFO E3 buffer_plate transfer: source=buffer_plate[E3], target=destination_plate[E3], volume=63.24 uL
+2026-10-21 17:11:17,866 INFO E3 buffer transfer completed: buffer_plate[E3] -> destination_plate[E3]
+2026-10-21 17:11:17,867 INFO E3 normalization completed
+2026-10-21 17:11:17,867 INFO E3 status: completed
+2026-10-21 17:11:17,867 INFO E4 starting: concentration=94.00 nM, sample=53.19 uL, buffer=46.81 uL
+2026-10-21 17:11:17,867 INFO E4 sample transfer: source=samples_plate[E4], target=destination_plate[E4], volume=53.19 uL
+2026-10-21 17:11:17,872 INFO E4 sample transfer completed: samples_plate[E4] -> destination_plate[E4]
+2026-10-21 17:11:17,872 INFO E4 buffer_plate transfer: source=buffer_plate[E4], target=destination_plate[E4], volume=46.81 uL
+2026-10-21 17:11:17,876 INFO E4 buffer transfer completed: buffer_plate[E4] -> destination_plate[E4]
+2026-10-21 17:11:17,876 INFO E4 normalization completed
+2026-10-21 17:11:17,877 INFO E4 status: completed
+2026-10-21 17:11:17,877 INFO E5 starting: concentration=109.00 nM, sample=45.87 uL, buffer=54.13 uL
+2026-10-21 17:11:17,877 INFO E5 sample transfer: source=samples_plate[E5], target=destination_plate[E5], volume=45.87 uL
+2026-10-21 17:11:17,880 INFO E5 sample transfer completed: samples_plate[E5] -> destination_plate[E5]
+2026-10-21 17:11:17,881 INFO E5 buffer_plate transfer: source=buffer_plate[E5], target=destination_plate[E5], volume=54.13 uL
+2026-10-21 17:11:17,886 INFO E5 buffer transfer completed: buffer_plate[E5] -> destination_plate[E5]
+2026-10-21 17:11:17,886 INFO E5 normalization completed
+2026-10-21 17:11:17,886 INFO E5 status: completed
+2026-10-21 17:11:17,887 INFO E6 starting: concentration=284.00 nM, sample=17.61 uL, buffer=82.39 uL
+2026-10-21 17:11:17,887 INFO E6 sample transfer: source=samples_plate[E6], target=destination_plate[E6], volume=17.61 uL
+2026-10-21 17:11:17,895 INFO E6 sample transfer completed: samples_plate[E6] -> destination_plate[E6]
+2026-10-21 17:11:17,895 INFO E6 buffer_plate transfer: source=buffer_plate[E6], target=destination_plate[E6], volume=82.39 uL
+2026-10-21 17:11:17,901 INFO E6 buffer transfer completed: buffer_plate[E6] -> destination_plate[E6]
+2026-10-21 17:11:17,901 INFO E6 normalization completed
+2026-10-21 17:11:17,902 INFO E6 status: completed
+2026-10-21 17:11:17,902 INFO E7 starting: concentration=208.00 nM, sample=24.04 uL, buffer=75.96 uL
+2026-10-21 17:11:17,902 INFO E7 sample transfer: source=samples_plate[E7], target=destination_plate[E7], volume=24.04 uL
+2026-10-21 17:11:17,907 INFO E7 sample transfer completed: samples_plate[E7] -> destination_plate[E7]
+2026-10-21 17:11:17,907 INFO E7 buffer_plate transfer: source=buffer_plate[E7], target=destination_plate[E7], volume=75.96 uL
+2026-10-21 17:11:17,913 INFO E7 buffer transfer completed: buffer_plate[E7] -> destination_plate[E7]
+2026-10-21 17:11:17,914 INFO E7 normalization completed
+2026-10-21 17:11:17,914 INFO E7 status: completed
+2026-10-21 17:11:17,914 INFO E8 starting: concentration=198.00 nM, sample=25.25 uL, buffer=74.75 uL
+2026-10-21 17:11:17,914 INFO E8 sample transfer: source=samples_plate[E8], target=destination_plate[E8], volume=25.25 uL
+2026-10-21 17:11:17,923 INFO E8 sample transfer completed: samples_plate[E8] -> destination_plate[E8]
+2026-10-21 17:11:17,923 INFO E8 buffer_plate transfer: source=buffer_plate[E8], target=destination_plate[E8], volume=74.75 uL
+2026-10-21 17:11:17,929 INFO E8 buffer transfer completed: buffer_plate[E8] -> destination_plate[E8]
+2026-10-21 17:11:17,929 INFO E8 normalization completed
+2026-10-21 17:11:17,930 INFO E8 status: completed
+2026-10-21 17:11:17,930 INFO E9 starting: concentration=84.00 nM, sample=59.52 uL, buffer=40.48 uL
+2026-10-21 17:11:17,930 INFO E9 sample transfer: source=samples_plate[E9], target=destination_plate[E9], volume=59.52 uL
+2026-10-21 17:11:17,978 INFO E9 sample transfer completed: samples_plate[E9] -> destination_plate[E9]
+2026-10-21 17:11:17,979 INFO E9 buffer_plate transfer: source=buffer_plate[E9], target=destination_plate[E9], volume=40.48 uL
+2026-10-21 17:11:18,045 INFO E9 buffer transfer completed: buffer_plate[E9] -> destination_plate[E9]
+2026-10-21 17:11:18,057 INFO E9 normalization completed
+2026-10-21 17:11:18,071 INFO E9 status: completed
+2026-10-21 17:11:18,071 INFO E10 starting: concentration=230.00 nM, sample=21.74 uL, buffer=78.26 uL
+2026-10-21 17:11:18,072 INFO E10 sample transfer: source=samples_plate[E10], target=destination_plate[E10], volume=21.74 uL
+2026-10-21 17:11:18,111 INFO E10 sample transfer completed: samples_plate[E10] -> destination_plate[E10]
+2026-10-21 17:11:18,119 INFO E10 buffer_plate transfer: source=buffer_plate[E10], target=destination_plate[E10], volume=78.26 uL
+2026-10-21 17:11:18,187 INFO E10 buffer transfer completed: buffer_plate[E10] -> destination_plate[E10]
+2026-10-21 17:11:18,188 INFO E10 normalization completed
+2026-10-21 17:11:18,188 INFO E10 status: completed
+2026-10-21 17:11:18,189 INFO E11 starting: concentration=82.00 nM, sample=60.98 uL, buffer=39.02 uL
+2026-10-21 17:11:18,189 INFO E11 sample transfer: source=samples_plate[E11], target=destination_plate[E11], volume=60.98 uL
+2026-10-21 17:11:18,196 INFO E11 sample transfer completed: samples_plate[E11] -> destination_plate[E11]
+2026-10-21 17:11:18,196 INFO E11 buffer_plate transfer: source=buffer_plate[E11], target=destination_plate[E11], volume=39.02 uL
+2026-10-21 17:11:18,205 INFO E11 buffer transfer completed: buffer_plate[E11] -> destination_plate[E11]
+2026-10-21 17:11:18,205 INFO E11 normalization completed
+2026-10-21 17:11:18,206 INFO E11 status: completed
+2026-10-21 17:11:18,206 INFO E12 starting: concentration=139.00 nM, sample=35.97 uL, buffer=64.03 uL
+2026-10-21 17:11:18,206 INFO E12 sample transfer: source=samples_plate[E12], target=destination_plate[E12], volume=35.97 uL
+2026-10-21 17:11:18,213 INFO E12 sample transfer completed: samples_plate[E12] -> destination_plate[E12]
+2026-10-21 17:11:18,213 INFO E12 buffer_plate transfer: source=buffer_plate[E12], target=destination_plate[E12], volume=64.03 uL
+2026-10-21 17:11:18,222 INFO E12 buffer transfer completed: buffer_plate[E12] -> destination_plate[E12]
+2026-10-21 17:11:18,222 INFO E12 normalization completed
+2026-10-21 17:11:18,223 INFO E12 status: completed
+2026-10-21 17:11:18,223 INFO F1 starting: concentration=297.00 nM, sample=16.84 uL, buffer=83.16 uL
+2026-10-21 17:11:18,223 INFO F1 sample transfer: source=samples_plate[F1], target=destination_plate[F1], volume=16.84 uL
+2026-10-21 17:11:18,229 INFO F1 sample transfer completed: samples_plate[F1] -> destination_plate[F1]
+2026-10-21 17:11:18,229 INFO F1 buffer_plate transfer: source=buffer_plate[F1], target=destination_plate[F1], volume=83.16 uL
+2026-10-21 17:11:18,236 INFO F1 buffer transfer completed: buffer_plate[F1] -> destination_plate[F1]
+2026-10-21 17:11:18,237 INFO F1 normalization completed
+2026-10-21 17:11:18,237 INFO F1 status: completed
+2026-10-21 17:11:18,238 INFO F2 starting: concentration=206.00 nM, sample=24.27 uL, buffer=75.73 uL
+2026-10-21 17:11:18,239 INFO F2 sample transfer: source=samples_plate[F2], target=destination_plate[F2], volume=24.27 uL
+2026-10-21 17:11:18,244 INFO F2 sample transfer completed: samples_plate[F2] -> destination_plate[F2]
+2026-10-21 17:11:18,244 INFO F2 buffer_plate transfer: source=buffer_plate[F2], target=destination_plate[F2], volume=75.73 uL
+2026-10-21 17:11:18,250 INFO F2 buffer transfer completed: buffer_plate[F2] -> destination_plate[F2]
+2026-10-21 17:11:18,251 INFO F2 normalization completed
+2026-10-21 17:11:18,251 INFO F2 status: completed
+2026-10-21 17:11:18,251 INFO F3 starting: concentration=185.00 nM, sample=27.03 uL, buffer=72.97 uL
+2026-10-21 17:11:18,251 INFO F3 sample transfer: source=samples_plate[F3], target=destination_plate[F3], volume=27.03 uL
+2026-10-21 17:11:18,256 INFO F3 sample transfer completed: samples_plate[F3] -> destination_plate[F3]
+2026-10-21 17:11:18,257 INFO F3 buffer_plate transfer: source=buffer_plate[F3], target=destination_plate[F3], volume=72.97 uL
+2026-10-21 17:11:18,262 INFO F3 buffer transfer completed: buffer_plate[F3] -> destination_plate[F3]
+2026-10-21 17:11:18,263 INFO F3 normalization completed
+2026-10-21 17:11:18,263 INFO F3 status: completed
+2026-10-21 17:11:18,263 INFO F4 starting: concentration=218.00 nM, sample=22.94 uL, buffer=77.06 uL
+2026-10-21 17:11:18,263 INFO F4 sample transfer: source=samples_plate[F4], target=destination_plate[F4], volume=22.94 uL
+2026-10-21 17:11:18,268 INFO F4 sample transfer completed: samples_plate[F4] -> destination_plate[F4]
+2026-10-21 17:11:18,269 INFO F4 buffer_plate transfer: source=buffer_plate[F4], target=destination_plate[F4], volume=77.06 uL
+2026-10-21 17:11:18,273 INFO F4 buffer transfer completed: buffer_plate[F4] -> destination_plate[F4]
+2026-10-21 17:11:18,274 INFO F4 normalization completed
+2026-10-21 17:11:18,274 INFO F4 status: completed
+2026-10-21 17:11:18,274 INFO F5 starting: concentration=259.00 nM, sample=19.31 uL, buffer=80.69 uL
+2026-10-21 17:11:18,274 INFO F5 sample transfer: source=samples_plate[F5], target=destination_plate[F5], volume=19.31 uL
+2026-10-21 17:11:18,278 INFO F5 sample transfer completed: samples_plate[F5] -> destination_plate[F5]
+2026-10-21 17:11:18,280 INFO F5 buffer_plate transfer: source=buffer_plate[F5], target=destination_plate[F5], volume=80.69 uL
+2026-10-21 17:11:18,286 INFO F5 buffer transfer completed: buffer_plate[F5] -> destination_plate[F5]
+2026-10-21 17:11:18,286 INFO F5 normalization completed
+2026-10-21 17:11:18,287 INFO F5 status: completed
+2026-10-21 17:11:18,287 INFO F6 starting: concentration=242.00 nM, sample=20.66 uL, buffer=79.34 uL
+2026-10-21 17:11:18,288 INFO F6 sample transfer: source=samples_plate[F6], target=destination_plate[F6], volume=20.66 uL
+2026-10-21 17:11:18,292 INFO F6 sample transfer completed: samples_plate[F6] -> destination_plate[F6]
+2026-10-21 17:11:18,293 INFO F6 buffer_plate transfer: source=buffer_plate[F6], target=destination_plate[F6], volume=79.34 uL
+2026-10-21 17:11:18,297 INFO F6 buffer transfer completed: buffer_plate[F6] -> destination_plate[F6]
+2026-10-21 17:11:18,297 INFO F6 normalization completed
+2026-10-21 17:11:18,298 INFO F6 status: completed
+2026-10-21 17:11:18,299 INFO F7 starting: concentration=100.00 nM, sample=50.00 uL, buffer=50.00 uL
+2026-10-21 17:11:18,299 INFO F7 sample transfer: source=samples_plate[F7], target=destination_plate[F7], volume=50.00 uL
+2026-10-21 17:11:18,304 INFO F7 sample transfer completed: samples_plate[F7] -> destination_plate[F7]
+2026-10-21 17:11:18,305 INFO F7 buffer_plate transfer: source=buffer_plate[F7], target=destination_plate[F7], volume=50.00 uL
+2026-10-21 17:11:18,310 INFO F7 buffer transfer completed: buffer_plate[F7] -> destination_plate[F7]
+2026-10-21 17:11:18,310 INFO F7 normalization completed
+2026-10-21 17:11:18,310 INFO F7 status: completed
+2026-10-21 17:11:18,311 WARNING F8 skipped: concentration 48.00 nM <= target 50.00 nM
+2026-10-21 17:11:18,311 INFO F8 status: skipped_below_target
+2026-10-21 17:11:18,311 INFO F9 starting: concentration=122.00 nM, sample=40.98 uL, buffer=59.02 uL
+2026-10-21 17:11:18,311 INFO F9 sample transfer: source=samples_plate[F9], target=destination_plate[F9], volume=40.98 uL
+2026-10-21 17:11:18,317 INFO F9 sample transfer completed: samples_plate[F9] -> destination_plate[F9]
+2026-10-21 17:11:18,317 INFO F9 buffer_plate transfer: source=buffer_plate[F9], target=destination_plate[F9], volume=59.02 uL
+2026-10-21 17:11:18,321 INFO F9 buffer transfer completed: buffer_plate[F9] -> destination_plate[F9]
+2026-10-21 17:11:18,322 INFO F9 normalization completed
+2026-10-21 17:11:18,322 INFO F9 status: completed
+2026-10-21 17:11:18,322 INFO F10 starting: concentration=110.00 nM, sample=45.45 uL, buffer=54.55 uL
+2026-10-21 17:11:18,323 INFO F10 sample transfer: source=samples_plate[F10], target=destination_plate[F10], volume=45.45 uL
+2026-10-21 17:11:18,327 INFO F10 sample transfer completed: samples_plate[F10] -> destination_plate[F10]
+2026-10-21 17:11:18,327 INFO F10 buffer_plate transfer: source=buffer_plate[F10], target=destination_plate[F10], volume=54.55 uL
+2026-10-21 17:11:18,331 INFO F10 buffer transfer completed: buffer_plate[F10] -> destination_plate[F10]
+2026-10-21 17:11:18,331 INFO F10 normalization completed
+2026-10-21 17:11:18,331 INFO F10 status: completed
+2026-10-21 17:11:18,332 INFO F11 starting: concentration=95.00 nM, sample=52.63 uL, buffer=47.37 uL
+2026-10-21 17:11:18,332 INFO F11 sample transfer: source=samples_plate[F11], target=destination_plate[F11], volume=52.63 uL
+2026-10-21 17:11:18,337 INFO F11 sample transfer completed: samples_plate[F11] -> destination_plate[F11]
+2026-10-21 17:11:18,338 INFO F11 buffer_plate transfer: source=buffer_plate[F11], target=destination_plate[F11], volume=47.37 uL
+2026-10-21 17:11:18,342 INFO F11 buffer transfer completed: buffer_plate[F11] -> destination_plate[F11]
+2026-10-21 17:11:18,342 INFO F11 normalization completed
+2026-10-21 17:11:18,343 INFO F11 status: completed
+2026-10-21 17:11:18,343 INFO F12 starting: concentration=285.00 nM, sample=17.54 uL, buffer=82.46 uL
+2026-10-21 17:11:18,343 INFO F12 sample transfer: source=samples_plate[F12], target=destination_plate[F12], volume=17.54 uL
+2026-10-21 17:11:18,347 INFO F12 sample transfer completed: samples_plate[F12] -> destination_plate[F12]
+2026-10-21 17:11:18,347 INFO F12 buffer_plate transfer: source=buffer_plate[F12], target=destination_plate[F12], volume=82.46 uL
+2026-10-21 17:11:18,353 INFO F12 buffer transfer completed: buffer_plate[F12] -> destination_plate[F12]
+2026-10-21 17:11:18,354 INFO F12 normalization completed
+2026-10-21 17:11:18,354 INFO F12 status: completed
+2026-10-21 17:11:18,354 INFO G1 starting: concentration=268.00 nM, sample=18.66 uL, buffer=81.34 uL
+2026-10-21 17:11:18,355 INFO G1 sample transfer: source=samples_plate[G1], target=destination_plate[G1], volume=18.66 uL
+2026-10-21 17:11:18,359 INFO G1 sample transfer completed: samples_plate[G1] -> destination_plate[G1]
+2026-10-21 17:11:18,359 INFO G1 buffer_plate transfer: source=buffer_plate[G1], target=destination_plate[G1], volume=81.34 uL
+2026-10-21 17:11:18,363 INFO G1 buffer transfer completed: buffer_plate[G1] -> destination_plate[G1]
+2026-10-21 17:11:18,363 INFO G1 normalization completed
+2026-10-21 17:11:18,363 INFO G1 status: completed
+2026-10-21 17:11:18,363 INFO G2 starting: concentration=122.00 nM, sample=40.98 uL, buffer=59.02 uL
+2026-10-21 17:11:18,364 INFO G2 sample transfer: source=samples_plate[G2], target=destination_plate[G2], volume=40.98 uL
+2026-10-21 17:11:18,369 INFO G2 sample transfer completed: samples_plate[G2] -> destination_plate[G2]
+2026-10-21 17:11:18,369 INFO G2 buffer_plate transfer: source=buffer_plate[G2], target=destination_plate[G2], volume=59.02 uL
+2026-10-21 17:11:18,374 INFO G2 buffer transfer completed: buffer_plate[G2] -> destination_plate[G2]
+2026-10-21 17:11:18,374 INFO G2 normalization completed
+2026-10-21 17:11:18,374 INFO G2 status: completed
+2026-10-21 17:11:18,375 INFO G3 starting: concentration=210.00 nM, sample=23.81 uL, buffer=76.19 uL
+2026-10-21 17:11:18,375 INFO G3 sample transfer: source=samples_plate[G3], target=destination_plate[G3], volume=23.81 uL
+2026-10-21 17:11:18,379 INFO G3 sample transfer completed: samples_plate[G3] -> destination_plate[G3]
+2026-10-21 17:11:18,379 INFO G3 buffer_plate transfer: source=buffer_plate[G3], target=destination_plate[G3], volume=76.19 uL
+2026-10-21 17:11:18,384 INFO G3 buffer transfer completed: buffer_plate[G3] -> destination_plate[G3]
+2026-10-21 17:11:18,385 INFO G3 normalization completed
+2026-10-21 17:11:18,385 INFO G3 status: completed
+2026-10-21 17:11:18,385 INFO G4 starting: concentration=143.00 nM, sample=34.97 uL, buffer=65.03 uL
+2026-10-21 17:11:18,385 INFO G4 sample transfer: source=samples_plate[G4], target=destination_plate[G4], volume=34.97 uL
+2026-10-21 17:11:18,390 INFO G4 sample transfer completed: samples_plate[G4] -> destination_plate[G4]
+2026-10-21 17:11:18,390 INFO G4 buffer_plate transfer: source=buffer_plate[G4], target=destination_plate[G4], volume=65.03 uL
+2026-10-21 17:11:18,393 INFO G4 buffer transfer completed: buffer_plate[G4] -> destination_plate[G4]
+2026-10-21 17:11:18,394 INFO G4 normalization completed
+2026-10-21 17:11:18,394 INFO G4 status: completed
+2026-10-21 17:11:18,394 INFO G5 starting: concentration=278.00 nM, sample=17.99 uL, buffer=82.01 uL
+2026-10-21 17:11:18,394 INFO G5 sample transfer: source=samples_plate[G5], target=destination_plate[G5], volume=17.99 uL
+2026-10-21 17:11:18,399 INFO G5 sample transfer completed: samples_plate[G5] -> destination_plate[G5]
+2026-10-21 17:11:18,399 INFO G5 buffer_plate transfer: source=buffer_plate[G5], target=destination_plate[G5], volume=82.01 uL
+2026-10-21 17:11:18,406 INFO G5 buffer transfer completed: buffer_plate[G5] -> destination_plate[G5]
+2026-10-21 17:11:18,407 INFO G5 normalization completed
+2026-10-21 17:11:18,407 INFO G5 status: completed
+2026-10-21 17:11:18,408 INFO G6 starting: concentration=159.00 nM, sample=31.45 uL, buffer=68.55 uL
+2026-10-21 17:11:18,408 INFO G6 sample transfer: source=samples_plate[G6], target=destination_plate[G6], volume=31.45 uL
+2026-10-21 17:11:18,412 INFO G6 sample transfer completed: samples_plate[G6] -> destination_plate[G6]
+2026-10-21 17:11:18,413 INFO G6 buffer_plate transfer: source=buffer_plate[G6], target=destination_plate[G6], volume=68.55 uL
+2026-10-21 17:11:18,418 INFO G6 buffer transfer completed: buffer_plate[G6] -> destination_plate[G6]
+2026-10-21 17:11:18,418 INFO G6 normalization completed
+2026-10-21 17:11:18,418 INFO G6 status: completed
+2026-10-21 17:11:18,419 INFO G7 starting: concentration=109.00 nM, sample=45.87 uL, buffer=54.13 uL
+2026-10-21 17:11:18,419 INFO G7 sample transfer: source=samples_plate[G7], target=destination_plate[G7], volume=45.87 uL
+2026-10-21 17:11:18,424 INFO G7 sample transfer completed: samples_plate[G7] -> destination_plate[G7]
+2026-10-21 17:11:18,424 INFO G7 buffer_plate transfer: source=buffer_plate[G7], target=destination_plate[G7], volume=54.13 uL
+2026-10-21 17:11:18,429 INFO G7 buffer transfer completed: buffer_plate[G7] -> destination_plate[G7]
+2026-10-21 17:11:18,429 INFO G7 normalization completed
+2026-10-21 17:11:18,430 INFO G7 status: completed
+2026-10-21 17:11:18,430 INFO G8 starting: concentration=104.00 nM, sample=48.08 uL, buffer=51.92 uL
+2026-10-21 17:11:18,430 INFO G8 sample transfer: source=samples_plate[G8], target=destination_plate[G8], volume=48.08 uL
+2026-10-21 17:11:18,435 INFO G8 sample transfer completed: samples_plate[G8] -> destination_plate[G8]
+2026-10-21 17:11:18,435 INFO G8 buffer_plate transfer: source=buffer_plate[G8], target=destination_plate[G8], volume=51.92 uL
+2026-10-21 17:11:18,439 INFO G8 buffer transfer completed: buffer_plate[G8] -> destination_plate[G8]
+2026-10-21 17:11:18,439 INFO G8 normalization completed
+2026-10-21 17:11:18,439 INFO G8 status: completed
+2026-10-21 17:11:18,440 INFO G9 starting: concentration=186.00 nM, sample=26.88 uL, buffer=73.12 uL
+2026-10-21 17:11:18,440 INFO G9 sample transfer: source=samples_plate[G9], target=destination_plate[G9], volume=26.88 uL
+2026-10-21 17:11:18,444 INFO G9 sample transfer completed: samples_plate[G9] -> destination_plate[G9]
+2026-10-21 17:11:18,444 INFO G9 buffer_plate transfer: source=buffer_plate[G9], target=destination_plate[G9], volume=73.12 uL
+2026-10-21 17:11:18,449 INFO G9 buffer transfer completed: buffer_plate[G9] -> destination_plate[G9]
+2026-10-21 17:11:18,449 INFO G9 normalization completed
+2026-10-21 17:11:18,450 INFO G9 status: completed
+2026-10-21 17:11:18,450 INFO G10 starting: concentration=108.00 nM, sample=46.30 uL, buffer=53.70 uL
+2026-10-21 17:11:18,450 INFO G10 sample transfer: source=samples_plate[G10], target=destination_plate[G10], volume=46.30 uL
+2026-10-21 17:11:18,454 INFO G10 sample transfer completed: samples_plate[G10] -> destination_plate[G10]
+2026-10-21 17:11:18,455 INFO G10 buffer_plate transfer: source=buffer_plate[G10], target=destination_plate[G10], volume=53.70 uL
+2026-10-21 17:11:18,459 INFO G10 buffer transfer completed: buffer_plate[G10] -> destination_plate[G10]
+2026-10-21 17:11:18,459 INFO G10 normalization completed
+2026-10-21 17:11:18,459 INFO G10 status: completed
+2026-10-21 17:11:18,460 INFO G11 starting: concentration=192.00 nM, sample=26.04 uL, buffer=73.96 uL
+2026-10-21 17:11:18,460 INFO G11 sample transfer: source=samples_plate[G11], target=destination_plate[G11], volume=26.04 uL
+2026-10-21 17:11:18,463 INFO G11 sample transfer completed: samples_plate[G11] -> destination_plate[G11]
+2026-10-21 17:11:18,464 INFO G11 buffer_plate transfer: source=buffer_plate[G11], target=destination_plate[G11], volume=73.96 uL
+2026-10-21 17:11:18,469 INFO G11 buffer transfer completed: buffer_plate[G11] -> destination_plate[G11]
+2026-10-21 17:11:18,469 INFO G11 normalization completed
+2026-10-21 17:11:18,469 INFO G11 status: completed
+2026-10-21 17:11:18,470 INFO G12 starting: concentration=273.00 nM, sample=18.32 uL, buffer=81.68 uL
+2026-10-21 17:11:18,470 INFO G12 sample transfer: source=samples_plate[G12], target=destination_plate[G12], volume=18.32 uL
+2026-10-21 17:11:18,473 INFO G12 sample transfer completed: samples_plate[G12] -> destination_plate[G12]
+2026-10-21 17:11:18,473 INFO G12 buffer_plate transfer: source=buffer_plate[G12], target=destination_plate[G12], volume=81.68 uL
+2026-10-21 17:11:18,478 INFO G12 buffer transfer completed: buffer_plate[G12] -> destination_plate[G12]
+2026-10-21 17:11:18,479 INFO G12 normalization completed
+2026-10-21 17:11:18,479 INFO G12 status: completed
+2026-10-21 17:11:18,479 INFO H1 starting: concentration=144.00 nM, sample=34.72 uL, buffer=65.28 uL
+2026-10-21 17:11:18,479 INFO H1 sample transfer: source=samples_plate[H1], target=destination_plate[H1], volume=34.72 uL
+2026-10-21 17:11:18,484 INFO H1 sample transfer completed: samples_plate[H1] -> destination_plate[H1]
+2026-10-21 17:11:18,485 INFO H1 buffer_plate transfer: source=buffer_plate[H1], target=destination_plate[H1], volume=65.28 uL
+2026-10-21 17:11:18,489 INFO H1 buffer transfer completed: buffer_plate[H1] -> destination_plate[H1]
+2026-10-21 17:11:18,489 INFO H1 normalization completed
+2026-10-21 17:11:18,490 INFO H1 status: completed
+2026-10-21 17:11:18,490 INFO H2 starting: concentration=97.00 nM, sample=51.55 uL, buffer=48.45 uL
+2026-10-21 17:11:18,490 INFO H2 sample transfer: source=samples_plate[H2], target=destination_plate[H2], volume=51.55 uL
+2026-10-21 17:11:18,494 INFO H2 sample transfer completed: samples_plate[H2] -> destination_plate[H2]
+2026-10-21 17:11:18,494 INFO H2 buffer_plate transfer: source=buffer_plate[H2], target=destination_plate[H2], volume=48.45 uL
+2026-10-21 17:11:18,498 INFO H2 buffer transfer completed: buffer_plate[H2] -> destination_plate[H2]
+2026-10-21 17:11:18,498 INFO H2 normalization completed
+2026-10-21 17:11:18,499 INFO H2 status: completed
+2026-10-21 17:11:18,499 INFO H3 starting: concentration=299.00 nM, sample=16.72 uL, buffer=83.28 uL
+2026-10-21 17:11:18,499 INFO H3 sample transfer: source=samples_plate[H3], target=destination_plate[H3], volume=16.72 uL
+2026-10-21 17:11:18,516 INFO H3 sample transfer completed: samples_plate[H3] -> destination_plate[H3]
+2026-10-21 17:11:18,516 INFO H3 buffer_plate transfer: source=buffer_plate[H3], target=destination_plate[H3], volume=83.28 uL
+2026-10-21 17:11:18,524 INFO H3 buffer transfer completed: buffer_plate[H3] -> destination_plate[H3]
+2026-10-21 17:11:18,525 INFO H3 normalization completed
+2026-10-21 17:11:18,525 INFO H3 status: completed
+2026-10-21 17:11:18,525 INFO H4 starting: concentration=172.00 nM, sample=29.07 uL, buffer=70.93 uL
+2026-10-21 17:11:18,525 INFO H4 sample transfer: source=samples_plate[H4], target=destination_plate[H4], volume=29.07 uL
+2026-10-21 17:11:18,529 INFO H4 sample transfer completed: samples_plate[H4] -> destination_plate[H4]
+2026-10-21 17:11:18,529 INFO H4 buffer_plate transfer: source=buffer_plate[H4], target=destination_plate[H4], volume=70.93 uL
+2026-10-21 17:11:18,534 INFO H4 buffer transfer completed: buffer_plate[H4] -> destination_plate[H4]
+2026-10-21 17:11:18,535 INFO H4 normalization completed
+2026-10-21 17:11:18,535 INFO H4 status: completed
+2026-10-21 17:11:18,535 INFO H5 starting: concentration=64.00 nM, sample=78.12 uL, buffer=21.88 uL
+2026-10-21 17:11:18,535 INFO H5 sample transfer: source=samples_plate[H5], target=destination_plate[H5], volume=78.12 uL
+2026-10-21 17:11:18,539 INFO H5 sample transfer completed: samples_plate[H5] -> destination_plate[H5]
+2026-10-21 17:11:18,540 INFO H5 buffer_plate transfer: source=buffer_plate[H5], target=destination_plate[H5], volume=21.88 uL
+2026-10-21 17:11:18,544 INFO H5 buffer transfer completed: buffer_plate[H5] -> destination_plate[H5]
+2026-10-21 17:11:18,544 INFO H5 normalization completed
+2026-10-21 17:11:18,544 INFO H5 status: completed
+2026-10-21 17:11:18,545 INFO H6 starting: concentration=52.00 nM, sample=96.15 uL, buffer=3.85 uL
+2026-10-21 17:11:18,545 INFO H6 sample transfer: source=samples_plate[H6], target=destination_plate[H6], volume=96.15 uL
+2026-10-21 17:11:18,548 INFO H6 sample transfer completed: samples_plate[H6] -> destination_plate[H6]
+2026-10-21 17:11:18,549 INFO H6 buffer_plate transfer: source=buffer_plate[H6], target=destination_plate[H6], volume=3.85 uL
+2026-10-21 17:11:18,554 INFO H6 buffer transfer completed: buffer_plate[H6] -> destination_plate[H6]
+2026-10-21 17:11:18,555 INFO H6 normalization completed
+2026-10-21 17:11:18,555 INFO H6 status: completed
+2026-10-21 17:11:18,555 INFO H7 starting: concentration=69.00 nM, sample=72.46 uL, buffer=27.54 uL
+2026-10-21 17:11:18,555 INFO H7 sample transfer: source=samples_plate[H7], target=destination_plate[H7], volume=72.46 uL
+2026-10-21 17:11:18,560 INFO H7 sample transfer completed: samples_plate[H7] -> destination_plate[H7]
+2026-10-21 17:11:18,561 INFO H7 buffer_plate transfer: source=buffer_plate[H7], target=destination_plate[H7], volume=27.54 uL
+2026-10-21 17:11:18,566 INFO H7 buffer transfer completed: buffer_plate[H7] -> destination_plate[H7]
+2026-10-21 17:11:18,566 INFO H7 normalization completed
+2026-10-21 17:11:18,567 INFO H7 status: completed
+2026-10-21 17:11:18,568 INFO H8 starting: concentration=203.00 nM, sample=24.63 uL, buffer=75.37 uL
+2026-10-21 17:11:18,568 INFO H8 sample transfer: source=samples_plate[H8], target=destination_plate[H8], volume=24.63 uL
+2026-10-21 17:11:18,573 INFO H8 sample transfer completed: samples_plate[H8] -> destination_plate[H8]
+2026-10-21 17:11:18,573 INFO H8 buffer_plate transfer: source=buffer_plate[H8], target=destination_plate[H8], volume=75.37 uL
+2026-10-21 17:11:18,577 INFO H8 buffer transfer completed: buffer_plate[H8] -> destination_plate[H8]
+2026-10-21 17:11:18,577 INFO H8 normalization completed
+2026-10-21 17:11:18,578 INFO H8 status: completed
+2026-10-21 17:11:18,578 INFO H9 starting: concentration=246.00 nM, sample=20.33 uL, buffer=79.67 uL
+2026-10-21 17:11:18,578 INFO H9 sample transfer: source=samples_plate[H9], target=destination_plate[H9], volume=20.33 uL
+2026-10-21 17:11:18,583 INFO H9 sample transfer completed: samples_plate[H9] -> destination_plate[H9]
+2026-10-21 17:11:18,583 INFO H9 buffer_plate transfer: source=buffer_plate[H9], target=destination_plate[H9], volume=79.67 uL
+2026-10-21 17:11:18,587 INFO H9 buffer transfer completed: buffer_plate[H9] -> destination_plate[H9]
+2026-10-21 17:11:18,588 INFO H9 normalization completed
+2026-10-21 17:11:18,588 INFO H9 status: completed
+2026-10-21 17:11:18,588 INFO H10 starting: concentration=150.00 nM, sample=33.33 uL, buffer=66.67 uL
+2026-10-21 17:11:18,588 INFO H10 sample transfer: source=samples_plate[H10], target=destination_plate[H10], volume=33.33 uL
+2026-10-21 17:11:18,593 INFO H10 sample transfer completed: samples_plate[H10] -> destination_plate[H10]
+2026-10-21 17:11:18,593 INFO H10 buffer_plate transfer: source=buffer_plate[H10], target=destination_plate[H10], volume=66.67 uL
+2026-10-21 17:11:18,598 INFO H10 buffer transfer completed: buffer_plate[H10] -> destination_plate[H10]
+2026-10-21 17:11:18,598 INFO H10 normalization completed
+2026-10-21 17:11:18,599 INFO H10 status: completed
+2026-10-21 17:11:18,599 INFO H11 starting: concentration=57.00 nM, sample=87.72 uL, buffer=12.28 uL
+2026-10-21 17:11:18,599 INFO H11 sample transfer: source=samples_plate[H11], target=destination_plate[H11], volume=87.72 uL
+2026-10-21 17:11:18,604 INFO H11 sample transfer completed: samples_plate[H11] -> destination_plate[H11]
+2026-10-21 17:11:18,605 INFO H11 buffer_plate transfer: source=buffer_plate[H11], target=destination_plate[H11], volume=12.28 uL
+2026-10-21 17:11:18,609 INFO H11 buffer transfer completed: buffer_plate[H11] -> destination_plate[H11]
+2026-10-21 17:11:18,609 INFO H11 normalization completed
+2026-10-21 17:11:18,609 INFO H11 status: completed
+2026-10-21 17:11:18,609 INFO H12 starting: concentration=139.00 nM, sample=35.97 uL, buffer=64.03 uL
+2026-10-21 17:11:18,609 INFO H12 sample transfer: source=samples_plate[H12], target=destination_plate[H12], volume=35.97 uL
+2026-10-21 17:11:18,613 INFO H12 sample transfer completed: samples_plate[H12] -> destination_plate[H12]
+2026-10-21 17:11:18,614 INFO H12 buffer_plate transfer: source=buffer_plate[H12], target=destination_plate[H12], volume=64.03 uL
+2026-10-21 17:11:18,619 INFO H12 buffer transfer completed: buffer_plate[H12] -> destination_plate[H12]
+2026-10-21 17:11:18,619 INFO H12 normalization completed
+2026-10-21 17:11:18,620 INFO H12 status: completed
+2026-10-21 17:11:18,620 INFO Run summary: completed=91, skipped=5, failed=0
+2026-10-21 17:11:18,620 INFO Results saved to C:\Users\willi\Desktop\career\adaptyv_application\adaptyv_task\run_results\normalization_results.csv
+2026-10-21 17:11:18,620 INFO Normalization run finished
+2026-10-21 17:11:18,620 INFO Liquid handler stopped
