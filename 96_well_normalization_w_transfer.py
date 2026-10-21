@@ -111,7 +111,7 @@ async def setup_deck():
 
     # Simulated placeholder liquids; replace with suitable liquid
     # definitions and volumes when preparing a real protocol.
-    samples_plate.set_well_liquids([(Liquid.WATER, 200)] * 96)
+    samples_plate.set_well_liquids([(Liquid.WATER, 50)] * 96)
     buffer_plate.set_well_liquids([(Liquid.WATER, 200)] * 96)
 
     logging.info("Deck setup completed")
@@ -148,6 +148,8 @@ async def process_well(lh, well, concentration, sample_tips, buffer_tips,
         await lh.dispense(destination_plate[well], vols=[sample])
         await lh.discard_tips()
 
+        await asyncio.sleep(1)
+
         logging.info(
             "%s sample transfer completed: %s[%s] -> %s[%s]",
             well, samples_plate.name, well, destination_plate.name, well,
@@ -177,6 +179,8 @@ async def process_well(lh, well, concentration, sample_tips, buffer_tips,
         await lh.aspirate(buffer_plate[well], vols=[diluent])
         await lh.dispense(destination_plate[well], vols=[diluent])
         await lh.discard_tips()
+
+        await asyncio.sleep(1)
 
         logging.info(
             "%s buffer transfer completed: %s[%s] -> %s[%s]",
