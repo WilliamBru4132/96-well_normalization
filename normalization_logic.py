@@ -23,7 +23,7 @@ MAX_CONCENTRATION_NM = 300.0
 # starting volumes with a validated volume-measurement procedure.
 SIM_VOLUME_RANGE_UL = (30.0, 150.0)
 SIM_RANDOM_SEED = 42
-SIM_BUFFER_WELL_UL = 200
+SIM_BUFFER_WELL_UL = 150
 
 # Standard 96-well plate coordinates.
 ROWS = "ABCDEFGH"

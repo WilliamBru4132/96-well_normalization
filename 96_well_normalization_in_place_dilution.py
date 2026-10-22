@@ -136,7 +136,7 @@ async def setup_deck(simulated_volumes):
     plates[0] = samples_plate = cor_96_wellplate_360uL_Fb(name="samples_plate")
     plates[1] = buffer_plate = cor_96_wellplate_360uL_Fb(name="buffer_plate")
     plates[2] = archive_plate = cor_96_wellplate_360uL_Fb(name="archive_plate")
-    lh.deck.assign_child_resource(plates, rails=10)
+    lh.deck.assign_child_resource(plates, rails=7)
 
     # Initialize sample volumes in PyLabRobot's expected plate order.
     # Confirm the order against the installed PyLabRobot version.
